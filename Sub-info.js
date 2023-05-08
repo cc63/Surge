@@ -35,7 +35,7 @@
   minutes = minutes > 9 ? minutes : "0" + minutes;
 
   $done({
-    title: `${args.title}｜${bytesToSize(total)}`,
+    title: `${args.title}｜套餐:${bytesToSize(total)}`,
     content: content.join("\n"),
     icon: args.icon || "airplane.circle",
     "icon-color": args.color || "#007aff",
@@ -153,5 +153,5 @@ function formatTime(time) {
   let day = dateObj.getDate();
   month = month > 9 ? month : "0" + month;
   day = day > 9 ? day : "0" + day;
-  return "到期：" + year + "/" + month + "/" + day + "";
+  return "到期：" + year + "/" + month + "." + day + "";
 }
