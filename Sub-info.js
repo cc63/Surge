@@ -1,9 +1,8 @@
 /*
  * 由@mieqq编写
  * 原脚本地址：https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js
- * 由@Rabbit-Spec Key 修改
- * 更新日期：2023.02.20
- * 版本：1.6
+ * 由@xbs8修改
+ * 更新日期：2023.05.08
 */
 
 (async () => {
@@ -152,5 +151,7 @@ function formatTime(time) {
   let year = dateObj.getFullYear();
   let month = dateObj.getMonth() + 1;
   let day = dateObj.getDate();
-  return "到期：" + year + "." + month + "." + day + " ";
+  month = month > 9 ? month : "0" + day;
+  day = day > 9 ? day : "0" + day;
+  return "到期：" + year + "年" + month + "月" + day + "日";
 }
