@@ -151,7 +151,7 @@ function formatTime(time) {
   let year = dateObj.getFullYear();
   let month = dateObj.getMonth() + 1;
   let day = dateObj.getDate();
-  month = month > 9 ? month : "0" + day;
+  month = month > 9 ? month : "0" + month;
   day = day > 9 ? day : "0" + day;
   return "到期：" + year + "/" + month + "/" + day + "";
 }
