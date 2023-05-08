@@ -1,7 +1,5 @@
 <h1 align="center">机场信息模块</h1>
 
-<h4 align="center">一个可以查看你机场剩余流量/重置流量日期/套餐到期等功能的面板 </h4>
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/xbs8/Surge/main/Sub-info/Sub-info.PNG" width="300"></img>
 </p>
