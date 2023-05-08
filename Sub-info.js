@@ -153,5 +153,5 @@ function formatTime(time) {
   let day = dateObj.getDate();
   month = month > 9 ? month : "0" + day;
   day = day > 9 ? day : "0" + day;
-  return "到期：" + year + "年" + month + "月" + day + "日";
+  return "到期：" + year + "/+ month + "/" + day + "/";
 }
