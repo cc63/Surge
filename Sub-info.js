@@ -35,7 +35,7 @@
   minutes = minutes > 9 ? minutes : "0" + minutes;
 
   $done({
-    title: `${args.title}｜套餐:${bytesToSize(total)}`,
+    title: `${args.title}｜套餐：${bytesToSize(total)}`,
     content: content.join("\n"),
     icon: args.icon || "airplane.circle",
     "icon-color": args.color || "#007aff",
@@ -113,7 +113,7 @@ function bytesToSize(bytes) {
   let k = 1024;
   sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
-  return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
+  return (bytes / Math.pow(k, i)).toFixed(2) + "" + sizes[i];
 }
 
 function bytesToSizeNumber(bytes) {
@@ -153,5 +153,5 @@ function formatTime(time) {
   let day = dateObj.getDate();
   month = month > 9 ? month : "0" + month;
   day = day > 9 ? day : "0" + day;
-  return "到期：" + year + "/" + month + "." + day + "";
+  return "到期：" + year + "." + month + "." + day + "";
 }
