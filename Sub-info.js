@@ -24,7 +24,7 @@
       content.push(`重置：${resetDayLeft}天`);
     } else if (!resetDayLeft && expire) {
       if (/^[\d.]+$/.test(expire)) expire *= 1000;
-      content.push(`到期：${formatTime(expire)}`);
+      content.push(`${formatTime(expire)}`);
     }
   }
 
@@ -153,5 +153,5 @@ function formatTime(time) {
   let day = dateObj.getDate();
   month = month > 9 ? month : "0" + day;
   day = day > 9 ? day : "0" + day;
-  return "到期：" + year + "/+ month + "/" + day + "";
+  return "到期：" + year + "/" + month + "/" + day + "";
 }
