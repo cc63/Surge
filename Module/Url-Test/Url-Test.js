@@ -7,7 +7,7 @@ let $ = {
 await Promise.all([http('直连'),http('代理')]).then((x)=>{
 	$done({
     title: '连通性测试',
-    content: x.join('\n'),
+    content: x.join(' '),
     icon: 'personalhotspot',
     'icon-color': '#0DCB27',
   })
