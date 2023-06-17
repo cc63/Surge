@@ -1,0 +1,9 @@
+#!name=实时油价模块
+#!desc=显示本省实时油价
+#!argument=本省/城市，名称拼音，或者去http://m.qiyoujiage.com/shanxi-3.shtml 查看自己省份拼音
+
+
+[Panel]
+Youjia = script-name=Youjia,update-interval=43200
+[Script]
+Youjia = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/youjia.js,argument=shandong
