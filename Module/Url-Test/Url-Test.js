@@ -1,13 +1,13 @@
 let $ = {
-直连:'http://wifi.vivo.com.cn/generate_204',
-代理:'http://cp.cloudflare.com/generate_204',
+大陆直连:'http://wifi.vivo.com.cn/generate_204',
+海外代理:'http://cp.cloudflare.com/generate_204',
 }
 
 !(async () => {
-await Promise.all([http('直连'),http('代理')]).then((x)=>{
+await Promise.all([http('大陆直连'),http('海外代理')]).then((x)=>{
 	$done({
     title: '连通性测试',
-    content: x.join('  '),
+    content: x.join('\n'),
     icon: 'personalhotspot',
     'icon-color': '#0DCB27',
   })
