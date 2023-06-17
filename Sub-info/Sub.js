@@ -9,7 +9,7 @@ let args = getArgs();
 (async () => {
   let info = await getDataInfo(args.url);
   if (!info) $done();
-  let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
+  let resetDayLeft = getRmainingDays(parseInt(formatTime(day)));
 
   let used = info.download + info.upload;
   let total = info.total;
