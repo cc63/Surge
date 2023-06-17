@@ -6,7 +6,7 @@
 </p>
 
 ### Surge配置
-> **链接:** https://github.com/xbs8/Surge/tree/main/Conf </br>
+> **链接:** https://github.com/xbs8/Surge/blob/main/Conf/Surge.conf </br>
 ### Module模块
 > **链接:** https://github.com/xbs8/Surge/tree/main/Module </br>
 <br>
