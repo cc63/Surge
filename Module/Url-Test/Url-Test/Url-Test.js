@@ -3,13 +3,12 @@
 原作者@yibeizipeini来自于https://raw.githubusercontent.com/yibeizipeini/JavaScript/Surge/ConnectivityTest.js
 */
 let $ = {
-Baidu:'https://www.baidu.com',
-Google:'https://www.google.com/generate_204',
-Github:'https://www.github.com'
+百度:'https://www.baidu.com',
+谷歌:'https://www.google.com/generate_204',
 }
 
 !(async () => {
-await Promise.all([http('Baidu'),http('Google'),http('Github')]).then((x)=>{
+await Promise.all([http('百度'),http('谷歌')]).then((x)=>{
 	$done({
     title: '连通性测试',
     content: x.join('\n'),
