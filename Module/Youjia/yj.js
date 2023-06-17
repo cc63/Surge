@@ -52,7 +52,7 @@ $httpClient.get(
 
                 prices.push({
                     name: m[1],
-                    value: `${m[2]} 元`
+                    value: `${m[2]} 元/升`
                 })
             }
 
@@ -75,7 +75,7 @@ $httpClient.get(
                 const adjust_value_match = adjust_value.match(adjust_value_re)
 
                 if (adjust_value_match && adjust_value_match.length === 3) {
-                    adjust_value = `${adjust_value_match[1]}-${adjust_value_match[2]}元`
+                    adjust_value = `${adjust_value_match[1]}-${adjust_value_match[2]}元/升`
                 }
                 else {
                     const adjust_value_match2 = adjust_value.match(adjust_value_re2)
@@ -95,7 +95,7 @@ $httpClient.get(
             else {
                 body = {
                     title: "实时油价信息",
-                    content: `${prices[0].name}  ${prices[0].value}\n${prices[1].name}  ${prices[1].value}\n${friendly_tips}`,
+                    content: `${prices[0].name}  ${prices[0].value}\n${prices[1].name}  ${prices[1].value}\n${prices[2].name}  ${prices[2].value}\n${friendly_tips}`,
                     icon: "fuelpump.fill"
                                }
 
