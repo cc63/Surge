@@ -11,7 +11,7 @@ let args = getArgs();
 (async () => {
   let info = await getDataInfo(args.url);
   if (!info) $done();
-  let resetDayLeft = formatTime(resetDay).split("日")[0];
+  let resetDayLeft = formatTime(resetDay).match(/\d+/)[0];
 
   let used = info.download + info.upload;
   let total = info.total;
