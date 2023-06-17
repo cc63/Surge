@@ -96,8 +96,7 @@ $httpClient.get(
                 body = {
                     title: "实时油价信息",
                     content: `${prices[0].name}  ${prices[0].value}\n${prices[1].name}  ${prices[1].value}\n${friendly_tips}`,
-                    icon: "fuelpump.fill",
-                    color: "#F01C07"
+                    icon: "fuelpump.fill"
                                }
 
                 $done(body);
