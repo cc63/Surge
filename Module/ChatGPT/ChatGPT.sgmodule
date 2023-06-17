@@ -1,9 +1,0 @@
-#!name=ChatGPT解锁检测
-#!desc=ChatGPT的可用性检测与解锁地区
-
-
-[Panel]
-
-ChatGPT = script-name=ChatGPT,update-interval=-1
-[Script]
-ChatGPT = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_2_nowarp.js,argument=icon=bubble.left.and.bubble.right&icon-color=#9422E3
