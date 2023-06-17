@@ -1,4 +1,3 @@
-README.md
 <h1 align="center">连通性测试</h1>
 
 <p align="center">
