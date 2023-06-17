@@ -14,5 +14,5 @@ Sub_info = script-name=Sub_info_1,update-interval=900
 Sub_info = script-name=Sub_info_2,update-interval=900
 
 [Script]
-Sub_info_1 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/xbs8/Surge/main/Sub-info/Sub.js,script-update-interval=86400,argument=url=填写encode后的1号机场订阅链接&reset_day=6&title=1号机场名字&icon=bird.fill&color=#D35400
-Sub_info_2 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/xbs8/Surge/main/Sub-info/Sub.js,script-update-interval=86400,argument=url=填写encode后的2号机场订阅链接&reset_day=6&title=2号机场名字&icon=hare.fill&color=#148F77
+Sub_info_1 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/xbs8/Surge/main/Sub-info/Sub.js,script-update-interval=86400,argument=url=填写encode后的1号机场订阅链接&icon=bird.fill&color=#D35400&title=1号机场名字&reset_day=6
+Sub_info_2 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/xbs8/Surge/main/Sub-info/Sub.js,script-update-interval=86400,argument=url=填写encode后的2号机场订阅链接&icon=hare.fill&color=#148F77&title=2号机场名字&reset_day=6
