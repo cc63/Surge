@@ -6,4 +6,4 @@
 连通性测试 = script-name=连通性测试,update-interval=1
 
 [Script]
-连通性测试 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ConnectivityTest.js,argument=title=连通性测试&server=false
+连通性测试 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/xbs8/Surge/main/Module/Url-Test/Url-Test/Url-Test.js,argument=title=连通性测试&server=false
