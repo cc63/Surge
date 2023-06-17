@@ -1,7 +1,3 @@
-/*
-感谢@小白脸 重写脚本原脚本
-原作者@yibeizipeini来自于https://raw.githubusercontent.com/yibeizipeini/JavaScript/Surge/ConnectivityTest.js
-*/
 let $ = {
 直连:'http://wifi.vivo.com.cn/generate_204',
 代理:'http://cp.cloudflare.com/generate_204',
