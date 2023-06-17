@@ -23,8 +23,8 @@ function http(req) {
 			let time = Date.now();
         $httpClient.post($[req], (err, resp, data) => {
             r(req +
-						'\xa0\xa0\xa0\t: ' +
-						(Date.now() - time)+' ms');
+'\xa0\t:' +
+(Date.now() - time)+' ms');
         });
     });
 }
