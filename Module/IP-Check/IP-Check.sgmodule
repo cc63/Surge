@@ -6,4 +6,4 @@
 IP-Check = script-name=IP-Check, title="节点信息", content="请刷新", style=info, update-interval=1
 
 [Script]
-IP-Check = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/xbs8/Surge/main/Module/IP-Check/IP-Check.js
+IP-Check = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/xbs8/Surge/main/Module/IP-Check/IP-Check.js
