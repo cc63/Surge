@@ -1,5 +1,5 @@
 #!name=Apple News
-#!desc=让不需要News的设备不受规则影响
+#!desc=让不需要News的设备不受News规则影响
 
 [Rule]
 # Apple News
