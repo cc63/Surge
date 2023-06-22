@@ -1,8 +1,8 @@
 #!name=Apple News
-#!desc=News分流规则，指向Apple News策略组
+#!desc=News分流规则
 
 [Rule]
 # Apple News
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,Apple News
-PROCESS-NAME,/System/Applications/News.app/Contents/MacOS/News,Apple News
-PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,Apple News
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,Prime Video
+PROCESS-NAME,/System/Applications/News.app/Contents/MacOS/News,Prime Video
+PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,Prime Video
