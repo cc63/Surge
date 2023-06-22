@@ -1,6 +1,6 @@
 #!name=Apple News
-#!desc=News分流规则，指向Apple News策略组
+#!desc=News分流规则，指向Max策略组
 
 [Rule]
 # Apple News
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,Apple News
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,Max
