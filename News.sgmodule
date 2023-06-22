@@ -4,3 +4,5 @@
 [Rule]
 # Apple News
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,Max
+PROCESS-NAME,/System/Applications/News.app/Contents/MacOS/News,Max
+PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,Max
