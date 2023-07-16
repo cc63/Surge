@@ -57,7 +57,7 @@ $httpClient.get(
                 adjust_date = adjust_tips_match[1].split('价')[1].slice(0, -2)
 
                 adjust_value = adjust_tips_match[2]
-                adjust_trend = (adjust_value.indexOf('下调') > -1 || adjust_value.indexOf('下跌') > -1) ? '每升下跌' : '每升上涨'
+                adjust_trend = (adjust_value.indexOf('下调') > -1 || adjust_value.indexOf('下跌') > -1) ? '下跌' : '上涨'
 
                 const adjust_value_re = /([\d\.]+)元\/升-([\d\.]+)元\/升/
                 const adjust_value_re2 = /[\d\.]+元\/吨/
