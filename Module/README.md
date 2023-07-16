@@ -8,7 +8,7 @@
 ### 机场信息
 > **链接:** https://github.com/cc63/Surge/tree/main/Module/Sub-info </br>
 ### 油价信息
-> **链接:** https://github.com/cc63/Surge/tree/main/Module/Youjia </br>
+> **链接:** https://github.com/cc63/Surge/tree/main/Module/Oil </br>
 ### 节点信息
 > **链接:** https://raw.githubusercontent.com/cc63/Surge/main/Module/IP-info/IP-info.sgmodule </br>
 ### 连通性测试
