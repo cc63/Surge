@@ -85,10 +85,7 @@ $httpClient.get(
                 body = {
                     title: "汽油价格",
                     content: `${prices[0].name}  ${prices[0].value}\n${prices[1].name}  ${prices[1].value}\n${prices[2].name}  ${prices[2].value}\n${friendly_tips}`,
-                      icon: {
-                         path: "fuelpump.fill",
-                         color: "#DC2700"
-                    }
+                    icon: "fuelpump.fill"
                  }
 
                 $done(body);
