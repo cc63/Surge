@@ -13,7 +13,7 @@ $httpClient.get(url, function(error, response, data){
     body = {
         title: "节点信息",
         content: `IP地址：${ip}\n运营商：${isp}\n所在地：${location}`,
-        icon: "network"
+        icon: "globe.asia.australia"
     }
     $done(body);
 });
