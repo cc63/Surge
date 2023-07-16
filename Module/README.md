@@ -10,7 +10,7 @@
 ### 油价信息
 > **链接:** https://github.com/cc63/Surge/tree/main/Module/Oil </br>
 ### 节点信息
-> **链接:** https://raw.githubusercontent.com/cc63/Surge/main/Module/IP-info/IP-info.sgmodule </br>
+> **链接:** https://github.com/cc63/Surge/tree/main/Module/IP-info </br>
 ### 连通性测试
-> **链接:** https://raw.githubusercontent.com/cc63/Surge/main/Module/Url-Test/Url-Test.sgmodule </br>
+> **链接:** https://github.com/cc63/Surge/tree/main/Module/Url-Test </br>
 </br>
