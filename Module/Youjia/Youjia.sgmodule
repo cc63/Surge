@@ -1,4 +1,4 @@
-#!name=实时油价模块
+#!name=油价信息
 #!desc=显示本省实时油价
 #!argument=本省/城市，名称拼音，或者去http://m.qiyoujiage.com/shanxi-3.shtml 查看自己省份拼音
 
