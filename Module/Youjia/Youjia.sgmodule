@@ -6,4 +6,4 @@
 [Panel]
 Youjia = script-name=Youjia,update-interval=43200
 [Script]
-Youjia = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/xbs8/Surge/main/Module/Youjia/yj.js,argument=shandong
+Youjia = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Youjia/yj.js,argument=shandong
