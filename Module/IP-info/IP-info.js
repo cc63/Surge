@@ -7,7 +7,7 @@ $httpClient.get(url, function(error, response, data){
     let city = jsonData.city
     let isp = jsonData.isp
     let ip = jsonData.query
-
+    
     let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
 
     body = {
