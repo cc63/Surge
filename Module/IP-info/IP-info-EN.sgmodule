@@ -1,5 +1,5 @@
 #!name=节点信息
-#!desc=展示节点的IP/运营商/所在地
+#!desc=英文-展示节点的IP/运营商/所在地
 #!system=ios
 
 [Panel]
