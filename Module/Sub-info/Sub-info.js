@@ -61,7 +61,7 @@ function getUserInfo(url) {
         return;
       }
       let header = Object.keys(resp.headers).find(
-       (key) => /subscription-userinfo/i.test(key)
+(key) => key.toLowerCase() === "subscription-userinfo"
       );
       if (header) {
         resolve(resp.headers[header]);
