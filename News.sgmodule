@@ -3,6 +3,6 @@
 
 [Rule]
 # Apple News
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,USA
-PROCESS-NAME,/System/Applications/News.app/Contents/MacOS/News,USA
-PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,USA
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,TikTok
+PROCESS-NAME,/System/Applications/News.app/Contents/MacOS/News,TikTok
+PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,TikTok
