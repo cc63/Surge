@@ -4,6 +4,6 @@
 
 
 [Panel]
-Oil = script-name=Oil,update-interval=43200
+Oil = script-name=Oil,update-interval=21600
 [Script]
 Oil = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Oil/Oil.js,argument=shandong
