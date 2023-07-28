@@ -60,9 +60,8 @@ function getUserInfo(url) {
         reject(resp.status);
         return;
       }
-      let header = Object.keys(resp.headers).find(
-(key) => key.toLowerCase() === "subscription-userinfo"
-      );
+      
+      let header = Object.keys(resp.headers).find((key) => key.toLowerCase() === "subscription-userinfo");
       if (header) {
         resolve(resp.headers[header]);
         return;
