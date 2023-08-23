@@ -43,7 +43,7 @@ $httpClient.get(url, function(error, response, data) {
   
   //loc
   let l = tf.indexOf(loc);
-  let gpt = (l !== -1) ? "🟢可用" : "🔴不可用";
+  let gpt = (l !== -1) ? "可用" : "不可用";
   
   //warp
   let w = tff.indexOf(warp);
