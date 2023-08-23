@@ -3,4 +3,4 @@
 [Panel]
 ChatGPT = script-name=ChatGPT
 [Script]
-ChatGPT = type=generic,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/ChatGPT/ChatGPT.js,argument=icon=text.bubble&icon-color=#53CB05
+ChatGPT = type=generic,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/ChatGPT/ChatGPT.js,argument=icon=text.bubble&icon-color=#6403CB
