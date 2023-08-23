@@ -1,4 +1,4 @@
-#!name=汽油价格
+#!name=面板-汽油价格
 #!desc=显示本省实时油价
 #!argument=省或城市的拼音，可去http://m.qiyoujiage.com/shanxi-3.shtml 查看自己省份拼音
 
