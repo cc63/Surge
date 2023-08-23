@@ -1,0 +1,7 @@
+#!name=面板-ChatGPT解锁
+#!desc=展示ChatGPT检测解锁地区
+#!homepage=https://yfamily.vercel.app
+[Panel]
+ChatGPT = script-name=ChatGPT
+[Script]
+ChatGPT = type=generic,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/ChatGPT/ChatGPT.js,argument=icon=text.bubble&icon-color=#53CB05
