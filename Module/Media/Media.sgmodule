@@ -1,6 +1,0 @@
-﻿#!name=面板-流媒体检测
-#!desc=流媒体检测面板
-[Panel]
-流媒体检测 = script-name=流媒体检测
-[Script]
-流媒体检测= type=generic, script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Media/Media.js
