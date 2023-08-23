@@ -1,0 +1,9 @@
+#!name=面板-网络信息
+#!desc=中文-展示运营商的IP/运营商
+#!system=ios
+
+[Panel]
+IP-info = script-name=IP-info, title="网络信息", content="请刷新", style=info, update-interval=1
+
+[Script]
+IP-info = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/CN-IP/CN-IP.js
