@@ -1,4 +1,4 @@
-﻿#!name=流媒体检测
+﻿#!name=面板-流媒体检测
 #!desc=流媒体检测面板
 [Panel]
 流媒体检测 = script-name=流媒体检测
