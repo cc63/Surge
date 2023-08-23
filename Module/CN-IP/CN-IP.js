@@ -1,8 +1,8 @@
 let url = "http://api.bilibili.com/x/web-interface/zone"
 
 $httpClient.get(url, function(error, response, data){
-    let jsonData = JSON.parse(data)
-    let emoji = getFlagEmoji(jsonData.countryCode)
+    let cnjsonData = JSON.parse(data)
+    let cnemoji = getFlagEmoji(jsonData.countryCode)
     let cnprovince = jsonData.province
     let cncity = jsonData.city
     let cnisp = jsonData.isp
