@@ -1,6 +1,5 @@
 ﻿#!name=流媒体检测
 #!desc=流媒体检测面板
-#!homepage=https://yfamily.vercel.app
 [Panel]
 流媒体检测 = script-name=流媒体检测
 [Script]
