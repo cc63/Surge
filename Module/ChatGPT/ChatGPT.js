@@ -55,7 +55,7 @@ $httpClient.get(url, function(error, response, data) {
   
   let flagEmoji = getFlagEmoji(loc, flagMapping);
   
-  let content = `${gpt}, 地区: ${flagEmoji}${loc}`;
+  let content = `状态：${gpt}\n地区：${flagEmoji} │ ${loc}`;
   
   let body = {
     title: "ChatGPT",
