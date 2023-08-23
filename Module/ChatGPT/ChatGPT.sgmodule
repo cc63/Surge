@@ -1,6 +1,5 @@
 #!name=面板-ChatGPT解锁
 #!desc=展示ChatGPT检测解锁地区
-#!homepage=https://yfamily.vercel.app
 [Panel]
 ChatGPT = script-name=ChatGPT
 [Script]
