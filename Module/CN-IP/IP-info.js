@@ -2,18 +2,16 @@ let url = "http://ip-api.com/json/?lang=zh-CN"
 
 $httpClient.get(url, function(error, response, data){
     let jsonData = JSON.parse(data)
-    let country = jsonData.country
     let emoji = getFlagEmoji(jsonData.countryCode)
-    let city = jsonData.city
-    let isp = jsonData.isp
-    let ip = jsonData.query
+    let cnprovince = jsonData.province
+    let cncity = jsonData.city
+    let cnisp = jsonData.isp
+    let cnip = jsonData.addr
     
-    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
-
     body = {
-        title: "节点信息",
-        content: `IP地址：${ip}\n运营商：${isp}\n所在地：${location}`,
-        icon: "globe.asia.australia"
+        title: "网络信息",
+        content: `IP地址：${cnip}\n运营商：${emoji} │ ${cnprovince}${cnisp}`,
+        icon: "personalhotspot"
     }
     $done(body);
 });
