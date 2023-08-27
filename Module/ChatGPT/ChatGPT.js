@@ -55,10 +55,10 @@ $httpClient.get(url, function(error, response, data) {
   
   let flagEmoji = getFlagEmoji(loc, flagMapping);
   
-  let content = `${gpt}，${loc}地区`;
+  let content = `状态：${gpt}，${loc}地区`;
   
   let body = {
-    title: "ChatGPT",
+    title: "ChatGPT检测",
     content: content,
     icon: iconUrl,
     'icon-color': iconColor
