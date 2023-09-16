@@ -2,6 +2,7 @@
 # AUTHOR: xbs8
 # REPO: https://github.com/xbs8/Surge
 # UPDATED: 2023-07-10
+IP-CIDR,193.123.232.141/24,no-resolve
 DOMAIN-SUFFIX,otv.icu // OTV
 DOMAIN-SUFFIX,xmsl.org // 垃圾影音
 DOMAIN-SUFFIX,misakaf.org // 垃圾影音
