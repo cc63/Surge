@@ -1,6 +1,0 @@
-# NAME: Emby
-IP-CIDR,193.123.232.141/24,no-resolve
-DOMAIN-SUFFIX,otv.icu // OTV
-DOMAIN-SUFFIX,xmsl.org // 垃圾影音
-DOMAIN-SUFFIX,misakaf.org // 垃圾影音
-DOMAIN-KEYWORD,emby // Emby关键字
