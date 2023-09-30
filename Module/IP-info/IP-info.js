@@ -8,7 +8,7 @@ $httpClient.get(url, function(error, response, data){
     let isp = jsonData.asn.name
     let ip = jsonData.ip
     
-    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} ${country}-${city}`;
+    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} ${city}`;
 
     body = {
         title: "节点信息",
