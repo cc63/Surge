@@ -10,8 +10,8 @@ $httpClient.get(url, function(error, response, data){
 // 避免City与Country重复出现
 //（暂时舍弃，改用不带City的）let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
 let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}`;
-// 去除 isp 变量中的标点符号和 "Communications" 词语
-let cleanedIsp = isp.replace(/[,.]|\sCommunications|\sInformation|\sTechnology/g, '');
+// 去除 isp 变量中的标点符号和 "Communications" 等无意义词语
+let cleanedIsp = isp.replace(/[,.]|\sCommunications|\sInformation|\sTechnology|\sTelevision/g, '');
 
 // 然后将 cleanedIsp 用于通知内容
 let body = {
