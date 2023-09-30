@@ -4,7 +4,7 @@ $httpClient.get(url, function(error, response, data){
     let jsonData = JSON.parse(data)
     let country = jsonData.country
     let emoji = getFlagEmoji(jsonData.country)
-    let city = jsonData.region
+    let city = jsonData.city
     let isp = jsonData.asn.name
     let ip = jsonData.ip
     
