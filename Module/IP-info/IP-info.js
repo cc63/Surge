@@ -8,7 +8,8 @@ $httpClient.get(url, function(error, response, data){
     let isp = jsonData.isp
     let ip = jsonData.query
 // 避免City与Country重复出现
-    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
+//（暂时舍弃，改用不带City的）let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
+let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}`;
 // 去除 isp 变量中的标点符号和 "Communications" 词语
 let cleanedIsp = isp.replace(/[,.]|\sCommunications/g, '');
 
