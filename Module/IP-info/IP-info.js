@@ -4,11 +4,11 @@ $httpClient.get(url, function(error, response, data){
     let jsonData = JSON.parse(data)
     let country = jsonData.country
     let emoji = getFlagEmoji(jsonData.country)
-    let city = jsonData.city
+    let city = jsonData.region
     let isp = jsonData.asn.name
     let ip = jsonData.ip
     
-    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
+    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} ${country}-${city}`;
 
     body = {
         title: "节点信息",
