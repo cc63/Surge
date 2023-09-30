@@ -1,4 +1,4 @@
-let url = "http://ip-api.com/json/?lang=zh-CN"
+let url = "http://ip-api.com/json"
 
 $httpClient.get(url, function(error, response, data){
     let jsonData = JSON.parse(data)
@@ -8,7 +8,7 @@ $httpClient.get(url, function(error, response, data){
     let isp = jsonData.isp
     let ip = jsonData.query
     
-    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
+    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}`;
 
     body = {
         title: "节点信息",
