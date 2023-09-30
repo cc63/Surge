@@ -7,10 +7,10 @@ $httpClient.get(url, function(error, response, data){
     let city = jsonData.city
     let isp = jsonData.isp
     let ip = jsonData.query
-    
-    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}`;
+// 避免City与Country重复出现
+    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
 // 去除 isp 变量中的标点符号和 "Communications" 词语
-let cleanedIsp = isp.replace(/[,.]|Communications/g, '');
+let cleanedIsp = isp.replace(/[,.]|\sCommunications/g, '');
 
 // 然后将 cleanedIsp 用于通知内容
 let body = {
