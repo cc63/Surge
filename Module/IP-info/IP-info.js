@@ -1,12 +1,12 @@
-let url = "http://ip-api.com/json/?lang=zh-CN"
+let url = "https://ipinfo.io/json?token=bcda261f72039f"
 
 $httpClient.get(url, function(error, response, data){
     let jsonData = JSON.parse(data)
     let country = jsonData.country
-    let emoji = getFlagEmoji(jsonData.countryCode)
+    let emoji = getFlagEmoji(jsonData.country)
     let city = jsonData.city
-    let isp = jsonData.isp
-    let ip = jsonData.query
+    let isp = jsonData.asn.name
+    let ip = jsonData.ip
     
     let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
 
@@ -18,11 +18,11 @@ $httpClient.get(url, function(error, response, data){
     $done(body);
 });
 
-function getFlagEmoji(countryCode) {
-    if (countryCode.toUpperCase() == 'TW') {
-        countryCode = 'CN'
+function getFlagEmoji(country) {
+    if (country.toUpperCase() == 'TW') {
+        country = 'CN'
     }
-    const codePoints = countryCode
+    const codePoints = country
         .toUpperCase()
         .split('')
         .map(char => 127397 + char.charCodeAt())
