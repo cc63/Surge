@@ -10,8 +10,8 @@ $httpClient.get(url, function(error, response, data){
 // 避免City与Country重复出现
 //（暂时舍弃，改用不带City的）let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}-${city}`;
 let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}`;
-// 去除 isp 变量中的标点符号和 "Communications" 等过长的无意义词语
-let cleanedIsp = isp.replace(/[,]|(\.$)|\([^)]*\)|\sCommunications|\sINFORMATION|\sInformation|\sTechnology|\sTECHNOLOGY|\sTechnologies|\sTECHNOLOGIES|\sTelevision|\sRegistration/g, '');
+// 去除 isp 变量中的标点符号和 "Communications" 等过长的无意义词语(不区分大小写）
+let cleanedIsp = isp.replace(/[,]|(\.$)|\([^)]*\)|Communications|Information|Technology|Technologies|Television|Registration/gi, '');
 // 将运营商信息中的连续两个或多个空格替换为一个空格
     cleanedIsp = cleanedIsp.replace(/ {2,}/g, ' ');
 // 然后将 cleanedIsp 用于通知内容
