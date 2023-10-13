@@ -11,7 +11,7 @@ $httpClient.get(url, function(error, response, data){
     let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} │ ${country}`;
 
     // 获取入口 IP 信息
-    let entryIp = $request.headers["X-Real-IP"] || $request.headers["x-real-ip"];
+    let entryIp = $request.headers["X-Real-IP"] || $request.headers["x-real-ip"] || $request.headers["X-Forwarded-For"];
 
     // 获取入口运营商信息
     let entryIsp = $request.headers["X-ISP"] || $request.headers["x-isp"];
