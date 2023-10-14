@@ -25,8 +25,7 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
       icon: 'play.tv.fill',
       'icon-color': '#FF2D55',
     }
-  let [{ region, status }] = await Promise.all([testDisneyPlus()])
-    await Promise.all([check_netflix(),check_youtube_premium()])
+  let [{ region, status }] =  await Promise.all([check_netflix(),testDisneyPlus(),check_youtube_premium()])
       .then((result) => { 
          console.log(result)
  let disney_result=""
