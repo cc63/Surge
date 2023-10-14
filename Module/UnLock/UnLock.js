@@ -17,20 +17,6 @@ const STATUS_ERROR = -2
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36'
 
-function getFlagEmoji(countryCode) {
-  // 将 "TW" 映射为 "CN"
-  if (countryCode.toUpperCase() === 'TW') {
-    countryCode = 'CN';
-  }
-
-  const codePoints = countryCode
-    .toUpperCase()
-    .split('')
-    .map(char => 127397 + char.charCodeAt());
-
-  return String.fromCodePoint(...codePoints);
-}
-
 ; (async () => {
   let panel_result = {
     title: '节点解锁检测',
