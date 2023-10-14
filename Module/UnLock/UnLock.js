@@ -151,7 +151,7 @@ panel_result['content'] = content
         if (code === 'Not Found') {
           return inner_check(80018499)
         }
-        netflix_check_result += '未解锁 ➟ ' + code.toUpperCase()
+        netflix_check_result += '已解锁 ➟ ' + code.toUpperCase()
         return Promise.reject('BreakSignal')
       })
       .then((code) => {
