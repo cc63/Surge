@@ -32,21 +32,21 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
  let disney_result=""
     if (status==STATUS_COMING) {
         //console.log(1)
-        disney_result="D+ 即将登陆 ➟ "+region.toUpperCase()
+        disney_result="D+ ➟ "+region.toUpperCase()
       } else if (status==STATUS_AVAILABLE){
         //console.log(2)
         console.log(region)
-        disney_result="D+ 已解锁 ➟ "+region.toUpperCase()
+        disney_result="D+ ➟ "+region.toUpperCase()
         // console.log(result["Disney"])
       } else if (status==STATUS_NOT_AVAILABLE) {
         //console.log(3)
-        disney_result="D+ 未解锁 ➟ 🚫失败 "
+        disney_result="D+ ➟ 失败 "
       } else if (status==STATUS_TIMEOUT) {
-        disney_result="Disney+ 未解锁 ➟ 🚦超时 "
+        disney_result="D+ ➟ 超时 "
       }
 result.push(disney_result)
 console.log(result)
-        let content = result.join('\n')
+        let content = result.join(' │ ')
         console.log(content)
      
 panel_result['content'] = content
@@ -88,18 +88,18 @@ panel_result['content'] = content
       })
     }
   
-    let youtube_check_result = 'YT '
+    let youtube_check_result = 'YT'
   
     await inner_check()
       .then((code) => {
         if (code === 'Not Available') {
-          youtube_check_result += '未解锁 ➟ 🚫失败'
+          youtube_check_result += ' ➟ 失败'
         } else {
-          youtube_check_result += '已解锁 ➟ ' + code.toUpperCase()
+          youtube_check_result += ' ➟ ' + code.toUpperCase()
         }
       })
       .catch((error) => {
-        youtube_check_result += '未解锁 ➟ 🚦超时'
+        youtube_check_result += ' ➟ 超时'
       })
   
     return youtube_check_result
@@ -144,14 +144,14 @@ panel_result['content'] = content
       })
     }
   
-    let netflix_check_result = 'NF '
+    let netflix_check_result = 'NF'
   
     await inner_check(80062035)
       .then((code) => {
         if (code === 'Not Found') {
           return inner_check(80018499)
         }
-        netflix_check_result += '已解锁 ➟ ' + code.toUpperCase()
+        netflix_check_result += ' ➟ ' + code.toUpperCase()
         return Promise.reject('BreakSignal')
       })
       .then((code) => {
@@ -159,7 +159,7 @@ panel_result['content'] = content
           return Promise.reject('Not Available')
         }
   
-        netflix_check_result += '自制剧 ➟ ' + code.toUpperCase()
+        netflix_check_result += ' ➟ 自制' + code.toUpperCase()
         return Promise.reject('BreakSignal')
       })
       .catch((error) => {
@@ -167,10 +167,10 @@ panel_result['content'] = content
           return
         }
         if (error === 'Not Available') {
-          netflix_check_result += '未解锁 ➟ 🚫失败'
+          netflix_check_result += ' ➟ 失败'
           return
         }
-        netflix_check_result += '未解锁 ➟ 🚦超时'
+        netflix_check_result += ' ➟ 超时'
       })
   
     return netflix_check_result
