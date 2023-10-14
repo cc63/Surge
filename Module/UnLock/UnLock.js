@@ -46,7 +46,7 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
       }
 result.push(disney_result)
 console.log(result)
-        let content = result.join(' │ ')
+        let content = result.join('  │  ')
         console.log(content)
      
 panel_result['content'] = content
