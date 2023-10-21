@@ -5,37 +5,54 @@
 */
 
 (async () => {
-  let args = getArgs();
-  let info = await getDataInfo(args.url);
-  if (!info) $done();
-  let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
+  try {
+    const args = getArgs();
+    const info = await getDataInfo(args.url);
 
-  let used = info.download + info.upload;
-  let total = info.total;
-  let expire = args.expire || info.expire;
-  let content = [`用量：${bytesToSize(used)} │ ${bytesToSize(total)}`];
+    if (!info) {
+      $done();
+      return;
+    }
 
-  if (resetDayLeft) {
-    content.push(`重置：剩余${resetDayLeft}天`);
+    const resetDayLeft = getRemainingDays(parseInt(args.reset_day));
+    const expire = args.expire || info.expire;
+    const content = [`用量：${bytesToSize(used)} │ ${bytesToSize(total)}`];
+
+    if (resetDayLeft && expire && expire !== "false") {
+      content.unshift(`提醒：${resetDayLeft}天后重置，${getDaysUntilExpire(expire)}天后到期`);
+    } else if (resetDayLeft) {
+      content.unshift(`提醒：${resetDayLeft}天后重置`);
+    } else if (expire && expire !== "false") {
+      content.unshift(`提醒：${getDaysUntilExpire(expire)}天后到期`);
+    }
+
+    const used = info.download + info.upload;
+    const total = info.total;
+    const now = new Date();
+    const hour = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+
+    $done({
+      title: args.title,
+      content: content.join("\n"),
+      icon: args.icon || "icloud.fill",
+      "icon-color": args.color || "#16AAF4",
+    });
+  } catch (error) {
+    console.error(error);
+    $done();
   }
-  if (expire && expire !== "false") {
-    if (/^[\d.]+$/.test(expire)) expire *= 1000;
-    content.push(`到期：${formatTime(expire)}`);
-  }
-
-  let now = new Date();
-  let hour = now.getHours();
-  let minutes = now.getMinutes();
-  hour = hour > 9 ? hour : "0" + hour;
-  minutes = minutes > 9 ? minutes : "0" + minutes;
-
-  $done({
-    title: `${args.title}`,
-    content: content.join("\n"),
-    icon: args.icon || "icloud.fill",
-    "icon-color": args.color || "#16AAF4",
-  });
 })();
+
+function getDaysUntilExpire(expireTime) {
+  if (/^[\d.]+$/.test(expireTime)) {
+    expireTime *= 1000;
+  }
+  const now = new Date();
+  const expireDate = new Date(expireTime);
+  const daysLeft = Math.floor((expireDate - now) / (24 * 60 * 60 * 1000));
+  return daysLeft;
+}
 
 function getArgs() {
   return Object.fromEntries(
