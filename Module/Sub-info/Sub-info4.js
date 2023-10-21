@@ -25,10 +25,12 @@
     } else if (expire && expire !== "false") {
       content.push(`提醒：${getDaysUntilExpire(expire)}天后到期`);
     }
-     if (expire && expire !== "false") {
-    if (/^[\d.]+$/.test(expire)) expire *= 1000;
-    content.push(`到期：${formatTime(expire)}`);
-  }
+    if (expire && expire !== "false") {
+      if (/^[\d.]+$/.test(expire)) {
+        expire *= 1000;
+      }
+      content.push(`到期：${formatTime(expire)}`);
+    }
 
     const now = new Date();
     const hour = now.getHours().toString().padStart(2, '0');
