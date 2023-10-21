@@ -19,11 +19,11 @@
     const content = [`用量：${bytesToSize(info.download + info.upload)} │ ${bytesToSize(info.total)}`];
 
     if (resetDayLeft && expire && expire !== "false") {
-      content.unshift(`提醒：${resetDayLeft}天后重置，${getDaysUntilExpire(expire)}天后到期`);
+      content.push(`提醒：${resetDayLeft}天后重置，${getDaysUntilExpire(expire)}天后到期`);
     } else if (resetDayLeft) {
-      content.unshift(`提醒：${resetDayLeft}天后重置`);
+      content.push(`提醒：${resetDayLeft}天后重置`);
     } else if (expire && expire !== "false") {
-      content.unshift(`提醒：${getDaysUntilExpire(expire)}天后到期`);
+      content.push(`提醒：${getDaysUntilExpire(expire)}天后到期`);
     }
 
     const now = new Date();
@@ -57,7 +57,8 @@ function getArgs() {
     $argument
       .split("&")
       .map((item) => item.split("="))
-      .map(([k, v]) => [k, decodeURIComponent(v)])
+      .map(([k, v]) => [k, decodeURIComponent(v)]
+    )
   );
 }
 
@@ -96,7 +97,8 @@ async function getDataInfo(url) {
     data
       .match(/\w+=[\d.eE+-]+/g)
       .map((item) => item.split("="))
-      .map(([k, v]) => [k, Number(v)])
+      .map(([k, v]) => [k, Number(v)]
+    )
   );
 }
 
