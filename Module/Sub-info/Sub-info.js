@@ -16,7 +16,7 @@
 
     const resetDayLeft = getRemainingDays(parseInt(args.reset_day));
     const expire = args.expire || info.expire;
-    const content = [`用量：${bytesToSize(used)} │ ${bytesToSize(total)}`];
+    const content = [`用量：${bytesToSize(info.download + info.upload)} │ ${bytesToSize(info.total)}`];
 
     if (resetDayLeft && expire && expire !== "false") {
       content.unshift(`提醒：${resetDayLeft}天后重置，${getDaysUntilExpire(expire)}天后到期`);
@@ -26,8 +26,6 @@
       content.unshift(`提醒：${getDaysUntilExpire(expire)}天后到期`);
     }
 
-    const used = info.download + info.upload;
-    const total = info.total;
     const now = new Date();
     const hour = now.getHours().toString().padStart(2, '0');
     const minutes = now.getMinutes().toString().padStart(2, '0');
@@ -64,7 +62,7 @@ function getArgs() {
 }
 
 function getUserInfo(url) {
-  let request = { headers: { "User-Agent": "Quantumult%20X" }, url };
+  const request = { headers: { "User-Agent": "Quantumult%20X" }, url };
   return new Promise((resolve, reject) =>
     $httpClient.get(request, (err, resp) => {
       if (err != null) {
@@ -75,7 +73,7 @@ function getUserInfo(url) {
         reject(resp.status);
         return;
       }
-      let header = Object.keys(resp.headers).find((key) => key.toLowerCase() === "subscription-userinfo");
+      const header = Object.keys(resp.headers).find((key) => key.toLowerCase() === "subscription-userinfo");
       if (header) {
         resolve(resp.headers[header]);
         return;
@@ -102,13 +100,13 @@ async function getDataInfo(url) {
   );
 }
 
-function getRmainingDays(resetDay) {
+function getRemainingDays(resetDay) {
   if (!resetDay) return;
 
-  let now = new Date();
-  let today = now.getDate();
-  let month = now.getMonth();
-  let year = now.getFullYear();
+  const now = new Date();
+  const today = now.getDate();
+  const month = now.getMonth();
+  const year = now.getFullYear();
   let daysInMonth;
 
   if (resetDay > today) {
@@ -122,16 +120,8 @@ function getRmainingDays(resetDay) {
 
 function bytesToSize(bytes) {
   if (bytes === 0) return "0B";
-  let k = 1024;
-  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
-  let i = Math.floor(Math.log(bytes) / Math.log(k));
+  const k = 1024;
+  const sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
   return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
-}
-
-function formatTime(time) {
-  let dateObj = new Date(time);
-  let year = dateObj.getFullYear();
-  let month = dateObj.getMonth() + 1;
-  let day = dateObj.getDate();
-  return year + "年" + month + "月" + day + "日";
 }
