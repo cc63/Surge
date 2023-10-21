@@ -25,12 +25,10 @@
     } else if (expire && expire !== "false") {
       content.push(`提醒：${getDaysUntilExpire(expire)}天后到期`);
     }
-    if (expire && expire !== "false") {
-      if (/^[\d.]+$/.test(expire)) {
-        expire *= 1000;
-      }
-      content.push(`到期：${formatTime(expire)}`);
-    }
+  if (expire && expire !== "false") {
+    if (/^[\d.]+$/.test(expire)) expire *= 1000;
+    content.push(`到期：${formatTime(expire)}`);
+  }
 
     const now = new Date();
     const hour = now.getHours().toString().padStart(2, '0');
@@ -132,4 +130,11 @@ function bytesToSize(bytes) {
   const sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
+}
+function formatTime(time) {
+  let dateObj = new Date(time);
+  let year = dateObj.getFullYear();
+  let month = dateObj.getMonth() + 1;
+  let day = dateObj.getDate();
+  return year + "年" + month + "月" + day + "日";
 }
