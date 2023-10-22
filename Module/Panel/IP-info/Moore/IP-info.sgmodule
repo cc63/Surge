@@ -1,6 +1,7 @@
 #!name=面板-节点信息
 #!desc=展示节点的IP/运营商/所在地
 #!system=ios
+#更新时间：2023.10.22
 
 [Panel]
 IP-info = script-name=IP-info, title="节点信息", content="请刷新", style=info, update-interval=1
