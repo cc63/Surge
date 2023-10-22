@@ -1,7 +1,7 @@
 /*
  * 本模块由@Rabbit-Spec编写
  * 本人仅针对个人审美进行部分微调
- * 更新日期：2023.10.22
+ * 更新日期：2023.06.17
 */
 
 (async () => {
@@ -9,31 +9,24 @@
   let info = await getDataInfo(args.url);
   if (!info) $done();
   let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
+  let expireDaysLeft = getExpireDaysLeft(args.expire || info.expire);
 
   let used = info.download + info.upload;
   let total = info.total;
-  let expire = args.expire || info.expire;
-  let content = [`用量：${bytesToSize(used)} / ${bytesToSize(total)}`];
+  let content = [`用量：${bytesToSize(used)} │ ${bytesToSize(total)}`];
 
-  let reminder = "";
-
-  if (resetDayLeft && !expire) {
-    reminder = `提醒：${resetDayLeft}天后重置`;
-  } else if (!resetDayLeft && expire) {
-    const daysUntilExpire = Math.floor((expire - new Date().getTime()) / (24 * 60 * 60 * 1000));
-    reminder = `提醒：${daysUntilExpire}天后到期`;
-  } else if (resetDayLeft && expire) {
-    const daysUntilExpire = Math.floor((expire - new Date().getTime()) / (24 * 60 * 60 * 1000));
-    reminder = `提醒：${resetDayLeft}天后重置，${daysUntilExpire}天后到期`;
+  // 修改的部分
+  if (resetDayLeft && expireDaysLeft) {
+    content.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
+  } else if (resetDayLeft) {
+    content.push(`提醒：套餐将在${resetDayLeft}天后重置`);
+  } else if (expireDaysLeft) {
+    content.push(`提醒：套餐将在${expireDaysLeft}天后到期`);
   }
 
-  if (reminder) {
-    content.push(reminder);
-  }
-
-  if (expire && expire !== "false") {
-    if (/^[\d.]+$/.test(expire)) expire *= 1000;
-    content.push(`到期：${formatTime(expire)}`);
+  if (args.expire && args.expire !== "false") {
+    if (/^[\d.]+$/.test(args.expire)) args.expire *= 1000;
+    content.push(`到期：${formatTime(args.expire)}`);
   }
 
   $done({
@@ -108,6 +101,15 @@ function getRmainingDays(resetDay) {
   }
 
   return daysInMonth - today + resetDay;
+}
+
+function getExpireDaysLeft(expire) {
+  if (!expire) return;
+
+  let now = new Date().getTime();
+  if (/^[\d.]+$/.test(expire)) expire *= 1000;
+  let daysLeft = Math.ceil((expire - now) / (1000 * 60 * 60 * 24));
+  return daysLeft > 0 ? daysLeft : null;
 }
 
 function bytesToSize(bytes) {
