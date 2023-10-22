@@ -3,8 +3,7 @@
 <h4 align="center">我自用的Surge自用模块 </h4>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Conf/img/6.PNG" width="300"></img>
-</p>
+<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="300"></p>
 
 ## 如何使用
 ### 1. 安装环境
