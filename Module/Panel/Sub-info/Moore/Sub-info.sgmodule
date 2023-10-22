@@ -4,7 +4,8 @@
 # 更新日期：2023.10.22
 # 订阅链接需经过encode：https://www.urlencoder.org/zh/
 # 可选参数：&reset_day=8 表示流量每月8号重置（非必需，可删除）
-# 使用教程与更多可选参数：https://github.com/cc63/Surge/tree/main/Module/Sub-info
+# 使用教程与更多可选参数：https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info
+
 [Panel]
 Sub-info = script-name=1号机场,update-interval=3600
 
