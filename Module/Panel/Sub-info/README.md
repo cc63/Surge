@@ -23,7 +23,7 @@
 
 ### 📦 模块链接
 
-> **稳定版** ➤ [点击下载](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule)
+> **稳定版** ➤ https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule
 
 ### 🛠 安装步骤
 
