@@ -26,6 +26,9 @@
 
 > **Sub-Store :** https://github.com/sub-store-org/Sub-Store <br>
 
+> **流媒体双语字幕 :** https://github.com/DualSubs/Universal <br>
+
+
 
 ## 我用的机场
 **我用着好用不代表你用着也好用，如果想要入手的话，建议先买月付体验一下。任何机场都有跑路的可能。**<br>
