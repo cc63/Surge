@@ -6,6 +6,5 @@
 </p>
 
 ### 节点信息
-> **中文版:** https://raw.githubusercontent.com/cc63/Surge/main/Module/IP-info/IP-info.sgmodule </br>
-> **英文版:** https://raw.githubusercontent.com/cc63/Surge/main/Module/IP-info/IP-info-EN.sgmodule </br>
+> **链接:** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule </br>
 </br>
