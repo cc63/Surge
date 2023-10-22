@@ -7,47 +7,46 @@
 (async () => {
   let args = getArgs();
   let info = await getDataInfo(args.url);
-  
-  // 如果没有信息，则直接结束
-  if (!info) return $done();
-
-  let resetDayLeft = getRemainingDays(parseInt(args["reset_day"]));
-  let expireDaysLeft = getExpireDaysLeft(args.expire || info.expire);
+  if (!info) $done();
+  let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
 
   let used = info.download + info.upload;
   let total = info.total;
-  let content = [`用量：${bytesToSize(used)} / ${bytesToSize(total)}`];
+  let expire = args.expire || info.expire;
+  let content = [`已用：${toPercent(used, total)} \t|  剩余：${toMultiply(total, used)}`];
 
-  // 判断是否为不限时套餐
-  if (!resetDayLeft && !expireDaysLeft) {
-    let percentage = ((used / total) * 100).toFixed(1);
-    content.push(`提醒：不限时套餐，已用${percentage}%`);
-  } else {
-    if (resetDayLeft && expireDaysLeft) {
-      content.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
-    } else if (resetDayLeft) {
-      content.push(`提醒：套餐将在${resetDayLeft}天后重置`);
-    } else if (expireDaysLeft) {
-      content.push(`提醒：套餐将在${expireDaysLeft}天后到期`);
-    }
-    
-    // 到期时间（日期）显示
-    if (expireDaysLeft) {
-      content.push(`到期：${formatTime(args.expire || info.expire)}`);
+  if (resetDayLeft || expire) {
+    if (resetDayLeft && expire && expire !== "false") {
+      content.push(`重置：${resetDayLeft}天 \t|  ${daysUntil(expire)}天`);
+    } else if (resetDayLeft && !expire) {
+      content.push(`重置：${resetDayLeft}天`);
+    } else if (!resetDayLeft && expire) {
+      content.push(`到期：${daysUntil(expire)}天`);
     }
   }
-    // 获取当前时间
 
-  const currentTime = new Date();
-  const formattedTime = currentTime.getHours().toString().padStart(2, '0') + ':' + currentTime.getMinutes().toString().padStart(2, '0');
-  
   $done({
-    title: `${args.title}｜${formattedTime}`,
+    title: `${args.title} | ${bytesToSizeInt(total)}`,
     content: content.join("\n"),
-    icon: args.icon || "icloud.fill",
-    "icon-color": args.color || "#16AAF4",
+    icon: args.icon || "airplane.circle",
+    "icon-color": args.color || "#007aff",
   });
 })();
+
+
+function bytesToSizeInt(bytes) {
+  if (bytes === 0) return "0B";
+  let k = 1024;
+  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  let i = Math.floor(Math.log(bytes) / Math.log(k));
+  return Math.round(bytes / Math.pow(k, i)) + " " + sizes[i];
+}
+
+function daysUntil(time) {
+  const now = new Date().getTime();
+  const then = new Date(time).getTime();
+  return Math.round((then - now) / (1000 * 60 * 60 * 24));
+}
 
 function getArgs() {
   return Object.fromEntries(
