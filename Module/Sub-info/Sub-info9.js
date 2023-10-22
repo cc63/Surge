@@ -128,6 +128,9 @@ function bytesToSize(bytes) {
 }
 
 function formatTime(time) {
+  // 检查时间戳是否为秒单位，如果是，则转换为毫秒
+  if (time < 1000000000000) time *= 1000;
+
   let dateObj = new Date(time);
   let year = dateObj.getFullYear();
   let month = dateObj.getMonth() + 1;
