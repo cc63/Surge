@@ -6,4 +6,4 @@
 QiYou = script-name=QiYou,update-interval=43200
 
 [Script]
-QiYou = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Oil/Oil.js,argument=shandong
+QiYou = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.js,argument=shandong
