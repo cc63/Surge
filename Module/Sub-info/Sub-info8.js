@@ -15,19 +15,26 @@
   let total = info.total;
   let content = [`用量：${bytesToSize(used)} │ ${bytesToSize(total)}`];
 
-  // 修改的部分
-  if (resetDayLeft && expireDaysLeft) {
-    content.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
-  } else if (resetDayLeft) {
-    content.push(`提醒：套餐将在${resetDayLeft}天后重置`);
-  } else if (expireDaysLeft) {
-    content.push(`提醒：套餐将在${expireDaysLeft}天后到期`);
-  }
+// 修改的部分
+if (resetDayLeft && expireDaysLeft) {
+  content.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
+} else if (resetDayLeft) {
+  content.push(`提醒：套餐将在${resetDayLeft}天后重置`);
+} else if (expireDaysLeft) {
+  content.push(`提醒：套餐将在${expireDaysLeft}天后到期`);
+}
 
-  if (args.expire && args.expire !== "false") {
-    if (/^[\d.]+$/.test(args.expire)) args.expire *= 1000;
-    content.push(`到期：${formatTime(args.expire)}`);
-  }
+// 增加到期时间显示
+if (expireDaysLeft) {
+  content.push(`到期：${formatTime(args.expire || info.expire)}`);
+}
+
+$done({
+  title: `${args.title}`,
+  content: content.join("\n"),
+  icon: args.icon || "icloud.fill",
+  "icon-color": args.color || "#16AAF4",
+});
 
   $done({
     title: `${args.title}`,
