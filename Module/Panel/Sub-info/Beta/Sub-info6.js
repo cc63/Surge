@@ -85,4 +85,32 @@ function getRmainingDays(resetDay) {
   let daysInMonth;
 
   if (resetDay > today) {
-    days
+    daysInMonth = new Date(year, month, 0).getDate();
+  } else {
+    daysInMonth = new Date(year, month + 1, 0).getDate();
+  }
+
+  return daysInMonth - today + resetDay;
+}
+
+function toPercent(num, total) {
+  return ((num / total) * 100).toFixed(2) + "%";
+}
+
+function toMultiply(total, used) {
+  return ((total - used) / total).toFixed(2) + "%";
+}
+
+function bytesToSizeInt(bytes) {
+  if (bytes === 0) return "0B";
+  let k = 1024;
+  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  let i = Math.floor(Math.log(bytes) / Math.log(k));
+  return Math.round(bytes / Math.pow(k, i)) + " " + sizes[i];
+}
+
+function daysUntil(time) {
+  const now = new Date().getTime();
+  const then = new Date(time).getTime();
+  return Math.round((then - now) / (1000 * 60 * 60 * 24));
+}
