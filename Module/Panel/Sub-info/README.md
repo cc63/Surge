@@ -1,14 +1,14 @@
-<h1 align="center">机场信息模块</h1>
+<h1 align="center">面板-机场信息</h1>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.PNG" width="300"></img>
 </p>
 
 
-## 展示内容
-1. 套餐用量
-2. 重置日期
-3. 到期时间
+## 功能介绍
+1. 展示套餐的用量与总量
+2. 以日期形式展示到期时间
+3. 根据到期时间与重置日期动态显示提醒，不限时套餐则显示已用流量百分比
 
 ## 使用指南
 
