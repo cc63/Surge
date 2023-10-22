@@ -16,7 +16,7 @@
 
   let used = info.download + info.upload;
   let total = info.total;
-  let content = [`用量：${bytesToSize(used)} / ${bytesToSize(total, true)}`];
+  let content = [`用量：${bytesToSize(used)} / ${bytesToSize(total)}`];
 
   // 判断是否为不限时套餐
   if (!resetDayLeft && !expireDaysLeft) {
@@ -38,7 +38,7 @@
   }
 
   $done({
-    title: `${args.title}`,
+    title: `${args.title} | ${hour}:${minutes}`,
     content: content.join("\n"),
     icon: args.icon || "icloud.fill",
     "icon-color": args.color || "#16AAF4",
@@ -120,22 +120,13 @@ function getExpireDaysLeft(expire) {
   return daysLeft > 0 ? daysLeft : null;
 }
 
-function bytesToSize(bytes, isTotal = false) {
+function bytesToSize(bytes) {
   if (bytes === 0) return "0B";
   let k = 1024;
   let sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
-
-  let value;
-  if (isTotal && i >= 2) {
-    value = Math.round(bytes / Math.pow(k, i));
-  } else {
-    value = (bytes / Math.pow(k, i)).toFixed(2);
-  }
-
-  return value + " " + sizes[i];
+  return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
 }
-
 
 function formatTime(time) {
   // 检查时间戳是否为秒单位，如果是，则转换为毫秒
