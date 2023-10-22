@@ -1,7 +1,7 @@
 /*
- * 本模块由@Rabbit-Spec编写
- * 本人仅针对个人审美进行部分微调
- * 更新日期：2023.06.17
+ * 作者@cc63
+ * 感谢大佬们的原创与ChatGPT的帮助
+ * 更新日期：2023.10.22
 */
 
 (async () => {
@@ -13,29 +13,21 @@
 
   let used = info.download + info.upload;
   let total = info.total;
-  let content = [`用量：${bytesToSize(used)} │ ${bytesToSize(total)}`];
-
-// 修改的部分
-if (resetDayLeft && expireDaysLeft) {
-  content.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
-} else if (resetDayLeft) {
-  content.push(`提醒：套餐将在${resetDayLeft}天后重置`);
-} else if (expireDaysLeft) {
-  content.push(`提醒：套餐将在${expireDaysLeft}天后到期`);
+  let content = [`套餐用量：${bytesToSize(used)} / ${bytesToSize(total)}`];
+  // 提醒事项栏目
+  if (resetDayLeft && expireDaysLeft) {
+  content.push(`提醒事项：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
+  } else if (resetDayLeft) {
+  content.push(`提醒事项：套餐将在${resetDayLeft}天后重置`);
+  } else if (expireDaysLeft) {
+  content.push(`提醒事项：套餐将在${expireDaysLeft}天后到期`);
 }
 
-// 增加到期时间显示
+// 到期时间（日期）显示
 if (expireDaysLeft) {
-  content.push(`到期：${formatTime(args.expire || info.expire)}`);
+  content.push(`到期时间：${formatTime(args.expire || info.expire)}`);
 }
-
-$done({
-  title: `${args.title}`,
-  content: content.join("\n"),
-  icon: args.icon || "icloud.fill",
-  "icon-color": args.color || "#16AAF4",
-});
-
+  
   $done({
     title: `${args.title}`,
     content: content.join("\n"),
