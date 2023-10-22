@@ -12,7 +12,7 @@
 
 ## 使用指南
 
-### 1. 模块安装链接
+### 1. 模块链接
 > **稳定版 :** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule <br>
 
 ### 2. 安装方式
