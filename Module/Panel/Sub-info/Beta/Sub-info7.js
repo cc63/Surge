@@ -25,7 +25,7 @@ const region = (() => {
     })
   );
   // 仅保留查询入口相关内容
-  const title = `节点入口`;
+  const title = `入口信息`;
   const content = [
     `入口IP: ${ip}`,
     `入口ISP: ${isp}`,
