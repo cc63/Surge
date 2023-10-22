@@ -1,9 +1,3 @@
-/*
- * 作者@cc63
- * 感谢大佬们的原创与ChatGPT的帮助
- * 更新日期：2023.10.22
-*/
-
 (async () => {
   let args = getArgs();
   let info = await getDataInfo(args.url);
@@ -75,13 +69,13 @@ async function getDataInfo(url) {
 
   return Object.fromEntries(
     data
-      .match(/\w+=[\d.eE+-]+/g)
+      .match(/\w+=[\d.eE+]+/g)
       .map((item) => item.split("="))
       .map(([k, v]) => [k, Number(v)])
   );
 }
 
-function getRemainingDays(resetDay) {
+function getRmainingDays(resetDay) {
   if (!resetDay) return;
 
   let now = new Date();
@@ -91,44 +85,4 @@ function getRemainingDays(resetDay) {
   let daysInMonth;
 
   if (resetDay > today) {
-    daysInMonth = 0;
-  } else {
-    daysInMonth = new Date(year, month + 1, 0).getDate();
-  }
-
-  return daysInMonth - today + resetDay;
-}
-
-function getExpireDaysLeft(expire) {
-  if (!expire) return;
-
-  let now = new Date().getTime();
-  if (/^[\d.]+$/.test(expire)) expire *= 1000;
-  let daysLeft = Math.ceil((expire - now) / (1000 * 60 * 60 * 24));
-  return daysLeft > 0 ? daysLeft : null;
-}
-
-function bytesToSizeInt(bytes) {
-  if (bytes === 0) return "0B";
-  let k = 1024;
-  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
-  let i = Math.floor(Math.log(bytes) / Math.log(k));
-  return Math.round(bytes / Math.pow(k, i)) + " " + sizes[i];
-}
-
-function daysUntil(time) {
-  const now = new Date().getTime();
-  const then = new Date(time).getTime();
-  return Math.round((then - now) / (1000 * 60 * 60 * 24));
-}
-
-function formatTime(time) {
-  // 检查时间戳是否为秒单位，如果是，则转换为毫秒
-  if (time < 1000000000000) time *= 1000;
-
-  let dateObj = new Date(time);
-  let year = dateObj.getFullYear();
-  let month = dateObj.getMonth() + 1;
-  let day = dateObj.getDate();
-  return year + "年" + month + "月" + day + "日";
-}
+    days
