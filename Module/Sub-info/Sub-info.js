@@ -1,33 +1,41 @@
 /*
- * 本模块由@Rabbit-Spec编写
- * 本人仅针对个人审美进行部分微调
- * 更新日期：2023.06.17
+ * 作者@cc63
+ * 感谢大佬们的原创与ChatGPT的帮助
+ * 更新日期：2023.10.22
 */
 
 (async () => {
   let args = getArgs();
   let info = await getDataInfo(args.url);
-  if (!info) $done();
-  let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
+  
+  // 如果没有信息，则直接结束
+  if (!info) return $done();
+
+  let resetDayLeft = getRemainingDays(parseInt(args["reset_day"]));
+  let expireDaysLeft = getExpireDaysLeft(args.expire || info.expire);
 
   let used = info.download + info.upload;
   let total = info.total;
-  let expire = args.expire || info.expire;
-  let content = [`用量：${bytesToSize(used)} │ ${bytesToSize(total)}`];
+  let content = [`用量：${bytesToSize(used)} / ${bytesToSize(total)}`];
 
-  if (resetDayLeft) {
-    content.push(`重置：剩余${resetDayLeft}天`);
+  // 判断是否为不限时套餐
+  if (!resetDayLeft && !expireDaysLeft) {
+    let percentage = ((used / total) * 100).toFixed(1);
+    content.push(`提醒：不限时套餐，已用${percentage}%`);
+  } else {
+    if (resetDayLeft && expireDaysLeft) {
+      content.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
+    } else if (resetDayLeft) {
+      content.push(`提醒：套餐将在${resetDayLeft}天后重置`);
+    } else if (expireDaysLeft) {
+      content.push(`提醒：套餐将在${expireDaysLeft}天后到期`);
+    }
+    
+    // 到期时间（日期）显示
+    if (expireDaysLeft) {
+      content.push(`到期：${formatTime(args.expire || info.expire)}`);
+    }
   }
-  if (expire && expire !== "false") {
-    if (/^[\d.]+$/.test(expire)) expire *= 1000;
-    content.push(`到期：${formatTime(expire)}`);
-  }
-
-  let now = new Date();
-  let hour = now.getHours();
-  let minutes = now.getMinutes();
-  hour = hour > 9 ? hour : "0" + hour;
-  minutes = minutes > 9 ? minutes : "0" + minutes;
 
   $done({
     title: `${args.title}`,
@@ -85,7 +93,7 @@ async function getDataInfo(url) {
   );
 }
 
-function getRmainingDays(resetDay) {
+function getRemainingDays(resetDay) {
   if (!resetDay) return;
 
   let now = new Date();
@@ -103,15 +111,27 @@ function getRmainingDays(resetDay) {
   return daysInMonth - today + resetDay;
 }
 
+function getExpireDaysLeft(expire) {
+  if (!expire) return;
+
+  let now = new Date().getTime();
+  if (/^[\d.]+$/.test(expire)) expire *= 1000;
+  let daysLeft = Math.ceil((expire - now) / (1000 * 60 * 60 * 24));
+  return daysLeft > 0 ? daysLeft : null;
+}
+
 function bytesToSize(bytes) {
   if (bytes === 0) return "0B";
   let k = 1024;
-  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  let sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
   return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
 }
 
 function formatTime(time) {
+  // 检查时间戳是否为秒单位，如果是，则转换为毫秒
+  if (time < 1000000000000) time *= 1000;
+
   let dateObj = new Date(time);
   let year = dateObj.getFullYear();
   let month = dateObj.getMonth() + 1;
