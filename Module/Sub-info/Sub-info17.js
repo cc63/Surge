@@ -16,7 +16,7 @@
 
   let used = info.download + info.upload;
   let total = info.total;
-  let content = [`用量：${bytesToSize(used)} / ${bytesToSize(total)}`];
+  let content = [`用量：${bytesToSize(used)} / ${bytesToSize(total, true)}`];
 
   // 判断是否为不限时套餐
   if (!resetDayLeft && !expireDaysLeft) {
@@ -120,13 +120,22 @@ function getExpireDaysLeft(expire) {
   return daysLeft > 0 ? daysLeft : null;
 }
 
-function bytesToSize(bytes) {
+function bytesToSize(bytes, isTotal = false) {
   if (bytes === 0) return "0B";
   let k = 1024;
   let sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
-  return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
+
+  let value;
+  if (isTotal && i >= 2) {
+    value = Math.round(bytes / Math.pow(k, i));
+  } else {
+    value = (bytes / Math.pow(k, i)).toFixed(2);
+  }
+
+  return value + " " + sizes[i];
 }
+
 
 function formatTime(time) {
   // 检查时间戳是否为秒单位，如果是，则转换为毫秒
