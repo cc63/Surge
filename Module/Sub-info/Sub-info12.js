@@ -13,19 +13,19 @@
 
   let used = info.download + info.upload;
   let total = info.total;
-  let content = [`套餐用量：${bytesToSize(used)} / ${bytesToSize(total)}`];
+  let content = [`用量：${bytesToSize(used)} / ${bytesToSize(total)}`];
   // 提醒事项栏目
   if (resetDayLeft && expireDaysLeft) {
-  content.push(`提醒事项：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
+  content.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
   } else if (resetDayLeft) {
-  content.push(`提醒事项：套餐将在${resetDayLeft}天后重置`);
+  content.push(`提醒：套餐将在${resetDayLeft}天后重置`);
   } else if (expireDaysLeft) {
-  content.push(`提醒事项：套餐将在${expireDaysLeft}天后到期`);
+  content.push(`提醒：套餐将在${expireDaysLeft}天后到期`);
 }
 
 // 到期时间（日期）显示
 if (expireDaysLeft) {
-  content.push(`到期时间：${formatTime(args.expire || info.expire)}`);
+  content.push(`到期：${formatTime(args.expire || info.expire)}`);
 }
   
   $done({
