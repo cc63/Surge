@@ -26,7 +26,7 @@
 
 ### 🖇 模块安装链接
 
-**稳定版** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule
+> **稳定版** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule
 
 ### 📲 安装方式
 
