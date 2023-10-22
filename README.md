@@ -20,8 +20,6 @@
 
 > **面板-流媒体检测 :** https://github.com/cc63/Surge/tree/main/Module/Panel/Stream<br>
 
-> **流媒体解锁检测Lite :** https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All-Lite<br>
-
 > **面板-汽油价格 :** https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou<br>
 
 > **加密DNS :** https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule<br>
