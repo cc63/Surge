@@ -1,10 +1,9 @@
-#!name=机场信息
-#!desc=展示机场套餐信息及用量
+#!name=面板-机场信息
+#!desc=展示流量信息/到期日期
 #!system=ios
-# 更新日期：2023.07.16
-# 机场订阅链接需经过encode
-# encode平台：www.urlencoder.org
-# 参数“reset_day” 为流量重置日，没有的话可留空
+# 更新日期：2023.10.22
+# 节点订阅链接需要encode，推荐：https://www.urlencoder.org/zh/
+# 可选参数请参见：
 [Panel]
 Sub_info = script-name=机场1,update-interval=600
 
