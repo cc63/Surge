@@ -42,7 +42,7 @@
   const formattedTime = currentTime.getHours().toString().padStart(2, '0') + ':' + currentTime.getMinutes().toString().padStart(2, '0');
   
   $done({
-    title: `${args.title} ｜ ${formattedTime}`,
+    title: `${args.title}｜${formattedTime}`,
     content: content.join("\n"),
     icon: args.icon || "icloud.fill",
     "icon-color": args.color || "#16AAF4",
