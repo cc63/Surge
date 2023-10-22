@@ -7,8 +7,11 @@
 (async () => {
   let args = getArgs();
   let info = await getDataInfo(args.url);
-  if (!info) $done();
-  let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
+  
+  // 如果没有信息，则直接结束
+  if (!info) return $done();
+
+  let resetDayLeft = getRemainingDays(parseInt(args["reset_day"]));
   let expireDaysLeft = getExpireDaysLeft(args.expire || info.expire);
 
   let used = info.download + info.upload;
@@ -90,7 +93,7 @@ async function getDataInfo(url) {
   );
 }
 
-function getRmainingDays(resetDay) {
+function getRemainingDays(resetDay) {
   if (!resetDay) return;
 
   let now = new Date();
@@ -120,7 +123,7 @@ function getExpireDaysLeft(expire) {
 function bytesToSize(bytes) {
   if (bytes === 0) return "0B";
   let k = 1024;
-  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  let sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
   return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
 }
