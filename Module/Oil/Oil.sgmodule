@@ -1,9 +1,0 @@
-#!name=面板-汽油价格
-#!desc=显示本省实时油价
-#!argument=省或城市的拼音，可去http://m.qiyoujiage.com/shanxi-3.shtml 查看自己省份拼音
-
-
-[Panel]
-Oil = script-name=Oil,update-interval=43200
-[Script]
-Oil = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Oil/Oil.js,argument=shandong
