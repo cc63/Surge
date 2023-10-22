@@ -38,7 +38,7 @@
   }
 
   $done({
-    title: `${args.title} │ ${hour}:${minutes}`,
+    title: `${args.title} │ ${formattedTime}`,
     content: content.join("\n"),
     icon: args.icon || "icloud.fill",
     "icon-color": args.color || "#16AAF4",
