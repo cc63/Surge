@@ -33,21 +33,6 @@
   });
 })();
 
-
-function bytesToSizeInt(bytes) {
-  if (bytes === 0) return "0B";
-  let k = 1024;
-  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
-  let i = Math.floor(Math.log(bytes) / Math.log(k));
-  return Math.round(bytes / Math.pow(k, i)) + " " + sizes[i];
-}
-
-function daysUntil(time) {
-  const now = new Date().getTime();
-  const then = new Date(time).getTime();
-  return Math.round((then - now) / (1000 * 60 * 60 * 24));
-}
-
 function getArgs() {
   return Object.fromEntries(
     $argument
@@ -123,12 +108,18 @@ function getExpireDaysLeft(expire) {
   return daysLeft > 0 ? daysLeft : null;
 }
 
-function bytesToSize(bytes) {
+function bytesToSizeInt(bytes) {
   if (bytes === 0) return "0B";
   let k = 1024;
-  let sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
-  return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
+  return Math.round(bytes / Math.pow(k, i)) + " " + sizes[i];
+}
+
+function daysUntil(time) {
+  const now = new Date().getTime();
+  const then = new Date(time).getTime();
+  return Math.round((then - now) / (1000 * 60 * 60 * 24));
 }
 
 function formatTime(time) {
