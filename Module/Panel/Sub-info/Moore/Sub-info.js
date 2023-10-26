@@ -94,21 +94,28 @@ async function getDataInfo(url) {
 }
 
 function getRemainingDays(resetDay) {
-  if (!resetDay) return;
+  if (!resetDay || resetDay < 1 || resetDay > 31) return;
 
   let now = new Date();
   let today = now.getDate();
   let month = now.getMonth();
   let year = now.getFullYear();
-  let daysInMonth;
+
+  // 计算当前月份和下个月份的天数
+  let daysInThisMonth = new Date(year, month + 1, 0).getDate();
+  let daysInNextMonth = new Date(year, month + 2, 0).getDate();
+
+  // 如果重置日大于当前月份的天数，则在当月的最后一天重置
+  resetDay = Math.min(resetDay, daysInThisMonth);
 
   if (resetDay > today) {
-    daysInMonth = 0;
+    // 如果重置日在本月内
+    return resetDay - today;
   } else {
-    daysInMonth = new Date(year, month + 1, 0).getDate();
+    // 如果重置日在下个月，确保不超过下个月的天数
+    resetDay = Math.min(resetDay, daysInNextMonth);
+    return daysInThisMonth - today + resetDay;
   }
-
-  return daysInMonth - today + resetDay;
 }
 
 function getExpireDaysLeft(expire) {
