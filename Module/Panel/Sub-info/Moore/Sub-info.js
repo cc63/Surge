@@ -115,8 +115,17 @@ function getExpireDaysLeft(expire) {
   if (!expire) return;
 
   let now = new Date().getTime();
-  if (/^[\d.]+$/.test(expire)) expire *= 1000;
-  let daysLeft = Math.ceil((expire - now) / (1000 * 60 * 60 * 24));
+  let expireTime;
+
+  // 检查是否为时间戳
+  if (/^[\d.]+$/.test(expire)) {
+    expireTime = parseInt(expire) * 1000;
+  } else {
+    // 尝试解析YYYY-MM-DD格式的日期
+    expireTime = new Date(expire).getTime();
+  }
+
+  let daysLeft = Math.ceil((expireTime - now) / (1000 * 60 * 60 * 24));
   return daysLeft > 0 ? daysLeft : null;
 }
 
