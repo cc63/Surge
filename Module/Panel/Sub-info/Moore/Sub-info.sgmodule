@@ -1,10 +1,9 @@
 #!name=面板-机场信息
-#!desc=展示流量信息/到期日期
+#!desc=流量信息/智能提醒/到期日期
 #!system=ios
-# 更新日期：2023.10.22
-# 订阅链接需经过encode：https://www.urlencoder.org/zh/
-# 可选参数：&reset_day=8 表示流量每月8号重置（非必需，可删除）
-# 使用教程与更多可选参数：https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info
+# Encode：https://www.urlencoder.org/zh/
+# 可选参数：&reset_day=8 表示流量每月8号重置，非必填项
+# 教程与更多参数：https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info
 
 [Panel]
 Sub-info = script-name=1号机场,update-interval=3600
@@ -12,6 +11,6 @@ Sub-info = script-name=1号机场,update-interval=3600
 Sub-info = script-name=2号机场,update-interval=3600
 
 [Script]
-1号机场 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=订阅链接&title=机场名字&reset_day=重置日期
+1号机场 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=订阅链接（Encode后的）&title=机场名字&reset_day=重置日期
 
-2号机场 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=订阅链接&title=机场名字&reset_day=重置日期
+2号机场 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=订阅链接（Encode后的）&title=机场名字&reset_day=重置日期
