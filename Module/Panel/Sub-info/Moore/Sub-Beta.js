@@ -1,12 +1,13 @@
 /*
  * 作者@cc63
- * 别用这个，随时可能会改炸
+ * 感谢大佬们的原创与ChatGPT的帮助
+ * 更新日期：2023.10.26
 */
 
 (async () => {
-  let args = getArgs();
+  let args = getArgs();  // 获取参数
   let info = await getDataInfo(args.url);
-  
+
   // 如果没有信息，则直接结束
   if (!info) return $done();
 
@@ -45,12 +46,10 @@
 })();
 
 function getArgs() {
-  return Object.fromEntries(
-    $argument
-      .split("&")
-      .map((item) => item.split("="))
-      .map(([k, v]) => [k, decodeURIComponent(v)])
-  );
+  let rawArgs = $argument.split("&").map((item) => item.split("="));
+  // 对每个参数值进行编码
+  let encodedArgs = rawArgs.map(([k, v]) => [k, encodeURIComponent(v)]);
+  return Object.fromEntries(encodedArgs);
 }
 
 function getUserInfo(url) {
