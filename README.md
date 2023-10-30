@@ -34,7 +34,7 @@
 
 **我个人体验良好，但不保证适合每位用户。建议先选择月付体验。任何机场都存在不确定性。**
 
-- 🌍 [「MESL」公有云专线，全球线路覆盖](https://in.mesl.cloud/#/register?code=upDDJS68)
+- 🌍 [「MESL」公有云专线，全球线路覆盖](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 - 🌐 [「TAG」覆盖90+国家地区，机场中节点最广](https://tagss01.pro/#/auth/xfm2jXlF)
 
 <hr style="border-top: 2px solid #3498DB;">
