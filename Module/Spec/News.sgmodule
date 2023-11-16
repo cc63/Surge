@@ -1,8 +1,0 @@
-#!name=Apple News
-#!desc=News分流规则
-
-[Rule]
-# Apple News
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list,ChatGPT
-PROCESS-NAME,/System/Applications/News.app/Contents/MacOS/News,ChatGPT
-PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,ChatGPT
