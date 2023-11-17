@@ -49,3 +49,5 @@
 🙌 感谢使用与支持！
 
 </div>
+
+### ![Visitor Count](https://profile-counter.glitch.me/{cc63}/count.svg)
