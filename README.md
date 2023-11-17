@@ -39,6 +39,5 @@
 
 <hr style="border-top: 2px solid #3498DB;">
 
-<!--
 ### ![Visitor Count](https://profile-counter.glitch.me/{cc63}/count.svg)
--->
+
