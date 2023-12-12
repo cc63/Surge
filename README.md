@@ -1,32 +1,25 @@
-# 🚀 Surge
-
 <div align="center">
-    <h3 style="color: #2980B9;">🔧 我自用的Surge模块集合</h3>
+    <h1 style="color: #2980B9;"> 📱 Surge Module </h1>
     <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="300">
 </div>
 
 <hr style="border-top: 2px solid #3498DB;">
 
-## 📖 使用指南
+## 📖 Panel面板模块
 
-### 1️⃣. 安装环境要求
+- 🌐 **节点信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
+- 🛫 **机场信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
+- ⛽ **汽油价格** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
+- 🎥 **流媒体检测** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Stream)
 
-- 📱 **AppStore 版 Surge 5.0 或更高版本**
-- 🚀 **TestFlight 版 5.20.0 (2433) 或更高版本**
 
-⚠️ 需要使用至少 **Surge 5.0** 版本的网络调试工具。
+## 🔧 Tools工具模块
 
-<hr style="border-top: 1px dashed #AED6F1;">
-
-### 2️⃣. 模块链接汇总
-
-- 🌐 **面板-节点信息 :** [查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
-- 🛫 **面板-机场信息 :** [查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
-- 🎥 **面板-流媒体检测 :** [查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Stream)
-- ⛽ **面板-汽油价格 :** [查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
-- 🔐 **加密DNS :** [查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
-- 🛍️ **Sub-Store :** [查看链接](https://github.com/sub-store-org/Sub-Store)
-- 📺 **流媒体双语字幕 :** [查看链接](https://github.com/DualSubs/Universal)
+- 🛍️ **Sub-Store：订阅管理工具** [查看链接](https://github.com/sub-store-org/Sub-Store)
+- 🪂 **Script-Hub：重写&规则集转换** [查看链接](https://github.com/Script-Hub-Org/Script-Hub)
+- 📺 **DualSubs：流媒体平台字幕增强及双语模块** [查看链接](https://github.com/DualSubs/Universal)
+- 🔐 **加密DNS：阿里云DNS-over-Quic** [查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
+- 🎬 **哔哩哔哩：每日等级任务** [查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 
 <hr style="border-top: 2px solid #3498DB;">
 
