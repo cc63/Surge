@@ -1,6 +1,6 @@
 <div align="center">
-    <h1 style="color: #2980B9;"> 📱 Surge Module </h1>
-    <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="300">
+    <img src="https://raw.githubusercontent.com/cc63/Surge/main/Surge.PNG" width="200">
+    <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="200">
 </div>
 
 <hr style="border-top: 2px solid #3498DB;">
