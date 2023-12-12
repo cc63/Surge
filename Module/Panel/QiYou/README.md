@@ -24,7 +24,3 @@
 4. 复制上方“模块链接”里的内容
 5. 将内容粘贴到本地模块中
 6. 按照提示填写信息即可
-
----
-
-### ![Visitor Count](https://profile-counter.glitch.me/{cc63}/count.svg)
