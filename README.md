@@ -15,11 +15,11 @@
 
 ## 🔧 Tools工具模块
 
-- 🛍️ **Sub-Store：订阅管理工具** [查看链接](https://github.com/sub-store-org/Sub-Store)
-- 🪂 **Script-Hub：重写&规则集转换** [查看链接](https://github.com/Script-Hub-Org/Script-Hub)
-- 📺 **DualSubs：流媒体平台字幕增强及双语模块** [查看链接](https://github.com/DualSubs/Universal)
-- 🔐 **加密DNS：阿里云DNS-over-Quic** [查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
-- 🎬 **哔哩哔哩：每日等级任务** [查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
+- 🛍️ **Sub-Store 订阅管理** ：[查看链接](https://github.com/sub-store-org/Sub-Store)
+- 🪂 **Script-Hub 重写转换** ：[查看链接](https://github.com/Script-Hub-Org/Script-Hub)
+- 🎬 **DualSubs 双语字幕** ：[查看链接](https://github.com/DualSubs/Universal)
+- 📺 **Bilibili 每日经验任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
+- 🔐 **阿里云 DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
 
 <hr style="border-top: 2px solid #3498DB;">
 
