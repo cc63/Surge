@@ -43,19 +43,9 @@
 - **更新外部资源**:
   - 点击首页最上方 -> 打开 **Profile** 页面 -> 选择 **更新外部资源**
 
-<div align="center">
-
-🙌 感谢使用与支持！
-
-</div>
----
-
 ## ✈️ 推荐的机场服务
 
 我个人体验良好，但不保证适合每位用户。建议先选择月付体验。任何机场都存在不确定性。
 
 - 🌍 [「MESL」主打公有云专线 落地线路丰富 点亮全球中](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 - 🌐 [「TAG」目前共有90+个国家地区节点，覆盖范围目前是机场里最广的。](https://tagss01.pro/#/auth/xfm2jXlF)
-
-- ### ![Visitor Count](https://profile-counter.glitch.me/{cc63}/count.svg)
-
