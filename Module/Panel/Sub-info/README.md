@@ -50,17 +50,6 @@
 | `icon`     | 设置自定义图标 (内容为SF Symbols)              |
 | `color`    | 自定义图标颜色 (例如：`color=#007aff`)        |
 
-<div align="center">
-
-<hr style="border-top: 2px dashed #3498DB;">
-
-💡 请确保您的 Surge 版本保持最新以获得最佳体验
-<br>
-❤️ 感谢每一位支持者！
-
-</div>
-
----
 
 ## ✈️ 我推荐的机场
 
@@ -68,10 +57,3 @@
 
 - 🌍 [「MESL」专线丰富，全球覆盖](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 - 🌐 [「TAG」超90国家地区节点，覆盖范围广](https://tagss01.pro/#/auth/xfm2jXlF)
-
-</div>
-
----
-### ![Visitor Count](https://profile-counter.glitch.me/{cc63}/count.svg)
-
-
