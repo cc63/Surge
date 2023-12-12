@@ -4,8 +4,8 @@
 
 ## 📖 Panel面板模块
 
-- 🌐 **节点信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
 - 🛫 **机场信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
+- 🌐 **节点信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
 - ⛽ **汽油价格** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
 - 🎥 **流媒体检测** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Stream)
 
