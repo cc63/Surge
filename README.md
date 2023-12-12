@@ -30,6 +30,3 @@
 - 🌐 [「TAG」覆盖90+国家地区，机场中节点最广](https://tagss01.pro/#/auth/xfm2jXlF)
 
 <hr style="border-top: 2px solid #3498DB;">
-
-### ![Visitor Count](https://profile-counter.glitch.me/{cc63}/count.svg)
-
