@@ -4,7 +4,7 @@
 
 **一个可以显示你当前节点信息的面板**
 
-<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.PNG" width="300">
+<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="300">
 
 </div>
 
