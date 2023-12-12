@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="350">
+ <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="400">
 </div>
 
 <hr style="border-top: 2px solid #3498DB;">
