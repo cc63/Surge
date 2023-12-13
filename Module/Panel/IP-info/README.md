@@ -1,10 +1,6 @@
 <div align="center">
     
-# 🌐 面板-节点信息
-
-**一个可以显示你当前节点信息的面板**
-
-<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="300">
+<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="280">
 
 </div>
 
