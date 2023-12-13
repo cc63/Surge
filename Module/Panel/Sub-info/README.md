@@ -1,19 +1,6 @@
 <div align="center">
-
-<h1 style="color: #2E86C1;">✈️ 面板-机场信息</h1>
-
 <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.PNG" width="300" alt="面板预览">
 <br>
-
-<p style="font-size: 16px; color: #1ABC9C;">
-🌐 动态展示机场订阅信息
-<br>
-📊 包括用量、到期日期等重要信息
-<br>
-🛠️ 已优化流量重置日在月底可能产生的冲突
-</p>
-
-<hr style="border-top: 2px dashed #3498DB;">
 
 </div>
 
