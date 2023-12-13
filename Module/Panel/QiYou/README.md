@@ -14,13 +14,13 @@
 
 ### 📦 如何安装模块
 
-- **模块链接 :** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.sgmodule
+- **本地模块 :** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.sgmodule
 
 ### 🛠 安装方式
 
-1. 打开 Surge 
-2. 导航至 模块
-3. 选择 新建本地模块
-4. 复制上方“模块链接”里的内容
-5. 将内容粘贴到本地模块中
-6. 按照提示填写信息即可
+1. 打开 `Surge `
+2. 导航至 `模块`
+3. 选择 `新建本地模块`
+4. 复制上方`“本地模块”`里的内容（注意：是`复制内容`，不是链接）
+5. 将内容 `粘贴到本地模块` 中
+6. 按照提示`填写城市信息`即可
