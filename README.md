@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="300">
+ <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module.PNG" width="280">
 </div>
 
 ## 📖 Panel面板模块
