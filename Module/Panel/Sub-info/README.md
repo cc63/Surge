@@ -28,26 +28,26 @@
 
 ### 📦 模块链接
 
-> **稳定版** ➤ [点击获取](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule)
+> **本地模块** ➤ [点击获取](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule)
 
 ### 🛠 安装步骤
 
 1. 打开 `Surge`
-2. 导航至“模块”选项
-3. 新建一个本地模块
-4. 从上方链接复制内容（注意：是复制内容，不是链接）
-5. 使用 [此链接](https://www.urlencoder.org/zh/) 将节点订阅链接转为 encode 格式
-6. 替换"url="后的[机场节点链接]
-7. 🎉 完成！开始体验精准的订阅信息展示
+2. 导航至`模块`选项
+3. 新建一个`本地模块`
+4. 从上方链接`复制内容`（注意：是复制内容，不是链接）
+5. 使用 [URL-ENCODE](https://www.urlencoder.org/zh/) 将节点订阅链接转为 `ENCODE 格式`
+6. 替换"url="后的`[编码后的订阅链接]`
+7. 🎉 大功告成！真棒！
 
 ## ⚙️ 参数选项
 
 | 参数名     | 描述                                         |
 |-----------|---------------------------------------------|
-| `reset_day` | 设置流量重置日期 (范围：1-31)                   |
+| `reset_day` | 设置流量重置日期 (范围：`1-31`)                   |
 | `expire`   | 正常可自动获取，设为`false`取消显示；或用`yyyy-mm-dd`格式手动设定到期时间 |
 | `title`    | 自定义面板标题                               |
-| `icon`     | 设置自定义图标 (内容为SF Symbols)              |
+| `icon`     | 设置自定义图标 (内容为`SF Symbols`)              |
 | `color`    | 自定义图标颜色 (例如：`color=#007aff`)        |
 
 
