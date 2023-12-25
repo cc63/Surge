@@ -42,3 +42,7 @@
 - **更新外部资源**:
   - 点击首页最上方 -> 打开 **Profile** 页面 -> 选择 **更新外部资源**
 
+## ✈️ 我推荐的机场
+
+- 🌍[「MESL」公有云专线/家宽节点，落地线路丰富，冷门地区线路覆盖](https://in.mesl.cloud/#/register?code=YiKXC8T0)
+- 🌍[「CTC」小众精品，不限时套餐备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
