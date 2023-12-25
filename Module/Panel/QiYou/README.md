@@ -24,3 +24,8 @@
 4. 复制上方`“本地模块”`里的内容（注意：是`复制内容`，不是链接）
 5. 将内容 `粘贴到本地模块` 中
 6. 按照提示`填写城市信息`即可
+
+## ✈️ 我推荐的机场
+
+- 🌍[「MESL」公有云专线/家宽节点，落地线路丰富，冷门地区线路覆盖](https://in.mesl.cloud/#/register?code=YiKXC8T0)
+- 🌍[「CTC」小众精品，不限时套餐备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
