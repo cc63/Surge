@@ -39,7 +39,5 @@
 
 ## ✈️ 我推荐的机场
 
-**我个人体验良好，但不保证适合每位用户。建议先选择月付体验。任何机场都存在不确定性。**
-
-- 🌍 [「MESL」专线丰富，全球覆盖](https://in.mesl.cloud/#/register?code=YiKXC8T0)
-- 🌐 [「TAG」超90国家地区节点，覆盖范围广](https://tagss01.pro/#/auth/xfm2jXlF)
+- 🌍[「MESL」公有云专线/家宽节点，落地线路丰富，冷门地区线路覆盖](https://in.mesl.cloud/#/register?code=YiKXC8T0)
+- 🌍[「CTC」小众精品，不限时套餐备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
