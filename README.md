@@ -34,5 +34,4 @@
 ## ✈️ 我推荐的机场
 
 - 🚀[「MESL」公有云/低倍率/家宽节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
-- 🚀[「TAG」点亮全球，覆盖地区广，众多家宽节点](https://tagss03.pro/#/auth/xfm2jXlF)
 - 🚀[「CTC」小众精品，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
