@@ -22,7 +22,7 @@
 ## 🔧 Rules分流规则
 
 - 🎵 **blackmatrix7 分流规则** ：[查看链接](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
-- 🎵 **blackmatrix7 去广告规则** ：[Rule-Set链接](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) | [配套MitM模块](https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
+- 🎵 **blackmatrix7 去广告规则** ：[Rule-Set链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) | [配套MitM模块](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
 
 ## 💼 联系 & 反馈
 -  Telegram: [ccc63](https://t.me/ccc63)
