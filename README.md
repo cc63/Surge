@@ -19,10 +19,12 @@
 - 📺 **Bilibili 每日经验任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🔐 **阿里云 DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
 
-## 🔧 Rules分流规则
-
-- 🎵 **blackmatrix7 分流规则** ：[查看链接](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
-- 🎵 **blackmatrix7 去广告规则** ：[Rule-Set链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) | [配套MitM模块](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
+## 🔧 Others其他配置
+-  🛜 **网络延迟测试URL** ：http://wifi.vivo.com.cn/generate_204
+-  🛜 **代理延迟测试URL** ：http://1.1.1.1/generate_204
+-  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+-  🚥 **分流规则** ：[查看链接](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
+-  ⛔ **广告拦截** ：[RULE-SET链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) | [配套MitM模块](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
 
 ## 💼 联系 & 反馈
 -  Telegram: [ccc63](https://t.me/ccc63)
