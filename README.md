@@ -23,7 +23,7 @@
 -  🛜 **网络延迟测试URL** ：http://wifi.vivo.com.cn/generate_204
 -  🛜 **代理延迟测试URL** ：http://1.1.1.1/generate_204
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
--  🚥 **分流规则** ：[查看链接](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
+-  🚥 **分流规则** ：[点击前往blackmatrix7的规则合集](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 -  ⛔ **广告拦截** ：[RULE-SET链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) | [配套MitM模块](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
 
 ## 💼 联系 & 反馈
