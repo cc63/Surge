@@ -23,7 +23,7 @@
 - 📺 **Bilibili 每日等级任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🪂 **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 
-## 📦 General Conf
+## 📦 General Set
 -  🚥 **分流规则** ：[前往Surge规则仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 -  ⛔ **广告拦截** ：[分流规则](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) - [配套模块](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
 -  🛜 **代理延迟测试** ：http://1.1.1.1/generate_204
