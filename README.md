@@ -46,9 +46,9 @@
 
 **二、我用的机场**
 
-> **「MESL」** [公有云节点、家宽节点、低倍率节点，线路丰富且优质](https://in.mesl.cloud/#/register?code=YiKXC8T0)
+> **「MESL」** [拥有公有云节点、家宽节点、低倍率节点，落地线路丰富且优质。](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
->  **「TAG」** [全球 90 + 国家地区节点，覆盖范围目前是最广的。](https://tagss03.pro/#/auth/xfm2jXlF)
+>  **「TAG」** [全球 100 + 国家地区节点，覆盖范围是目前机场圈最广的。](https://tagss03.pro/#/auth/xfm2jXlF)
 
->  **「CTC」** [小众精品，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
+>  **「CTC」** [小众精品，备用首选。](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
 
