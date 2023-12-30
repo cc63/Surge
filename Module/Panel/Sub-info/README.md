@@ -19,7 +19,7 @@
 
 1. 选择`新建本地模块`
 2. 把获取的`模块内容`粘贴进去
-3. 用 [URL编码](https://www.urlencoder.org/zh/) ，将订阅链接 `Encode`
+3. 用 [URL编码](https://www.urlencoder.org/zh/) 将订阅链接 `Encode`
 4. 填写到`[编码后的订阅链接]`处
 
 ## ⚙️ 高级参数
