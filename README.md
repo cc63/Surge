@@ -33,7 +33,7 @@
 ## 🧑‍💻Genious Bar天才吧
 | 仓库         |  推荐理由          |
 |-------------|-------------------|
-|  |   |
+| [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)| 爬虫佬，全网最全分流  |
 |  |   |
 
 
