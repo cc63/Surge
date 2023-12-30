@@ -48,5 +48,5 @@
 
 >  **TAG** ➤ [全球 90 + 国家地区节点，覆盖范围目前是最广的。](https://tagss03.pro/#/auth/xfm2jXlF)
 
-> **CTC** ➤ [小众精品，备用首选，群里偶尔抽e卡](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
+> **CTC** ➤ [小众精品，维护积极，备用首付](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
 
