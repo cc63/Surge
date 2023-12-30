@@ -31,7 +31,7 @@
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
 ## 🧑‍💻 Genious Bar天才吧
-⚠️ **注意** ：部分仓库仅支持QX格式，可使用🔧工具模块`Script-Hub`轻松转换
+⚠️ **注意** ：少数仓库仅支持QX格式，可使用🔧工具模块`Script-Hub`轻松转换
 | 仓库         |  推荐理由          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)| 爬虫佬，全网最全分流  |
