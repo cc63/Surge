@@ -14,7 +14,7 @@
 
 ## 📦 模块链接
 
-> **远程模块** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Stream/Moore/Stream.sgmodule
+> **远程模块** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Stream/Moore/Stream-Test.sgmodule
 
 ## ✈️ 我推荐的机场
 
