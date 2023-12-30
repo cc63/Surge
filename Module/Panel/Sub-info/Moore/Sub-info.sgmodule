@@ -1,7 +1,6 @@
 #!name=面板-机场信息
 #!desc=流量信息/智能提醒/到期日期
 #!system=ios
-# 教程：https://github.com/cc63/Surge/blob/main/Module/Panel/Sub-info
 
 [Panel]
 Sub-info = script-name=1号机场,update-interval=7200
