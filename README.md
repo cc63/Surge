@@ -16,12 +16,12 @@
 - 🍟 **DualSubs 双语字幕** ：[查看链接](https://github.com/DualSubs/Universal)
 - 🛍️ **Sub-Store 订阅管理** ：[查看链接](https://github.com/sub-store-org/Sub-Store)
 - 📝 **Script-Hub 重写转换** ：[查看链接](https://github.com/Script-Hub-Org/Script-Hub)
-- 🪃 **Google重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
+- 🪃 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🔐 **DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
-- 🚫 **AD Block去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
-- 🛒 **JD Price京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
+- 🚫 **AD-Block 去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
+- 🛒 **JD-Price 京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
 - 📺 **Bilibili 每日等级任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 🪂 **Skip-Proxy跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
+- 🪂 **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 
 ## 📦 General通用配置
 -  🚥 **分流规则** ：[前往blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
