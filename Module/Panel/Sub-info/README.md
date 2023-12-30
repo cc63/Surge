@@ -12,11 +12,11 @@
 
 ## 📦 使用教程
 
-#### 一、获取模块
+**一、获取模块**
 
 > **本地模块** ➤ [点击获取](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule)
 
-#### 二、 开始安装
+**二、 开始安装**
 
 1. 打开Surge，导航至`模块`
 2. 选择`新建本地模块`，把上面链接中模块的`内容`粘贴进去
