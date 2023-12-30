@@ -1,4 +1,5 @@
 <div align="center">
+ <h1 align="center">Surge Ultra</h1>
  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200">
 </div>
 
