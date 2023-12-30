@@ -17,12 +17,12 @@
 - 🛍️ **Sub-Store 订阅管理** ：[查看链接](https://github.com/sub-store-org/Sub-Store)
 - 📝 **Script-Hub 重写转换** ：[查看链接](https://github.com/Script-Hub-Org/Script-Hub)
 - 📺 **Bilibili 每日等级任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 🔐 **阿里云 DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
+- 🔐 **DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
 - 🚫 **AD Block去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
 - 🛒 **JD Price京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
-- 🛒 **Skip-Proxy跳过代理检测** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
+- 🛒 **Skip-Proxy跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 
-## 🔧 Others其他配置
+## 🔧 Conf配置文件
 -  🛜 **直连延迟测试** ：http://wifi.vivo.com.cn/generate_204
 -  🛜 **代理延迟测试** ：http://1.1.1.1/generate_204
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
