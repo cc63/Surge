@@ -2,8 +2,6 @@
 #!desc = AliYun DNS-over-Quic
 
 [General]
-# 自定义DNS
 dns-server = 223.5.5.5
-# 加密DNS
 doh-skip-cert-verification = true
 encrypted-dns-server = quic://223.5.5.5:853
