@@ -1,5 +1,5 @@
 <div align="center">
- <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="280">
+ <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200">
 </div>
 
 ## 📖 Panel Module
