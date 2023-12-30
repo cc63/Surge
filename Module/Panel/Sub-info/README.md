@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.PNG" width="280" alt="面板预览">
+<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub.PNG" width="280" alt="面板预览">
 <br>
 
 </div>
