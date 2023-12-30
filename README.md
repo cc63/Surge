@@ -40,11 +40,11 @@
 
 
 ## 🤖About ME关于我
-**一、我的联系信息** 
+**一、Telegram** 
 
-> **Telegram：**[@SurgeUltra](https://t.me/SurgeUltra)
+> **MY CHANNEL：**[@SurgeUltra](https://t.me/SurgeUltra)
 
-**二、我使用的机场**
+**二、我用的机场**
 
 > **「MESL」** [公有云节点、家宽节点、低倍率节点，线路丰富且优质](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
