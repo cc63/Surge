@@ -13,11 +13,14 @@
 ## 🔧 Tools工具模块
 
 - 🎵 **TikTok 免拔卡解锁** ：[查看链接](https://github.com/Semporia/TikTok-Unlock)
-- 🎬 **DualSubs 双语字幕** ：[查看链接](https://github.com/DualSubs/Universal)
+- 🍟 **DualSubs 双语字幕** ：[查看链接](https://github.com/DualSubs/Universal)
 - 🛍️ **Sub-Store 订阅管理** ：[查看链接](https://github.com/sub-store-org/Sub-Store)
-- 🪂 **Script-Hub 重写转换** ：[查看链接](https://github.com/Script-Hub-Org/Script-Hub)
-- 📺 **Bilibili 每日经验任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
+- 📝 **Script-Hub 重写转换** ：[查看链接](https://github.com/Script-Hub-Org/Script-Hub)
+- 📺 **Bilibili 每日等级任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🔐 **阿里云 DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
+- 🚫 **AD Block去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
+- 🛒 **JD Price京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
+- 🛒 **Skip-Proxy跳过代理检测** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 
 ## 🔧 Others其他配置
 -  🛜 **直连延迟测试** ：http://wifi.vivo.com.cn/generate_204
