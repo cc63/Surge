@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# ✈️ 面板-机场流量信息
+# ✈️ 面板-机场信息
 <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.PNG" width="280" alt="面板预览">
 <br>
 
