@@ -1,5 +1,5 @@
 #!name = Ali-DoQ
-#!desc = 使用阿里DNS-over-Quic (DoQ)
+#!desc = AliYun DNS-over-Quic
 
 [General]
 # 自定义DNS
