@@ -44,7 +44,7 @@
 
 - 🛩️**我使用的机场**
 
-> **MESL** ➤ [UDPN节点、家宽节点、低倍率节点，落地线路丰富，冷门地区覆盖广](https://in.mesl.cloud/#/register?code=YiKXC8T0)
+> **MESL** ➤ [UDPN节点、家宽节点、低倍率节点，落地线路丰富，地区覆盖广](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
 > **CTC** ➤ [小众精品，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
 
