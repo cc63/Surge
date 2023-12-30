@@ -20,8 +20,8 @@
 - 🔐 **DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
 - 🚫 **AD Block去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
 - 🛒 **JD Price京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
-- 🪂 **Skip-Proxy跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 - 📺 **Bilibili 每日等级任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
+- 🪂 **Skip-Proxy跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 
 ## 🔧 Conf配置文件
 -  🛜 **直连延迟测试** ：http://wifi.vivo.com.cn/generate_204
