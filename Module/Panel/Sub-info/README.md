@@ -19,7 +19,7 @@
 
 1. 选择`新建本地模块`
 2. 把获取的`模块内容`粘贴进去
-3. 使用 [URL编码工具](https://www.urlencoder.org/zh/) ，将机场的订阅链接进行 `Encode编码`，转化为模块可用的格式
+3. 用 [URL编码](https://www.urlencoder.org/zh/) ，将订阅链接 `Encode编码`
 4. 填写到`[编码后的订阅链接]`处
 
 ## ⚙️ 高级参数
