@@ -40,7 +40,7 @@
 
 
 ## 🤖About ME关于我
-- **Telegram Channel** ：[@SurgeUltra](https://t.me/SurgeUltra)
+- **Telegram** ：[@SurgeUltra](https://t.me/SurgeUltra)
 
 - **我使用的机场**
 
