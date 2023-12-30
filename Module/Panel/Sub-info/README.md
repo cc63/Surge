@@ -14,14 +14,14 @@
 
 **一、获取模块**
 
-> **本地模块** ➤ [点击获取](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule)
+> **本地模块** ➤ [点击获取内容](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule)
 
 **二、 开始安装**
 
 1. 打开Surge，导航至`模块`
-2. 选择`新建本地模块`，把上面链接中模块的`内容`粘贴进去
-3. 使用 [URL-Encode](https://www.urlencoder.org/zh/) 将节点订阅链接转为 `Encode格式`
-4. 填写到模块中`[编码后的订阅链接]`处，大功告成
+2. 选择`新建本地模块`，把上面链接中的`内容`粘贴进去
+3. 使用 [URL编码工具](https://www.urlencoder.org/zh/) ，将机场订阅链接进行 `Encode编码`
+4. 填写到模块中`[编码后的订阅链接]`处，大功告成🎉
 
 ## ⚙️ 高级参数
 
