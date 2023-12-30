@@ -40,9 +40,9 @@
 
 
 ## 🤖About ME关于我
-**一、Telegram** 
+**一、我的信息** 
 
-> **我的频道：**[@SurgeUltra](https://t.me/SurgeUltra)
+> **Telegram：**[@SurgeUltra](https://t.me/SurgeUltra)
 
 **二、我使用的机场**
 
