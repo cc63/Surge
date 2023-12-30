@@ -31,7 +31,11 @@
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
 ## 🧑‍💻Genious Bar天才吧
-@mieqq
+| 仓库         |  推荐理由          |
+|-------------|-------------------|
+|  |   |
+|  |   |
+
 
 
 ## ✈️ 我推荐的机场
