@@ -40,7 +40,7 @@
 
 
 ## 🤖About ME关于我
-**Telegram Channel** ：[Surge Ultra](https://t.me/SurgeUltra)
+**Telegram Channel** ：[@Surge Ultra](https://t.me/SurgeUltra)
 
 [「MESL」公有云/低倍率/家宽节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
