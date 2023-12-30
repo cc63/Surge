@@ -30,9 +30,8 @@
 -  🛜 **直连延迟测试** ：http://wifi.vivo.com.cn/generate_204
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
-## 💼 联系 & 反馈
--  Telegram: [ccc63](https://t.me/ccc63)
-- 🙌 感谢你的访问和支持！如有任何建议或反馈，请随时通过 Telegram 向我反馈。
+##🧑‍💻Genious Bar天才吧
+
 
 
 ## ✈️ 我推荐的机场
