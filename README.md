@@ -40,7 +40,7 @@
 
 
 ## 🤖About ME关于我
-**一、我的信息** 
+**一、我的联系信息** 
 
 > **Telegram：**[@SurgeUltra](https://t.me/SurgeUltra)
 
