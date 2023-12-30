@@ -30,11 +30,11 @@
 -  🛜 **直连延迟测试** ：http://wifi.vivo.com.cn/generate_204
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
-### 🧑‍💻Genious Bar天才吧
+## 🧑‍💻Genious Bar天才吧
 @mieqq
 
 
 ## ✈️ 我推荐的机场
 
-- 🚀[「MESL」公有云/低倍率/家宽节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
-- 🚀[「CTC」小众精品，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
+🚀[「MESL」公有云/低倍率/家宽节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
+🚀[「CTC」小众精品，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
