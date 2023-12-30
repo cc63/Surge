@@ -40,9 +40,9 @@
 
 
 ## 🤖About ME关于我
-- 🎤**Telegram Channel** ：[@SurgeUltra](https://t.me/SurgeUltra)
+- **Telegram Channel** ：[@SurgeUltra](https://t.me/SurgeUltra)
 
-- 🛩️**我使用的机场**
+- **我使用的机场**
 
 > **MESL** ➤ [UDPN节点、家宽节点、低倍率节点，落地线路丰富，地区覆盖广](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
