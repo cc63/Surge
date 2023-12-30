@@ -1,9 +1,7 @@
 #!name=面板-机场信息
 #!desc=流量信息/智能提醒/到期日期
 #!system=ios
-# URL编码：https://www.urlencoder.org/zh/
-# 推荐参数：&reset_day=8 表示流量每月8号重置，范围为:1-31
-# 更多参数：https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info
+# 教程：https://github.com/cc63/Surge/blob/main/Module/Panel/Sub-info
 
 [Panel]
 Sub-info = script-name=1号机场,update-interval=7200
