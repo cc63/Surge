@@ -50,5 +50,5 @@
 
 >  **「TAG」** [全球 100 + 国家地区节点，覆盖范围是目前机场圈最广的。](https://tagss03.pro/#/auth/xfm2jXlF)
 
->  **「CTC」** [小众精品，备用首选。](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
+>  **「CTC」** [小众精品、备用首选，群里还会偶尔抽点京东e卡。](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
 
