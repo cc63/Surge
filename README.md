@@ -32,7 +32,7 @@
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
 ## 🧑‍💻 Genious Bar
-⚠️ **注意** ：少数仓库仅支持QX格式，可使用🔧工具模块`Script-Hub`轻松转换
+⚠️**特别注意** ：少数仓库仅支持QX格式，可使用🔧工具模块中的`Script-Hub`轻松转换
 | 仓库         |  推荐理由          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 全网最强的分流规则合集，优质去广告模块|
