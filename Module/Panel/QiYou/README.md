@@ -1,29 +1,22 @@
 <div align="center">
-
-# ⛽ 实时油价信息
-
 <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.PNG" width="300">
-
 </div>
 
 ## 🚀 展示内容
 
-- 📊 当前汽油价格
+- ⛽️ 92/95/98汽油价格
 
-## 📘 使用指南
+## 📦 使用教程
 
-### 📦 如何安装模块
+**一、获取模块**
 
-- **本地模块 :** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.sgmodule
+> **本地模块** ➤ [获取模块内容](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.sgmodule)
 
-### 🛠 安装方式
+**二、开始安装**
 
-1. 打开 `Surge `
-2. 导航至 `模块`
-3. 选择 `新建本地模块`
-4. 复制上方`“本地模块”`里的内容（注意：是`复制内容`，不是链接）
-5. 将内容 `粘贴到本地模块` 中
-6. 按照提示`填写城市信息`即可
+1. 选择`新建本地模块`
+2. 把获取的`模块内容`粘贴进去
+3. 按要求填写`城市拼音`
 
 ## ✈️ 我推荐的机场
 
