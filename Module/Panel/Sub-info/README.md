@@ -29,7 +29,6 @@
 | `reset_day` | 重置日             | `1-31`         | 
 | `icon`      | 图标样式           | `SF Symbols`   | 
 | `color`     | 图标颜色           | `#FF0000`      | 
-| `expire`    | 到期时间           | `自动获取`或`false` | 
 
 
 ## ✈️ 我推荐的机场
