@@ -17,8 +17,3 @@
 1. 选择`新建本地模块`
 2. 把获取的`模块内容`粘贴进去
 3. 按要求填写`城市拼音`
-
-## ✈️ 我推荐的机场
-
-- 🚀[「MESL」公有云/低倍率/家宽节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
-- 🚀[「CTC」小众精品，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
