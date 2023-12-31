@@ -1,4 +1,4 @@
-//作者：cc63&ChatGPT
+//作者：cc63
 //更新时间：2023年12月31日
 
 let url = "http://ip-api.com/json"
