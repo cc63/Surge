@@ -12,7 +12,7 @@ $httpClient.get(url, function(error, response, data){
     let isp = jsonData.isp
     let ip = jsonData.query
 // 避免City与Country重复
-let location = (country === city) ? `${emoji} ${country}` : `${emoji}${countryCode} ${city}`;
+let location = (country === city) ? `${emoji}${country}` : `${emoji}${countryCode} ${city}`;
 // 去除ISP变量中的无意义的内容
 let cleanedIsp = isp.replace(/[,-]|\.$|\(.*\)|\b(hong kong|mass internet|communications?|information|technolog(y|ies)|chunghwa)\b/gi, '');
 // 去除连续空格
