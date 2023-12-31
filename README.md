@@ -51,9 +51,9 @@
 ## 📦 General 通用设置
 -  🚥 **分流规则** ：[前往Surge规则仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 -  ⛔ **广告拦截** ：[分流规则](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) │ [配套模块](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
--  🛜 **代理延迟测试** ：http://1.1.1.1/generate_204
--  🛜 **直连延迟测试** ：http://wifi.vivo.com.cn/generate_204
--  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+-  🛜 **代理延迟** ：http://1.1.1.1/generate_204
+-  🛜 **直连延迟** ：http://wifi.vivo.com.cn/generate_204
+-  🌍 **GEOIP库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
 ## 🧑‍💻 Genious Bar 天才吧
 | 仓库         |  描述          |
