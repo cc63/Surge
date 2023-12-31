@@ -10,8 +10,8 @@ $httpClient.get(url, function(error, response, data){
     let ip = jsonData.query
 // 避免City与Country重复出现
 let location = (country === city) ? `${emoji}${country}` : `${emoji}${countryCode}-${city}`;
-// 去除 isp 变量中的标点符号
-let cleanedIsp = isp.replace(/[,]|(\.$)|\([^)]*\)|\-/g, '');
+// 去除 isp 变量中的标点符号和无意义的长单词
+let cleanedIsp = isp.replace(/[,-]|\.$|\(.*\)|\b(hong kong|mass internet|communications?|information|technolog(y|ies)|chunghwa)\b/gi, '');
 // 将运营商信息中的连续两个或多个空格替换为一个空格
     cleanedIsp = cleanedIsp.replace(/ {2,}/g, ' ');
 // 然后将 cleanedIsp 用于通知内容
