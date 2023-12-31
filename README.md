@@ -29,15 +29,24 @@
 
 ## 🔧 Tools 工具模块
 
+**一、大型项目**
+
 - 🎵 **TikTok 免拔卡解锁** ：[查看链接](https://github.com/Semporia/TikTok-Unlock)
 - 🍟 **DualSubs 双语字幕** ：[查看链接](https://github.com/DualSubs/Universal)
 - 🛍️ **Sub-Store 订阅管理** ：[查看链接](https://github.com/sub-store-org/Sub-Store)
 - 📝 **Script-Hub 重写转换** ：[查看链接](https://github.com/Script-Hub-Org/Script-Hub)
+-  **iRingo 解锁完整Apple** ：[查看链接](https://github.com/VirgilClyne/iRingo)
+- 🛡️ **BiliUniverse 哔哩万象** ：[查看链接](https://github.com/BiliUniverse/Universe)
+
+
+
+**二、实用资源**
+
+- 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🪃 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🔐 **DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
 - 🚫 **AD-Block 去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
 - 🛒 **JD-Price 京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
-- 📺 **Bilibili 每日等级任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🪂 **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 
 ## 📦 General 通用设置
