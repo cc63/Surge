@@ -3,7 +3,7 @@
  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200">
 </div>
 
-## 📖 Panel 面板模块
+## 🌠 Panel 面板模块
 
 **一、自有面板**
 - 🛫 **机场信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
@@ -27,7 +27,7 @@
 
 
 
-## 🔧 Tools 工具模块
+## 🛠️ Tools 工具模块
 
 **一、大型项目**
 
@@ -56,7 +56,7 @@
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
 ## 🧑‍💻 Genious Bar 天才吧
-⚠️**注意** ：少数仓库仅支持QX格式，可使用🔧工具模块的`Script-Hub`轻松转换
+⚠️**注意** ：少数仓库仅支持QX格式，可使用🛠️**工具模块**的`Script-Hub`轻松转换
 | 仓库         |  推荐理由          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则合集|
