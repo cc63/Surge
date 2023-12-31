@@ -30,7 +30,4 @@
 | `color`     | 图标颜色           | `#FF0000`      | 
 
 
-## ✈️ 我推荐的机场
-
-- 🚀[「MESL」公有云/低倍率/家宽节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
-- 🚀[「CTC」小众精品，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
+## ✈ 我用的机场👉[点击了解](https://github.com/cc63/Surge/tree/main?tab=readme-ov-file#-about-me)
