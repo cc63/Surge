@@ -35,8 +35,19 @@
 ⚠️**注意** ：少数仓库仅支持QX格式，可使用🔧工具模块的`Script-Hub`轻松转换
 | 仓库         |  推荐理由          |
 |-------------|-------------------|
-| [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 全网最强的分流规则合集，优质去广告模块|
-|  |   |
+| [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则合集|
+| [@deezertidal](https://github.com/deezertidal/Surge_Module)  | 最全模块合集 |
+| [@TributePaulWalker](https://github.com/TributePaulWalker/Profiles/tree/main/Surge)  | 配置文件模版  |
+| [@VirgilClyne](https://github.com/VirgilClyne)  | 双语字幕等高级项目  |
+| [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | Surge的资源收集  |
+| [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | 技术佬的模块仓库  |
+| [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站每日任务  |
+| [@RuCu6](https://github.com/RuCu6/QuanX)  | QX专业去广告重写 |
+| [@ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)  | QX收集大佬墨鱼 |
+
+
+
+
 
 
 
