@@ -68,7 +68,7 @@
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | QX去顽固广告 |
 | [@ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)  | 墨鱼QX资源 |
 
-⚠️ **注意** ：极少数仓库仅支持QX格式，可使用🛠️**工具模块**中的`Script-Hub`轻松转换为Surge模块
+⚠️ **注意** ：少数仓库仅支持QX格式，可使用🛠️**工具模块**中的`Script-Hub`轻松转为Surge模块
 
 
 
