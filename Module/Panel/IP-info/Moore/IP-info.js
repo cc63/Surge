@@ -1,3 +1,6 @@
+//作者：cc63&ChatGPT
+//更新时间：2023年12月31日
+
 let url = "http://ip-api.com/json"
 
 $httpClient.get(url, function(error, response, data){
@@ -8,12 +11,14 @@ $httpClient.get(url, function(error, response, data){
     let city = jsonData.city
     let isp = jsonData.isp
     let ip = jsonData.query
-// 避免City与Country重复出现
-let location = (country === city) ? `${emoji}${country}` : `${emoji}${countryCode}-${city}`;
-// 去除 isp 变量中的标点符号和无意义的长单词
+// 避免City与Country重复
+let location = (country === city) ? `${emoji} ${country}` : `${emoji}${countryCode} ${city}`;
+// 去除ISP变量中的无意义的内容
 let cleanedIsp = isp.replace(/[,-]|\.$|\(.*\)|\b(hong kong|mass internet|communications?|information|technolog(y|ies)|chunghwa)\b/gi, '');
-// 将运营商信息中的连续两个或多个空格替换为一个空格
+// 去除连续空格
     cleanedIsp = cleanedIsp.replace(/ {2,}/g, ' ');
+// 去除开头空格
+    cleanedIsp = cleanedIsp.replace(/^ /g, '');
 // 然后将 cleanedIsp 用于通知内容
 let body = {
     title: "节点信息",
