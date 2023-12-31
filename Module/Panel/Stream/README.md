@@ -10,7 +10,7 @@
 
 ## 🌟 展示信息
 
-- 📺 Netflix/Disney/YouTube的
+- 📺 Netflix/Disney/YouTube
 
 ## 📦 模块链接
 
