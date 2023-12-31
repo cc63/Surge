@@ -77,7 +77,7 @@
 
 ## 🤖 My AFF 我用的机场
 
-> **「MESL」** [拥有公有云节点、家宽节点、低倍率节点，落地线路丰富且优质](https://in.mesl.cloud/#/register?code=YiKXC8T0)
+> **「MESL」** [公有云节点、家宽节点、低倍率节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
 >  **「TAG」** [全球 100 + 国家地区节点，覆盖范围是目前机场圈最广的](https://tagss03.pro/#/auth/xfm2jXlF)
 
