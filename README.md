@@ -66,7 +66,7 @@
 | [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | Surge资源整合  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | 技术佬的模块  |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站每日任务  |
-| [@RuCu6](https://github.com/RuCu6/QuanX)  | 专业QX去广告 |
+| [@RuCu6](https://github.com/RuCu6/QuanX)  | QX去顽固广告 |
 | [@ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)  | 墨鱼QX资源 |
 
 
