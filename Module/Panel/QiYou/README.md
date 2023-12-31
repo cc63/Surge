@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/You.PNG" width="300">
+<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/You.png" width="300">
 </div>
 
 ## 🚀 展示内容
