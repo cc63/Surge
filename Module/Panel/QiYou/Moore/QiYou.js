@@ -74,8 +74,10 @@ $httpClient.get(
                     }
                 }
             }
-
-            const friendly_tips = `${adjust_date} ${adjust_trend} ${adjust_value}`
+// 去除日期变量中的无意义的内容
+let clean_date = adjust_date.replace(/24时|\(.*\)/g, '');
+		
+            const friendly_tips = `${clean_date} ${adjust_trend} ${adjust_value}`
 		
             if (prices.length !== 4) {
                 console.log(`解析油价信息失败, 数量=${prices.length}, 请反馈至 @RS0485: URL=${query_addr}`)
