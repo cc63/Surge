@@ -62,7 +62,7 @@
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则合集|
 | [@deezertidal](https://github.com/deezertidal/Surge_Module)  | Surge模块合集 |
 | [@TributePaulWalker](https://github.com/TributePaulWalker/Profiles/tree/main/Surge)  | 配置文件模版  |
-| [@VirgilClyne](https://github.com/VirgilClyne)  | 双语字幕等大型高级项目  |
+| [@VirgilClyne](https://github.com/VirgilClyne)  | 双语字幕薯条  |
 | [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | Surge资源整合  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | 技术佬的模块  |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站每日任务  |
