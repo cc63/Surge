@@ -1,4 +1,4 @@
-//作者：cc63&ChatGPT
+//作者：cc63
 //更新日期：2023年12月31日
 var region = 'shanxi-3/xian'
 
