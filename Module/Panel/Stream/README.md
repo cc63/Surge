@@ -10,13 +10,8 @@
 
 ## 🌟 展示信息
 
-- 📍 Netflix/Disney/YouTube的解锁地区
+- 📺 Netflix/Disney/YouTube的
 
 ## 📦 模块链接
 
 > **远程模块** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Stream/Moore/Stream-Test.sgmodule
-
-## ✈️ 我推荐的机场
-
-- 🚀[「MESL」公有云/低倍率/家宽节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
-- 🚀[「CTC」小众精品，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
