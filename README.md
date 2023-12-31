@@ -57,7 +57,7 @@
 
 ## 🧑‍💻 Genious Bar 天才吧
 ⚠️**注意** ：少数仓库仅支持QX格式，可使用🛠️**工具模块**的`Script-Hub`轻松转换
-| 仓库         |  推荐理由          |
+| 仓库         |  描述          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则合集|
 | [@deezertidal](https://github.com/deezertidal/Surge_Module)  | Surge模块合集 |
