@@ -35,9 +35,8 @@
 - 🍟 **DualSubs 双语字幕** ：[查看链接](https://github.com/DualSubs/Universal)
 - 🛍️ **Sub-Store 订阅管理** ：[查看链接](https://github.com/sub-store-org/Sub-Store)
 - 📝 **Script-Hub 重写转换** ：[查看链接](https://github.com/Script-Hub-Org/Script-Hub)
-- 🍎 **iRingo 解锁完整Apple** ：[查看链接](https://github.com/VirgilClyne/iRingo)
 - 🛡️ **BiliUniverse 哔哩万象** ：[查看链接](https://github.com/BiliUniverse/Universe)
-
+- 🍎 **iRingo 解锁完整Apple** ：[查看链接](https://github.com/VirgilClyne/iRingo)
 
 
 **二、实用资源**
