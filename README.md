@@ -6,7 +6,7 @@
 ## 🌠 Panel 面板模块
 
 **一、自有面板**
-- ✈️ **机场信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
+- 🚁 **机场信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
 - 🌐 **节点信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
 - ⛽ **汽油价格** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
 - 🎥 **流媒体检测** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Stream)
@@ -42,11 +42,11 @@
 **二、实用资源**
 
 - 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 🪃 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
+- 🌪️ **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🔐 **DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
 - 🚫 **AD-Block 去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
-- 🛒 **JD-Price 京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
-- 🪂 **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
+- 💰 **JD-Price 京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
+- 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 
 ## 📦 General 通用设置
 -  🚥 **分流规则** ：[前往Surge规则仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
