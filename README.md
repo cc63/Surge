@@ -79,7 +79,7 @@
 
 > **「MESL」** [公有云节点、家宽节点、低倍率节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
->  **「TAG」** [全球 100 + 国家地区节点，覆盖范围是目前机场圈最广的](https://tagss03.pro/#/auth/xfm2jXlF)
+>  **「TAG」** [全球 100 + 国家与地区，覆盖范围是机场圈最广的](https://tagss03.pro/#/auth/xfm2jXlF)
 
 >  **「CTC」** [小众精品、备用首选，群里还会偶尔抽点京东e卡](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
 
