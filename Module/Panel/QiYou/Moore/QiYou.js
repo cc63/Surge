@@ -1,3 +1,5 @@
+//作者：cc63&ChatGPT
+//更新日期：2023年12月31日
 var region = 'shanxi-3/xian'
 
 if (typeof $argument !== 'undefined' && $argument !== '') {
