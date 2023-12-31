@@ -5,10 +5,26 @@
 
 ## 📖 Panel 面板模块
 
+**一、自有面板**
 - 🛫 **机场信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
 - 🌐 **节点信息** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
 - ⛽ **汽油价格** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
 - 🎥 **流媒体检测** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Stream)
+
+**二、第三方面板**
+
+- **WARP** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/WARP)
+- **DNS刷新** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
+- **VPS监控** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/serverinfo.sgmodule)
+- **启动时长** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
+- **网络信息** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Network-Info)
+- **网速测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
+- **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/PingGif.sgmodule)
+- **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
+- **节点入口检测** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/NetIspmini.sgmodule)
+
+
+
 
 
 ## 🔧 Tools 工具模块
@@ -36,9 +52,9 @@
 | 仓库         |  推荐理由          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则合集|
-| [@deezertidal](https://github.com/deezertidal/Surge_Module)  | 最全模块合集 |
+| [@deezertidal](https://github.com/deezertidal/Surge_Module)  | Surge模块合集 |
 | [@TributePaulWalker](https://github.com/TributePaulWalker/Profiles/tree/main/Surge)  | 配置文件模版  |
-| [@VirgilClyne](https://github.com/VirgilClyne)  | 双语字幕等高级项目  |
+| [@VirgilClyne](https://github.com/VirgilClyne)  | 双语字幕等大型高级项目  |
 | [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | Surge资源整合  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | 技术佬的模块  |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站每日任务  |
