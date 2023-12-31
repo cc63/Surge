@@ -14,11 +14,11 @@
 **二、第三方面板**
 
 - ☁️ **WARP** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/WARP)
-- ❄️ **DNS刷新** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
-- 🌡️ **VPS监控** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/serverinfo.sgmodule)
 - ⏳ **启动时长** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
 - 🪩 **网络信息** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Network-Info)
 - 🕹️ **网速测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
+- 🌡️ **VPS监控** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/serverinfo.sgmodule)
+- ❄️ **DNS刷新** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
 - 🔍 **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/PingGif.sgmodule)
 - 🎯 **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
 - 📡 **节点入口检测** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/NetIspmini.sgmodule)
@@ -56,7 +56,6 @@
 -  🌍 **GEOIP数据库** ：https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
 ## 🧑‍💻 Genious Bar 天才吧
-⚠️**注意** ：少数仓库仅支持QX格式，可使用🛠️**工具模块**的`Script-Hub`轻松转换
 | 仓库         |  描述          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则合集|
@@ -68,6 +67,8 @@
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站每日任务  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | QX去顽固广告 |
 | [@ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)  | 墨鱼QX资源 |
+
+⚠️ **注意** ：极少数仓库仅支持QX格式，可使用🛠️**工具模块**中的`Script-Hub`轻松转换为Surge模块
 
 
 
