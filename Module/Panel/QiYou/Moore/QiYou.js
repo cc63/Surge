@@ -1,5 +1,7 @@
-//作者：cc63
-//更新日期：2024年1月1日
+/**********
+* 作者：cc63
+* 更新时间：2024年1月1日
+**********/
 var region = 'shanxi-3/xian'
 
 if (typeof $argument !== 'undefined' && $argument !== '') {
