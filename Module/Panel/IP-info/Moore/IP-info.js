@@ -14,7 +14,7 @@ $httpClient.get(url, function(error, response, data){
 // 避免City与Country重复
 let location = (country === city) ? `${emoji}${country}` : `${emoji}${countryCode} │ ${city}`;
 // 让ISP信息优雅的呈现在一行内
-let cleanedIsp = isp.replace(/[,]| \-|\.$|\(.*\)|\b(hong kong|mass internet|communications?|information|technolog(y|ies)|chunghwa|taiwan|co(\.)?)\b/gi, '');
+let cleanedIsp = isp.replace(/[,]| \-|\.$|\(.*\)|\b(hong kong|mass internet|communications?|information|technolog(y|ies)|chunghwa|taiwan|co\.?)\b/gi, '');
 // 去除可能出现的连续空格
     cleanedIsp = cleanedIsp.replace(/ {2,}/g, ' ');
 // 去除可能出现的开头空格
