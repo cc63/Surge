@@ -48,9 +48,9 @@
 - 💰 **JD-Price 京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 
-## 📦  General 通用设置
--  ⚙️ **配置文件** ：[查看链接](https://github.com/cc63/Surge/tree/main/Conf)
--  🚌 **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
+## ⚙️ General 通用设置
+-  📦 **配置文件** ：[查看链接](https://github.com/cc63/Surge/tree/main/Conf)
+-  ⛴️ **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 
 
 ## 🧑‍💻 Genious Bar 天才吧
