@@ -3,4 +3,4 @@
 </div>
 
 ## 🪐 配置文件
-> **「Surge Pro」** [查看内容](https://in.mesl.cloud/#/register?code=YiKXC8T0)
+> **「Surge Pro」** ：https://raw.githubusercontent.com/cc63/Surge/main/Conf/Surge%20Pro.conf
