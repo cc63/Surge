@@ -51,7 +51,6 @@
 ## 📦 General 通用设置
 -  ⛄️ **配置文件** ：[查看链接](https://github.com/cc63/Surge/tree/main/Conf)
 -  🚥 **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
--  ⛔ **广告拦截** ：[分流规则](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) │ [配套模块](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
 
 ## 🧑‍💻 Genious Bar 天才吧
 | 仓库         |  描述          |
