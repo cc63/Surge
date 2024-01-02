@@ -58,10 +58,10 @@
 ## 🧑‍💻 Genious Bar 天才吧
 | 仓库         |  描述          |
 |-------------|-------------------|
-| [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 最全分流规则|
+| [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 最全分流规则 |
 | [@deezertidal](https://github.com/deezertidal/Surge_Module)  | 会员解锁模块 |
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条妹妹  |
-| [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵的资源  |
+| [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵配置  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | Key佬的模块  |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站任务脚本  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 去除顽固广告 |
