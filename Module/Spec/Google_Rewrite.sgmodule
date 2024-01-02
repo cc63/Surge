@@ -1,5 +1,5 @@
-#!name=谷歌重定向
-#!desc=大陆谷歌跳转至Google.com
+#!name=Google重定向
+#!desc=CN谷歌重定向至Google.com
 
 [URL Rewrite]
 ^(http|https):\/\/(www.)?(g|google)\.cn https://www.google.com 307
