@@ -3,10 +3,6 @@
  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200">
 </div>
 
-## 📦  General 通用
--  ⚙️ **配置文件** ：[查看链接](https://github.com/cc63/Surge/tree/main/Conf)
--  🚌 **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
-
 ## 🌠 Panel 面板模块
 
 **一、自有面板**
@@ -51,6 +47,11 @@
 - 🚫 **AD-Block 去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
 - 💰 **JD-Price 京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
+
+## 📦  General 通用设置
+-  ⚙️ **配置文件** ：[查看链接](https://github.com/cc63/Surge/tree/main/Conf)
+-  🚌 **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
+
 
 ## 🧑‍💻 Genious Bar 天才吧
 | 仓库         |  描述          |
