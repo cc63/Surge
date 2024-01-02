@@ -59,14 +59,13 @@
 | 仓库         |  描述          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 最全分流规则|
-| [@deezertidal](https://github.com/deezertidal/Surge_Module)  | App会员解锁 |
-| [@TributePaulWalker](https://github.com/TributePaulWalker/Profiles/tree/main/Surge)  | 配置文件大佬  |
+| [@deezertidal](https://github.com/deezertidal/Surge_Module)  | 会员解锁模块 |
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条妹妹  |
-| [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 配置和模块  |
-| [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | 技术佬的模块  |
+| [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵的资源  |
+| [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | Key佬的模块  |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站任务脚本  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 去除顽固广告 |
-| [@ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)  | 墨鱼QX资源 |
+| [@ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)  | 墨鱼的QX资源 |
 
 ⚠️ **注意** ：QX重写可通过 🛠️**工具模块** 中的`Script-Hub`转换为Surge模块
 
