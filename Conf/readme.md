@@ -23,12 +23,12 @@
 
 ## 🔥 推荐资源
 
+>  🔒 **阿里DoQ** quic://223.5.5.5:853
+> 
+>  🔒 **阿里DoH** h3://223.5.5.5/dns-query
+
 >  🛜 **代理延迟测试** http://1.1.1.1/generate_204
 
 >  🛜 **直连延迟测试** http://wifi.vivo.com.cn/generate_204
 
 >  🌍 **GEOIP数据库** https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
-
->  🔒 **阿里云DoQ** quic://223.5.5.5:853
-> 
->  🔒 **阿里云DoH** h3://223.5.5.5/dns-query
