@@ -3,7 +3,7 @@
 </div>
 
 ## 🪐 配置文件
-> **「Surge Pro」** https://raw.githubusercontent.com/cc63/Surge/main/Conf/Surge%20Pro.conf
+> **「Surge Pro」** URL链接: https://raw.githubusercontent.com/cc63/Surge/main/Conf/Surge%20Pro.conf
 
 ## 📦 使用教程
 
