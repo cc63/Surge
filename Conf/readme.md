@@ -29,4 +29,6 @@
 
 >  🌍 **GEOIP数据库** https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 
->  ⛔ **AD Block广告拦截** ：[分流规则](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_All_No_Resolve.list) │ [配套模块](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising_MITM.sgmodule)
+>  🔒 **阿里云DoQ** quic://223.5.5.5:853
+> 
+>  🔒 **阿里云DoH** h3://223.5.5.5/dns-query
