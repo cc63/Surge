@@ -3,9 +3,10 @@
  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200">
 </div>
 
-## 📦 Conf 配置文件
+## 📦  General 通用
 -  ⛄️ **配置文件** ：[查看链接](https://github.com/cc63/Surge/tree/main/Conf)
--  🚥 **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
+-  🚃 **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
+-  🎭 **机场图标** ：[前往仓库](https://github.com/cc63/ICON)
 
 ## 🌠 Panel 面板模块
 
@@ -39,7 +40,7 @@
 - 🍟 **DualSubs 双语字幕** ：[查看链接](https://github.com/DualSubs)
 - 🛍️ **Sub-Store 订阅管理** ：[查看链接](https://github.com/sub-store-org/Sub-Store)
 - 📝 **Script-Hub 重写转换** ：[查看链接](https://github.com/Script-Hub-Org/Script-Hub)
-- 🛡️ **BiliUniverse 哔哩万象** ：[查看链接](https://github.com/BiliUniverse/Universe)
+- 🎨 **BiliUniverse 哔哩万象** ：[查看链接](https://github.com/BiliUniverse/Universe)
 - 🍎 **iRingo 解锁完整Apple** ：[查看链接](https://github.com/VirgilClyne/iRingo)
 
 
