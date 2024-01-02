@@ -6,7 +6,6 @@
 ## 📦  General 通用
 -  ⛄️ **配置文件** ：[查看链接](https://github.com/cc63/Surge/tree/main/Conf)
 -  🚃 **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
--  🎭 **机场图标** ：[前往仓库](https://github.com/cc63/ICON)
 
 ## 🌠 Panel 面板模块
 
