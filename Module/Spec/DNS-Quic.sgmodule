@@ -1,5 +1,5 @@
 #!name = Ali-DoQ
-#!desc = AliYun DNS-over-Quic
+#!desc = 阿里云 DNS-over-Quic
 
 [General]
 dns-server = 223.5.5.5
