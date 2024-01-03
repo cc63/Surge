@@ -79,7 +79,7 @@ $httpClient.get(
                 }
             }
 // 去除日期变量中的无意义的内容
-let clean_date = adjust_date.replace(/\(.*\)/g, '');
+let clean_date = adjust_date.replace(/24时|\(.*\)/g, '');
 		
             const friendly_tips = `${clean_date} ${adjust_trend} ${adjust_value}`
 		
