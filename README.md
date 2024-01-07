@@ -63,7 +63,6 @@
 | [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | Key佬的模块  |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站任务脚本  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 去除顽固广告 |
-| [@ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)  | 墨鱼的QX资源 |
 
 ⚠️ **注意** ：QX重写可通过 🛠️**工具模块** 中的`Script-Hub`转换为Surge模块
 
