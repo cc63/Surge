@@ -61,7 +61,6 @@
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 双语字幕&iRingo  |
 | [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵仓库  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | Key佬的模块  |
-| [@deezertidal](https://github.com/deezertidal/Surge_Module)  | 各种模块收集 |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 去除顽固广告 |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站任务脚本  |
 
