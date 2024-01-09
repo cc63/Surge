@@ -59,11 +59,11 @@
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则&去广告 |
 | [@xream](https://github.com/xream)  | 一佬&Sub-Store |
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 双语字幕&iRingo  |
-| [@deezertidal](https://github.com/deezertidal/Surge_Module)  | 各种模块收集 |
 | [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵仓库  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/module)  | Key佬的模块  |
-| [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站任务脚本  |
+| [@deezertidal](https://github.com/deezertidal/Surge_Module)  | 各种模块收集 |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 去除顽固广告 |
+| [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站任务脚本  |
 
 ⚠️ **注意** ：QX重写可通过 🛠️**工具模块** 中的`Script-Hub`转换为Surge模块
 
