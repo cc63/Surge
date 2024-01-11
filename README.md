@@ -50,7 +50,6 @@
 
 ## ⚙️ General 通用设置
 -  📦 **配置文件** ：[查看链接](https://github.com/cc63/Surge/tree/main/Conf)
--  🎩 **机场图标** ：[查看链接](https://github.com/cc63/ICON/tree/main)
 -  ⛴️ **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 
 
