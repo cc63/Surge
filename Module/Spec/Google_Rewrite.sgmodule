@@ -1,7 +1,8 @@
-#!name=Google重定向
-#!desc=CN谷歌重定向至Google.com
+#!name=Google搜索增强
+#!desc=CN谷歌重定向/便捷百度搜索
 
 [URL Rewrite]
+^(http|https):\/\/(www.)?(g|google)\.cn\/search\?q\=bd\+ https://www.baidu.com/s?wd= 307
 ^(http|https):\/\/(www.)?(g|google)\.cn https://www.google.com 307
 
 [MITM]
