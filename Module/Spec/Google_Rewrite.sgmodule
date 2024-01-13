@@ -1,10 +1,8 @@
-#!name=Google搜索增强
-#!desc=CN谷歌重定向/便捷百度搜索
-#便捷百度格式为bd+空格，例如：bd 时间
+#!name=Google重定向
+#!desc=CN谷歌重定向
 [URL Rewrite]
 ^(http|https):\/\/(www.)?(g|google)\.cn https://www.google.com 307
-^(http|https):\/\/(www.)?google\.com\/search\?q\=bd\+ https://www.baidu.com/s?wd= 307
 
 
 [MITM]
-hostname = %APPEND% www.g.cn, www.google.cn, www.google.com
+hostname = %APPEND% www.g.cn, www.google.cn
