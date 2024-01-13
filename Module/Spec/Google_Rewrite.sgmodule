@@ -7,4 +7,4 @@
 
 
 [MITM]
-hostname = %APPEND% g.cn, google.cn, www.g.cn, www.google.cn, google.com, www.google.com
+hostname = %APPEND% www.g.cn, www.google.cn, www.google.com
