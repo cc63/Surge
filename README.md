@@ -22,6 +22,7 @@
 - 🔍 **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/PingGif.sgmodule)
 - 🎯 **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
 - 📡 **节点入口检测** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/NetIspmini.sgmodule)
+- 🔪 **一键打断请求** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
 
 
 
