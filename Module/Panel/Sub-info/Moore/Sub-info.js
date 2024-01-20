@@ -39,8 +39,8 @@
   $done({
     title: `${args.title}`,
     content: content.join("\n"),
-    icon: args.icon || "icloud.fill",
-    "icon-color": args.color || "#16AAF4",
+    icon: args.icon || "tornado",
+    "icon-color": args.color || "#DF4688",
   });
 })();
 
