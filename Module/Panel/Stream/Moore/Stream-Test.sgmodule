@@ -1,5 +1,6 @@
 #!name=面板-流媒体检测
 #!desc=Netflix/Disney/YouTube解锁检测
+#!category=Panel
 #!system=ios
 
 [Panel]
