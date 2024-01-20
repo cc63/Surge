@@ -1,0 +1,15 @@
+#!name=面板-机场流量
+#!desc=查看机场流量信息
+#!system=ios
+#!category=面板模块
+#!arguments=机场名称, 订阅链接, 重置日期, 图标样式, 图标颜色
+
+
+
+[Panel]
+Sub-info = script-name={{{机场名称}}},update-interval=7200
+
+[Script]
+
+{{{机场名称}}} = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url={{{订阅链接}}}&title={{{机场名称}}}&reset_day={{{重置日期}}}&icon={{{图标样式}}}&color=#{{{图标颜色}}}
+
