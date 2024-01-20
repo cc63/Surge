@@ -1,7 +1,6 @@
 #!name=面板-汽油价格
 #!desc=显示本省实时油价
 #!category=Panel
-#argument=省份/城市拼音，来源http://m.qiyoujiage.com
 
 [Panel]
 QiYou = script-name=QiYou,update-interval=43200
