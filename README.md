@@ -29,7 +29,7 @@
 
 ## 🛠️ Tools 工具模块
 
-**一、大型项目**
+**一、高级工具**
 
 - 🎵 **TikTok 免拔卡解锁** ：[查看链接](https://github.com/Semporia/TikTok-Unlock)
 - 🍟 **DualSubs 双语字幕** ：[查看链接](https://github.com/DualSubs)
