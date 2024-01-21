@@ -1,7 +1,7 @@
 #!name=面板-汽油价格
 #!desc=展示当地汽油价格
 #!category=面板模块
-#!arguments=省份/城市拼音
+#!arguments=省份/城市拼音:shandong
 
 [Panel]
 QiYou = script-name=QiYou,update-interval=43200
