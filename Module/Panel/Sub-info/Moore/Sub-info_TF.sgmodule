@@ -2,7 +2,7 @@
 #!desc=查看机场流量信息
 #!system=ios
 #!category=面板模块
-#!arguments=机场名称:输入机场的名字, 订阅链接:Encode后的订阅链接, 重置日期:“1-31”或“0”, 图标样式:tornado, 图标颜色:DF4688
+#!arguments=机场名称, 订阅链接:Encode后的订阅链接, 重置日期, 图标样式:tornado, 图标颜色:DF4688
 
 
 
