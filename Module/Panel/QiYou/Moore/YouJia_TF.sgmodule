@@ -1,10 +1,10 @@
 #!name=面板-汽油价格
 #!desc=展示当地汽油价格
 #!category=面板模块
-#!arguments=省份/城市拼音:shandong
+#!arguments=省份拼音:shandong
 
 [Panel]
 QiYou = script-name=QiYou,update-interval=43200
 
 [Script]
-QiYou = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.js,argument={{{省份/城市拼音}}}
+QiYou = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.js,argument={{{省份拼音}}}
