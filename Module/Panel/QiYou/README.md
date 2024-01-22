@@ -13,7 +13,7 @@
 
 > **本地模块** ➤ [获取模块内容](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.sgmodule)
 
-> **远程模块（限最新TF版）** ➤ [查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou_TF.sgmodule)
+> **远程模块（限最新TF版）** ➤ [查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/YouJia_TF.sgmodule)
 
 
 **二、本地模块教程**
