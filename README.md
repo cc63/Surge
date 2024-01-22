@@ -18,6 +18,7 @@
 - 🪩 **网络信息** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Network-Info)
 - 🏎️ **网速测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
 - ❄️ **DNS刷新** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
+- 🔰 **VPS监控** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/CatVPS.sgmodule)
 - 🔍 **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/PingGif.sgmodule)
 - 🎯 **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
 - 📡 **节点入口检测** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/NetIspmini.sgmodule)
