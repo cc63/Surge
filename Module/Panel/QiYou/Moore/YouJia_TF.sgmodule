@@ -2,7 +2,7 @@
 #!desc=展示当地汽油价格
 #!category=面板模块
 #!arguments=省份拼音:shandong
-#!arguments-desc=例如：beijing/guangdong
+#!arguments-desc=🔔提示：山西省填写shanxi，陕西省填写shanxi-3
 
 [Panel]
 QiYou = script-name=QiYou,update-interval=43200
