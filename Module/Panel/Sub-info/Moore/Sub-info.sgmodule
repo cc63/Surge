@@ -11,4 +11,4 @@ Sub-info = script-name=2号机场,update-interval=7200
 [Script]
 1号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=tornado&color=#DF4688
 
-2号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=waveform&color=#E6BA47
+2号机场 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=86400,argument=url=编码后的订阅链接&title=机场名字&reset_day=重置日期&icon=waveform&color=#EF6D20
