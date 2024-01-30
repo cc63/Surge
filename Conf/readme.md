@@ -30,6 +30,6 @@
 
 >  🛜 **代理延迟测试** http://1.1.1.1
 
->  🛜 **直连延迟测试** http://wifi.vivo.com.cn/generate_204
+>  🛜 **直连延迟测试** http://223.5.5.5
 
 >  🌍 **GEOIP数据库** https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
