@@ -17,12 +17,14 @@ $httpClient.get(url, function(error, response, data){
 let location = (country === city) ? `${emoji}${country}` : `${emoji}${countryCode} │ ${city}`;
 // 让ISP信息优雅的呈现在一行内
 let cleanedIsp = isp.replace(/
-\s?[,]|
-\s\-|
-\.$|
+\s?[,]|       //单词后的逗号
+\s\-|       //空格旁的横线
+\.$|       //结尾的点
+//<---匹配无用长单词---
 (\(.*\)|
 \b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|Chunghwa|Taiwan)\b)\s?|
-munications?
+//---匹配无用长单词--->
+munications?       //缩写过长单词
 /gi, '');    
 // 然后将 cleanedIsp 用于通知内容
 let body = {
