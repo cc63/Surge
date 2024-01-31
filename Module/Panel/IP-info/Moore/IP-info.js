@@ -16,7 +16,9 @@ $httpClient.get(url, function(error, response, data){
 // 避免City与Country重复
 let location = (country === city) ? `${emoji}${country}` : `${emoji}${countryCode} │ ${city}`;
 // 让ISP信息优雅的呈现在一行内
-let cleanedIsp = isp.replace(/\s?[,]|\s\-|\.$|(\(.*\)|\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|Chunghwa|Taiwan|ESolutions?)\b)\s?|munications?/gi, '');    
+let cleanedIsp = isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|Chunghwa|Taiwan|ESolutions?)\b)\s?|munications?/gi, '');    
+// 去除可能出现的连续空格
+cleanedIsp = cleanedIsp.replace(/\s+/g, ' ');    
 // 然后将 cleanedIsp 用于通知内容
 let body = {
     title: "节点信息",
