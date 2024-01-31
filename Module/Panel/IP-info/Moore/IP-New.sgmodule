@@ -3,7 +3,7 @@
 #!category=面板模块
 #!system=ios
 #!arguments=查询API:1
-#!arguments-desc=🔔查询API代码\nIP.SB：1\nIP-API：2
+#!arguments-desc=🔔提醒：只填写API的序号即可\n1.IP.SB\n2.IP-API
 
 [Panel]
 IP-info = script-name=IP-info, title="节点信息", content="请刷新", style=info, update-interval=1
