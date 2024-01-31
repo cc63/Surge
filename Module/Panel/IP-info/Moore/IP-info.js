@@ -22,7 +22,7 @@ let body = {
     title: "节点信息",
     content: `IP地址：${ip}\n运营商：${cleanedIsp}\n所在地：${location}`,
     icon: "globe.asia.australia",
-   'icon-color': '#6FD087'
+   'icon-color': '#70B581'
 }
     $done(body);
 });
