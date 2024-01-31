@@ -1,0 +1,12 @@
+#!name=面板-节点信息
+#!desc=展示节点的IP/运营商/所在地
+#!category=面板模块
+#!system=ios
+#!arguments=查询API:1
+#!arguments-desc=🔔查询API代码\nIP.SB：1\nIP-API：2
+
+[Panel]
+IP-info = script-name=IP-info, title="节点信息", content="请刷新", style=info, update-interval=1
+
+[Script]
+IP-info = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-{{{查询API}}}.js
