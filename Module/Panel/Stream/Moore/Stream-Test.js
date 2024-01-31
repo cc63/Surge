@@ -26,8 +26,8 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
   let panel_result = {
     title: '流媒体解锁检测',
     content: '',
-    icon: 'homepod.and.appletv.fill',
-    'icon-color': '#FF4242',
+    icon: 'play.tv.fill',
+    'icon-color': '#DC3131',
   }
   
   // 获取各个流媒体的检测结果
