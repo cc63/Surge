@@ -7,4 +7,4 @@
 IP-info = script-name=IP-info, title="节点信息", content="请刷新", style=info, update-interval=1
 
 [Script]
-IP-info = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.js
+IP-info = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-1.js
