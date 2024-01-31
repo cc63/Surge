@@ -12,3 +12,6 @@
 ## 🖇 模块链接
 
 > **远程模块：** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule
+
+
+> **新版TF模块（可切换查询API）：** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-New.sgmodule
