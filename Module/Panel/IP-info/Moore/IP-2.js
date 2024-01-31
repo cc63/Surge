@@ -14,7 +14,7 @@ $httpClient.get(url, function(error, response, data){
     let isp = jsonData.isp
     let ip = jsonData.ip
 // 避免City不存在
-let location = (!city || country === city) ? `${emoji}${country}` : `${emoji}${countryCode} │ ${city}`;
+let location = (!city || country === city) ? `${emoji} ${country}` : `${emoji}${countryCode} │ ${city}`;
 // 去除ISP信息中的无意义信息
 let cleanedIsp = isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|ESolutions?)\b)\s?|munications?/gi, '');    
 // 避免可能出现的连续空格
