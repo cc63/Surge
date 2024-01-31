@@ -92,7 +92,7 @@ let clean_date = adjust_date.replace(/(?<=.*月)(24时|\(.*\))|.*\(|\)/g, '');
                     title: "汽油价格",
                     content: `${prices[0].name}：${prices[0].value}\n${prices[1].name}：${prices[1].value}\n${prices[2].name}：${prices[2].value}\n${friendly_tips}`,
                     icon: "fuelpump.fill",
-                   'icon-color': '#DC3131'
+                   'icon-color': '#C60000'
 		}
 
                 $done(body);
