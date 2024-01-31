@@ -27,7 +27,7 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
     title: '流媒体解锁检测',
     content: '',
     icon: 'play.tv.fill',
-    'icon-color': '#FF2D55',
+    'icon-color': '#8B1ED5',
   }
   
   // 获取各个流媒体的检测结果
