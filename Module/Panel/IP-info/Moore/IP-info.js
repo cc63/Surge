@@ -23,7 +23,7 @@ let cleanedIsp = isp.replace(/[,]| \-|\.$|\(.*\)|\b(Hong Kong|Mass internet|Comm
 let body = {
     title: "节点信息",
     content: `IP地址：${ip}\n运营商：${cleanedIsp}\n所在地：${location}`,
-    icon: "network",
+    icon: "globe.asia.australia",
    'icon-color': '#159635'
 }
     $done(body);
