@@ -16,7 +16,7 @@ $httpClient.get(url, function(error, response, data){
 // 避免City不存在
 let location = (!city || country === city) ? `${emoji} │ ${country}` : `${emoji}${countryCode} │ ${city}`;
 // 去除ISP信息中的无意义信息
-let cleanedIsp = isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|Taiwan|ESolutions?|(?<=.*Hytron)Services?)\b)\s?)\b)\s?|munications?/gi, '');    
+let cleanedIsp = isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|Taiwan|ESolutions?|(?<=.*Hytron)Services?)\b)\s?|munications?/gi, '');    
 // 避免可能出现的连续空格
 cleanedIsp = cleanedIsp.replace(/\s+/g, ' ');    
 // 然后将 cleanedIsp 用于通知内容
