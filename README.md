@@ -79,4 +79,4 @@
 
 > **「MESL」** [公有云节点、家宽节点、低倍率节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
->  **「TAG」** [全球 100 + 国家与地区，覆盖范围是目前最广的](https://tagss03.pro/#/auth/xfm2jXlF)
+>  **「CTC」** [小众精品、线路丰富，群里偶尔抽点京东e卡](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
