@@ -14,4 +14,5 @@
 > **远程模块：** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule
 
 
-> **新版TF模块（可切换查询API）：** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-New.sgmodule
+> **新版模块：** https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-New.sgmodule
+<br> 🔔 Tip：仅最新TestFlight可用，安装后长按即可切换查询API
