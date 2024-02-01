@@ -81,4 +81,4 @@
 
 >  **「TAG」** [覆盖全球 100 + 国家与地区，拥有最丰富的家宽节点/冷门节点](https://tagss03.pro/#/auth/xfm2jXlF)
 
->  **「CTC」** [小众精品，线路优质且多样，群里还偶尔抽点京东e卡](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
+>  **「CTC」** [小众精品，线路优质多样，群里还偶尔抽点京东e卡](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
