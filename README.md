@@ -79,6 +79,6 @@
 
 > **「MESL」** [UDPN专线/家宽节点/冷门地区/低倍率节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
->  **「CTC」** [小众精品，线路优质，群里还偶尔抽点京东e卡](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
+>  **「CTC」** [小众精品，线路优质，还偶尔抽点京东e卡](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
 
->  **「NaiU」** [性价比高，价格实惠，有多个低倍率节点](https://www.naiunet.net/register?aff=lSj8WwCp)
+>  **「NaiU」** [性价比高，价格实惠，多个低倍率节点](https://www.naiunet.net/register?aff=lSj8WwCp)
