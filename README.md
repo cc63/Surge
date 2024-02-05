@@ -80,5 +80,3 @@
 >  **「MESL」** [UDPN专线/家宽节点/冷门地区/低倍率节点，落地线路丰富](https://in.mesl.cloud/#/register?code=YiKXC8T0)
 
 >  **「NaiU」** [性价比高，价格实惠，多个低倍率节点](https://www.naiunet.net/register?aff=lSj8WwCp)
-
->  **「CTC」** [小众机场，小而美的优质线路](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
