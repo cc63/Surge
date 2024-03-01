@@ -2,9 +2,11 @@
 #!desc=展示节点的IP/运营商/所在地
 #!category=面板模块
 #!system=ios
+#!arguments=API序号:1
+#!arguments-desc=\n⚙️API来源\n1.ip-api.com\n2.ip.sb\n3.ipleak.net\n4.ipinfo.io
 
 [Panel]
 IP-info = script-name=IP-info, title="节点信息", content="请刷新", style=info, update-interval=1
 
 [Script]
-IP-info = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-1.js
+IP-info = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-{{{API序号}}}.js
