@@ -16,7 +16,7 @@
 > **远程模块** ➤ [查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule)
 
 
-**二、模块配置教程**
+**二、配置参数**
 
 1. 长按模块，然后选择`编辑参数`
 2. 按要求填写`API序号`即可
