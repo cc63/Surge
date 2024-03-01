@@ -11,7 +11,7 @@
 
 **一、获取模块**
 
-> **本地模块** ➤ [获取模块内容](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.sgmodule)
+> **远程模块** ➤ [查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/QiYou.sgmodule)
 
 
 **二、模块配置教程**
