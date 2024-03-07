@@ -1,0 +1,14 @@
+# NAME: AppleNews
+# AUTHOR: cc63
+# UPDATED: 2024-03-07
+DOMAIN,c.apple.news
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,news-client-search.apple.com
+DOMAIN,news-sports-events.apple.com
+DOMAIN,news-todayconfig-edge.apple.com
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+PROCESS-NAME,/System/Applications/News.app/Contents/MacOS/News
+PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps
