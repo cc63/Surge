@@ -1,0 +1,9 @@
+#!name=Apple News
+#!category=设备调试
+#!desc=为支持的设备提供News分流
+#!arguments=策略组
+#!arguments-desc=🔔提示：必须填写一个已经存在的策略组
+
+[Rule]
+# Apple News
+RULE-SET,https://raw.githubusercontent.com/cc63/Surge/main/Module/AppleNews.list,{{{策略组}}},extended-matching
