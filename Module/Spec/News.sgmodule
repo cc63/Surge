@@ -7,3 +7,4 @@
 [Rule]
 # Apple News
 RULE-SET,https://raw.githubusercontent.com/cc63/Surge/main/Module/AppleNews.list,{{{策略组}}},extended-matching
+DOMAIN,gateway.icloud.com,{{{策略组}}},extended-matching
