@@ -2,9 +2,11 @@
 # AUTHOR: cc63
 # UPDATED: 2024-03-07
 DOMAIN-SUFFIX,apple.news
+DOMAIN,gateway.icloud.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,newsletter-edge.apple.com
 DOMAIN,news-client-search.apple.com
 DOMAIN,news-sports-events.apple.com
 DOMAIN,news-todayconfig-edge.apple.com
