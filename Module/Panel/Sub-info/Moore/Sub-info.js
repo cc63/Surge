@@ -20,7 +20,7 @@
   // 判断是否为不限时套餐
   if (!resetDayLeft && !expireDaysLeft) {
     let percentage = ((used / total) * 100).toFixed(1);
-    content.push(`提醒：流量包已用${percentage}%`);
+    content.push(`提醒：流量包，已用${percentage}%`);
   } else {
     if (resetDayLeft && expireDaysLeft) {
       content.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
