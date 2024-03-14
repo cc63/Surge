@@ -56,7 +56,7 @@
 -  🎭 **图标仓库** ：[前往仓库](https://github.com/cc63/ICON)
 
 
-## 🧑‍💻 Genious Bar 天才吧
+## 🧑‍💻 Genius Bar 天才吧
 | 仓库         |  描述          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则&去广告 |
