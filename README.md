@@ -43,7 +43,7 @@
 
 - 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🌪️ **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🧰 **Surge 故障排除** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/surgetool.sgmodule)
+- 🧰 **Surge 故障排除** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule)
 - 🔐 **DNS-over-Quic** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
 - 🚫 **AD-Block 去广告** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
 - 💰 **JD-Price 京东比价** ：[查看链接](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
