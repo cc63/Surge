@@ -90,7 +90,7 @@ function main() {
             title: "汽油价格",
             content: prices.map(price => `${price.name}：${price.value}`).join('\n') + '\n' + adjustmentTrend,
             icon: "fuelpump.fill",
-            'icon-color': '#E15400'
+            'icon-color': '#DC3131'
         };
 
         $done(responseContent);
