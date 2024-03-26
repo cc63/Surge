@@ -1,6 +1,6 @@
 /**********
 * 作者：cc63&ChatGPT
-* 更新时间：2024年1月31日
+* 更新时间：2024年3月26日
 **********/
 
 // 定义基本配置
@@ -38,15 +38,18 @@ function fetchGasPrices(region, callback) {
 
 // 解析油价信息
 function parseGasPrices(data) {
-    const regPrice = /<dl>[\s\S]+?<dt>(.*油)<\/dt>[\s\S]+?<dd>(.*)\(元\)<\/dd>/gm;
+    const regPrice = /<dl>[\s\S]+?<dt>([^柴]*油)<\/dt>[\s\S]+?<dd>(.*)\(元\)<\/dd>/gm;
     let prices = [];
     let m;
 
     while ((m = regPrice.exec(data)) !== null) {
-        prices.push({
-            name: m[1],
-            value: `${m[2]} 元/升`
-        });
+        // 排除柴油价格
+        if (!m[1].includes("柴")) {
+            prices.push({
+                name: m[1],
+                value: `${m[2]} 元/升`
+            });
+        }
     }
 
     return prices;
@@ -59,10 +62,11 @@ function parseAdjustmentTrend(data) {
 
     if (adjustTipsMatch && adjustTipsMatch.length === 3) {
         const adjustDate = adjustTipsMatch[1].split('价')[1].slice(0, -2).replace(/(?<=.*月)(24时|\(.*\))|.*\(|\)/g, '');
-        const adjustValue = adjustTipsMatch[2];
-        const adjustTrend = adjustValue.includes('下调') || adjustValue.includes('下跌') ? '下跌' : '上涨';
+        let adjustValue = adjustTipsMatch[2];
+        let valueMatch = adjustValue.match(/([\d\.]+元\/[升吨]+)/g);
+        adjustValue = valueMatch ? valueMatch.join(' ') : '';
 
-        return `${adjustDate} ${adjustTrend} ${adjustValue.replace(/[\d\.]+元\/吨/, '')}`;
+        return `${adjustDate} 调整：${adjustValue}`;
     }
 
     return '';
@@ -81,11 +85,7 @@ function main() {
         const prices = parseGasPrices(data);
         const adjustmentTrend = parseAdjustmentTrend(data);
 
-        if (prices.length !== 4) {
-            console.error(`Failed to parse gas prices correctly, please check the parsing logic.`);
-            return;
-        }
-
+        // 仅包括汽油价格，排除柴油
         const responseContent = {
             title: "汽油价格",
             content: prices.map(price => `${price.name}：${price.value}`).join('\n') + '\n' + adjustmentTrend,
