@@ -24,7 +24,13 @@ $httpClient.get({
     try {
         const prices = parsePrices(data);
         const { date, trend, value } = parseAdjustment(data);
+
         const friendlyTips = `${date} ${trend} ${value}`;
+        
+        if (prices.length !== 4) {
+            console.log(`解析油价信息失败, 数量=${prices.length}, 请反馈至 @RS0485: URL=${queryAddr}`);
+            return $done({});
+        }
         
         const body = {
             title: "汽油价格",
@@ -57,8 +63,6 @@ function parsePrices(data) {
 
     while ((match = regPrice.exec(data)) !== null) {
         prices.push({ name: match[1], value: `${match[2]} 元/升` });
-        // 一旦达到三个匹配项，提前结束循环
-        if (prices.length === 3) break;
     }
 
     return prices;
