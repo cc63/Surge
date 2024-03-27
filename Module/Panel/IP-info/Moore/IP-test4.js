@@ -3,7 +3,7 @@
 * 更新时间：2024年2月1日
 **********/
 
-const url = "https://ipleak.net/json/";
+const url = "https://ipinfo.io/json?token=bcda261f72039f";
 
 $httpClient.get(url, (error, response, data) => {
     if (error) {
@@ -13,10 +13,12 @@ $httpClient.get(url, (error, response, data) => {
 
     try {
         const jsonData = JSON.parse(data);
-        const { country_name: country, country_code: countryCode, city_name: city, isp_name: isp, ip } = jsonData;
-        const emoji = getFlagEmoji(countryCode);
-        const location = (!city || country === city) ? `${emoji} │ ${country}` : `${emoji} ${countryCode} │ ${city}`;
-        const cleanedIsp = cleanIspInfo(isp);
+        const { country, city, org: isp, ip } = jsonData;
+        const emoji = getFlagEmoji(country);
+        const countryCode = country; // 注意：这里countryCode和country相同，可能是一个错误？
+        // 特殊处理城市名为"Hong Kong"或"Singapore"的情况
+        let location = (!city || city === 'Hong Kong' || city === 'Singapore') ? `${emoji} │ ${city}` : `${emoji} ${countryCode} │ ${city}`;
+        let cleanedIsp = cleanIspInfo(isp);
 
         const body = {
             title: "节点信息",
@@ -41,6 +43,6 @@ function getFlagEmoji(countryCode) {
 }
 
 function cleanIspInfo(isp) {
-    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|Taiwan|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
+    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(AS\d+|Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|Taiwan|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
               .replace(/\s+/g, ' ');
 }
