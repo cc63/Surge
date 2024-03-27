@@ -3,35 +3,44 @@
 * 更新时间：2024年2月1日
 **********/
 
-let url = "http://ip-api.com/json";
+const url = "http://ip-api.com/json";
 
-$httpClient.get(url, function(error, response, data) {
-    if (error || response.statusCode !== 200) {
-        console.error("请求失败", error);
-        return;
+$httpClient.get(url, (error, response, data) => {
+    if (error) {
+        console.error('请求错误：', error);
+        return $done();
     }
 
-    let jsonData = JSON.parse(data);
-    let { country, countryCode, city, isp, query: ip } = jsonData;
-    let emoji = getFlagEmoji(countryCode);
-    let location = (country === city) ? `${emoji} │ ${country}` : `${emoji} ${countryCode} │ ${city}`;
-    let cleanedIsp = cleanIsp(isp);
+    try {
+        const jsonData = JSON.parse(data);
+        const { country, countryCode, city, isp, query: ip } = jsonData;
+        const emoji = getFlagEmoji(countryCode);
+        const location = (country === city) ? `${emoji} │ ${country}` : `${emoji} ${countryCode} │ ${city}`;
+        const cleanedIsp = cleanIspInfo(isp);
 
-    let body = {
-        title: "节点信息",
-        content: `IP地址：${ip}\n运营商：${cleanedIsp}\n所在地：${location}`,
-        icon: "globe.asia.australia",
-        'icon-color': '#3D90ED'
-    };
-    $done(body);
+        const body = {
+            title: "节点信息",
+            content: `IP地址：${ip}\n运营商：${cleanedIsp}\n所在地：${location}`,
+            icon: "globe.asia.australia",
+            'icon-color': '#3D90ED'
+        };
+
+        $done(body);
+    } catch (e) {
+        console.error('解析错误：', e);
+        $done();
+    }
 });
 
 function getFlagEmoji(countryCode) {
-    countryCode = countryCode.toUpperCase() === 'TW' ? 'CN' : countryCode.toUpperCase();
-    return String.fromCodePoint(...[...countryCode].map(char => 127397 + char.charCodeAt()));
+    // 特殊处理台湾的国旗情况
+    if (countryCode.toUpperCase() === 'TW') {
+        countryCode = 'CN'; // 或根据需要将'CN'替换为其他代表台湾的字符或表情符号
+    }
+    return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
 }
 
-function cleanIsp(isp) {
-    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communication[s]?|information|Technology|ESolutions?|Services Limited)\b)\s?/gi, '')
+function cleanIspInfo(isp) {
+    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
               .replace(/\s+/g, ' ');
 }
