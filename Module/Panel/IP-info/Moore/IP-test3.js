@@ -3,7 +3,7 @@
 * 更新时间：2024年2月1日
 **********/
 
-const url = "https://api.ip.sb/geoip";
+const url = "https://ipleak.net/json/";
 
 $httpClient.get(url, (error, response, data) => {
     if (error) {
@@ -13,7 +13,7 @@ $httpClient.get(url, (error, response, data) => {
 
     try {
         const jsonData = JSON.parse(data);
-        const { country, country_code: countryCode, city, isp, ip } = jsonData;
+        const { country_name: country, country_code: countryCode, city_name: city, isp_name: isp, ip } = jsonData;
         const emoji = getFlagEmoji(countryCode);
         const location = (!city || country === city) ? `${emoji} │ ${country}` : `${emoji} ${countryCode} │ ${city}`;
         const cleanedIsp = cleanIspInfo(isp);
