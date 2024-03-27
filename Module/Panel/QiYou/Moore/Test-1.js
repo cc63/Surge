@@ -27,14 +27,15 @@ $httpClient.get({
 
         const friendlyTips = `${date} ${trend} ${value}`;
         
-        if (prices.length !== 4) {
-            console.log(`解析油价信息失败, 数量=${prices.length}, 请反馈至 @RS0485: URL=${queryAddr}`);
+        // 确保仅包含汽油价格，排除柴油价格
+        if (prices.length < 3) {
+            console.log(`解析油价信息失败, 数量不足, 请反馈至 @RS0485: URL=${queryAddr}`);
             return $done({});
         }
         
         const body = {
             title: "汽油价格",
-            content: prices.map(p => `${p.name}：${p.value}`).join('\n') + `\n${friendlyTips}`,
+            content: prices.slice(0, 3).map(p => `${p.name}：${p.value}`).join('\n') + `\n${friendlyTips}`,
             icon: "fuelpump.fill",
             'icon-color': '#E15400'
         };
@@ -65,7 +66,8 @@ function parsePrices(data) {
         prices.push({ name: match[1], value: `${match[2]} 元/升` });
     }
 
-    return prices;
+    // 返回仅前三个匹配项，通常对应汽油价格
+    return prices.slice(0, 3);
 }
 
 function parseAdjustment(data) {
