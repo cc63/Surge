@@ -3,7 +3,7 @@
 * 更新时间：2024年2月1日
 **********/
 
-const url = "http://ip-api.com/json";
+const url = "https://api.ip.sb/geoip";
 
 $httpClient.get(url, (error, response, data) => {
     if (error) {
@@ -13,9 +13,9 @@ $httpClient.get(url, (error, response, data) => {
 
     try {
         const jsonData = JSON.parse(data);
-        const { country, countryCode, city, isp, query: ip } = jsonData;
+        const { country, country_code: countryCode, city, isp, ip } = jsonData;
         const emoji = getFlagEmoji(countryCode);
-        const location = (country === city) ? `${emoji} │ ${country}` : `${emoji} ${countryCode} │ ${city}`;
+        const location = (!city || country === city) ? `${emoji} │ ${country}` : `${emoji} ${countryCode} │ ${city}`;
         const cleanedIsp = cleanIspInfo(isp);
 
         const body = {
@@ -33,14 +33,14 @@ $httpClient.get(url, (error, response, data) => {
 });
 
 function getFlagEmoji(countryCode) {
-    // 特殊处理台湾的国旗情况
+    // 特殊处理台湾的情况
     if (countryCode.toUpperCase() === 'TW') {
-        countryCode = 'CN'; // 或根据需要将'CN'替换为其他代表台湾的字符或表情符号
+        countryCode = 'CN'; // 或根据需要修改
     }
     return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
 }
 
 function cleanIspInfo(isp) {
-    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
+    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Technolog(y|ies)|Taiwan|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
               .replace(/\s+/g, ' ');
 }
