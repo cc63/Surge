@@ -81,8 +81,17 @@ function parseAdjustment(data) {
         value = match[2];
         trend = (value.includes('下调') || value.includes('下跌')) ? '下跌' : '上涨';
 
-        const adjustValueMatch = value.match(/([\d\.]+)元\/升-([\d\.]+)元\/升/) || value.match(/[\d\.]+元\/吨/);
-        value = adjustValueMatch ? adjustValueMatch[0].replace('元/吨', '元') : value;
+        const adjustValueMatch = value.match(/([\d\.]+)元\/升-([\d\.]+)元\/升/);
+        if (adjustValueMatch && adjustValueMatch.length === 3) {
+            // 调整为“0.17-0.19元”的格式
+            value = `${adjustValueMatch[1]}-${adjustValueMatch[2]}元`;
+        } else {
+            // 如果没有匹配到范围，则尝试匹配单个值
+            const adjustValueSingleMatch = value.match(/([\d\.]+)元\/升/);
+            if (adjustValueSingleMatch) {
+                value = `${adjustValueSingleMatch[1]}元`;
+            }
+        }
     }
 
     return { date, trend, value };
