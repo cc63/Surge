@@ -37,7 +37,7 @@ $httpClient.get({
             title: "汽油价格",
             content: prices.slice(0, 3).map(p => `${p.name}：${p.value}`).join('\n') + `\n${friendlyTips}`,
             icon: "fuelpump.fill",
-            'icon-color': '#E15400'
+            'icon-color': '#CA3A05'
         };
 
         $done(body);
