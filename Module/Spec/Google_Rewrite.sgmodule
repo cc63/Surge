@@ -1,7 +1,7 @@
 #!name=Google重定向
 #!desc=CN谷歌重定向
 [URL Rewrite]
-^(http|https):\/\/(www.)?(g|google)\.cn https://www.google.com 307
+^(http|https):\/\/(www.)?(g|google)\.cn https://www.google.com 302
 
 
 [MITM]
