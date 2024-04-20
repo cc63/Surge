@@ -46,6 +46,7 @@
 - 🧰 **Surge 故障排除** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 - 📰 **AppleNews 分流规则** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
+- 💢 **AD-Block 去广告合集** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
 
 
 ## 🧑‍💻 Genius Bar 天才吧
