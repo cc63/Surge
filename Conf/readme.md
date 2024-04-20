@@ -3,7 +3,9 @@
 </div>
 
 ## 🪐 配置文件
-> **URL链接**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Select.conf
+> **Select 手动选择**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Select.conf
+
+> **Smart 智能选择**:  敬请期待
 
 ## 📦 使用教程
 
