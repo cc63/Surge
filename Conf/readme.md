@@ -3,9 +3,10 @@
 </div>
 
 ## 🪐 配置文件
-> **Select 手动选择**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Select.conf
 
 > **Smart 智能选择**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Smart.conf
+
+> **Select 手动选择**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Select.conf
 
 ## 📦 使用教程
 
