@@ -32,11 +32,11 @@
 - ☁️ **Cloudflare-DNS** ：[前往项目](https://github.com/VirgilClyne/Cloudflare/wiki/☁-Cloudflare:-🇩-DNS)
 - ☁️ **Cloudflare-WARP** ：[前往项目](https://github.com/VirgilClyne/Cloudflare/wiki/☁-Cloudflare:-1%EF%B8%8F⃣-1.1.1.1-with-WARP)
 - 🎵 **TikTok 免拔卡解锁** ：[前往项目](https://github.com/Semporia/TikTok-Unlock)
-- 🍟 **DualSubs 双语字幕** ：[前往项目](https://github.com/DualSubs)
+- 🍿️ **DualSubs 双语字幕** ：[前往项目](https://github.com/DualSubs)
 - 🛍️ **Sub-Store 订阅管理** ：[前往项目](https://github.com/sub-store-org/Sub-Store)
 - 📝 **Script-Hub 重写转换** ：[前往项目](https://github.com/Script-Hub-Org/Script-Hub)
-- 🎨 **BiliUniverse 哔哩万象** ：[前往项目](https://github.com/BiliUniverse/Universe)
-- 🍎 **iRingo 解锁完整Apple** ：[前往项目](https://github.com/VirgilClyne/iRingo)
+- 🪐 **BiliUniverse 哔哩万象** ：[前往项目](https://github.com/BiliUniverse/Universe)
+- 🔐 **iRingo 解锁完整Apple** ：[前往项目](https://github.com/VirgilClyne/iRingo)
 
 
 **二、实用资源**
