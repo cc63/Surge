@@ -16,14 +16,13 @@
 
 **二、第三方面板**
 - ⏳ **启动时长** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
-- 🪩 **网络信息** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Network-Info)
+- 🪩 **网络信息** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule)
+- 🔪 **打断请求** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
 - 🏎️ **网速测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
 - ❄️ **DNS刷新** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
 - 🔍 **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/PingGif.sgmodule)
 - 🎯 **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
 - 🎥 **流媒体检测** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
-- 📡 **入口落地查询** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule)
-- 🔪 **一键打断请求** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
 
 
 ## 🛠️ Tools 工具模块
