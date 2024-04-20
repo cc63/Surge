@@ -36,7 +36,7 @@
 - 🛍️ **Sub-Store 订阅管理** ：[前往项目](https://github.com/sub-store-org/Sub-Store)
 - 📝 **Script-Hub 重写转换** ：[前往项目](https://github.com/Script-Hub-Org/Script-Hub)
 - 🪐 **BiliUniverse 哔哩万象** ：[前往项目](https://github.com/BiliUniverse/Universe)
-- 🔐 **iRingo 解锁完整Apple** ：[前往项目](https://github.com/VirgilClyne/iRingo)
+- 🍎 **iRingo 解锁完整Apple** ：[前往项目](https://github.com/VirgilClyne/iRingo)
 
 
 **二、实用资源**
