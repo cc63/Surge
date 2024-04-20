@@ -15,14 +15,14 @@
 - ⛽ **汽油价格** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
 
 **二、第三方面板**
-- ⏳ **启动时长** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
+- ⏱️ **启动时长** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
 - 🪩 **网络信息** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule)
-- 🔪 **打断请求** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
-- 🏎️ **网速测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
+- ✂️ **打断请求** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
+- ⚡️ **网速测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
 - ❄️ **DNS刷新** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
 - 🔍 **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/ping/ping.sgmodule)
 - 🎯 **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
-- 🎥 **流媒体检测** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
+- 🎬️ **流媒体检测** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
 
 
 ## 🛠️ Tools 工具模块
@@ -42,11 +42,11 @@
 **二、实用资源**
 
 - 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 🌪️ **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
+- 🌀 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🧰 **Surge 故障排除** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
-- 📰 **AppleNews 分流规则** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
-- 💢 **AD-Block 去广告合集** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
+- 🗞️ **AppleNews 分流规则** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
+- ⛔️ **AD-Block 去广告合集** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
 
 
 ## 🧑‍💻 Genius Bar 天才吧
