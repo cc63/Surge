@@ -6,6 +6,7 @@
 -  📦 **配置文件** ：[点击了解](https://github.com/cc63/Surge/tree/main/Conf)
 -  🎭 **图标仓库** ：[点击前往](https://github.com/cc63/ICON)
 
+
 ## 🌠 Panel 面板模块
 
 **一、自有面板**
@@ -20,15 +21,11 @@
 - 🪩 **网络信息** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Network-Info)
 - 🏎️ **网速测试** ：[点击了解](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
 - ❄️ **DNS刷新** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
-- 🔰 **VPS监控** ：[点击了解](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/CatVPS.sgmodule)
 - 🔍 **Ping面板** ：[点击了解](https://raw.githubusercontent.com/Keywos/rule/main/module/PingGif.sgmodule)
 - 🎯 **连通性测试** ：[点击了解](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
 - 🎥 **流媒体检测** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
 - 📡 **入口落地查询** ：[点击了解](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule)
 - 🔪 **一键打断请求** ：[点击了解](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
-
-
-
 
 
 ## 🛠️ Tools 工具模块
