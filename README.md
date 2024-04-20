@@ -4,7 +4,7 @@
 
 ## ⚙️ Conf 配置文件
 -  📦 **配置文件** ：[点击了解](https://github.com/cc63/Surge/tree/main/Conf)
--  🎭 **图标仓库** ：[点击前往](https://github.com/cc63/ICON)
+-  🎭 **图标仓库** ：[前往仓库](https://github.com/cc63/ICON)
 
 
 ## 🌠 Panel 面板模块
