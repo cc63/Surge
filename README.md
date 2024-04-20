@@ -2,7 +2,7 @@
  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200">
 </div>
 
-## ⚙️ Conf 配置文件
+## 🎨 Conf 配置文件
 -  📦 **配置文件** ：[点击了解](https://github.com/cc63/Surge/tree/main/Conf)
 -  🎭 **机场图标** ：[前往仓库](https://github.com/cc63/ICON)
 
