@@ -60,7 +60,7 @@
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 去除顽固广告 |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | B站任务脚本  |
 
-⚠️ **注意** ：QX重写可通过 🛠️**工具模块** 中的`📝Script-Hub`转换为Surge模块
+⚠️ **注意** ：QX重写可通过 🛠️**工具模块** 中的 **📝Script-Hub** 转换为Surge模块
 
 
 
