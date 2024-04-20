@@ -15,41 +15,38 @@
 - ⛽ **汽油价格** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
 
 **二、第三方面板**
-
-- ☁️ **WARP** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/WARP)
-- ⏳ **启动时长** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
-- 🪩 **网络信息** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Network-Info)
-- 🏎️ **网速测试** ：[点击了解](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
-- ❄️ **DNS刷新** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
-- 🔍 **Ping面板** ：[点击了解](https://raw.githubusercontent.com/Keywos/rule/main/module/PingGif.sgmodule)
-- 🎯 **连通性测试** ：[点击了解](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
-- 🎥 **流媒体检测** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
-- 📡 **入口落地查询** ：[点击了解](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule)
-- 🔪 **一键打断请求** ：[点击了解](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
+- ⏳ **启动时长** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
+- 🪩 **网络信息** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Network-Info)
+- 🏎️ **网速测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.sgmodule)
+- ❄️ **DNS刷新** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
+- 🔍 **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/module/PingGif.sgmodule)
+- 🎯 **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
+- 🎥 **流媒体检测** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
+- 📡 **入口落地查询** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule)
+- 🔪 **一键打断请求** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
 
 
 ## 🛠️ Tools 工具模块
 
 **一、高级工具**
 
-- 🎵 **TikTok 免拔卡解锁** ：[点击了解](https://github.com/Semporia/TikTok-Unlock)
-- 🍟 **DualSubs 双语字幕** ：[点击了解](https://github.com/DualSubs)
-- 🛍️ **Sub-Store 订阅管理** ：[点击了解](https://github.com/sub-store-org/Sub-Store)
-- 📝 **Script-Hub 重写转换** ：[点击了解](https://github.com/Script-Hub-Org/Script-Hub)
-- 🎨 **BiliUniverse 哔哩万象** ：[点击了解](https://github.com/BiliUniverse/Universe)
-- 🍎 **iRingo 解锁完整Apple** ：[点击了解](https://github.com/VirgilClyne/iRingo)
+- ☁️ **Cloudflare-DNS** ：[前往项目](https://github.com/VirgilClyne/Cloudflare/wiki/☁-Cloudflare:-🇩-DNS)
+- ☁️ **Cloudflare-WARP** ：[前往项目](https://github.com/VirgilClyne/Cloudflare/wiki/☁-Cloudflare:-1%EF%B8%8F⃣-1.1.1.1-with-WARP)
+- 🎵 **TikTok 免拔卡解锁** ：[前往项目](https://github.com/Semporia/TikTok-Unlock)
+- 🍟 **DualSubs 双语字幕** ：[前往项目](https://github.com/DualSubs)
+- 🛍️ **Sub-Store 订阅管理** ：[前往项目](https://github.com/sub-store-org/Sub-Store)
+- 📝 **Script-Hub 重写转换** ：[前往项目](https://github.com/Script-Hub-Org/Script-Hub)
+- 🎨 **BiliUniverse 哔哩万象** ：[前往项目](https://github.com/BiliUniverse/Universe)
+- 🍎 **iRingo 解锁完整Apple** ：[前往项目](https://github.com/VirgilClyne/iRingo)
 
 
 **二、实用资源**
 
-- 📺 **B站每日任务** ：[点击了解](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 🌪️ **Google 重定向** ：[点击了解](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🧰 **Surge 故障排除** ：[点击了解](https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule)
-- 🔐 **DNS-over-Quic** ：[点击了解](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/DNS-Quic.sgmodule)
-- 🚫 **AD-Block 去广告** ：[点击了解](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
-- 💰 **JD-Price 京东比价** ：[点击了解](https://raw.githubusercontent.com/githubdulong/Script/master/jd_price2.sgmodule)
-- 🏄‍♂️ **Skip-Proxy 跳过代理** ：[点击了解](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
-- 📰 **AppleNews 分流规则** ：[点击了解](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
+- 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
+- 🌪️ **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
+- 🧰 **Surge 故障排除** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule)
+- 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
+- 📰 **AppleNews 分流规则** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
 
 
 ## 🧑‍💻 Genius Bar 天才吧
