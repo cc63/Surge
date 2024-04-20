@@ -13,8 +13,6 @@
 
 **一、获取模块**
 
-> **一键安装** ➤  [点击安装](surge:///install-module?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcc63%2FSurge%2Fmain%2FModule%2FPanel%2FIP-info%2FMoore%2FIP-info.sgmodule)
-
 > **模块链接** ➤  https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule
 
 
