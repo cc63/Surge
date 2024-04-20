@@ -3,7 +3,7 @@
 </div>
 
 ## 🪐 配置文件
-> **URL链接**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Surge.conf
+> **URL链接**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Select.conf
 
 ## 📦 使用教程
 
