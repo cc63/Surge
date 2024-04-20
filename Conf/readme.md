@@ -27,14 +27,10 @@
 
 ## 🧩 配置建议
 
->  🔒 **阿里DoQ** quic://223.5.5.5:853
-
 >  🔒 **阿里DoH** h3://223.5.5.5/dns-query
 
-> 🔒 **腾讯DoH** https://120.53.53.53/dns-query
+>  🔒 **腾讯DoH** https://120.53.53.53/dns-query
 
->  🛜 **代理延迟测试** http://1.1.1.1
+>  ⛴️ **Rule-set仓库** https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
 
->  🛜 **直连延迟测试** http://223.5.5.5
-
->  🌍 **GEOIP数据库** https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+>  🌍 **GEO-IP数据库** https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
