@@ -71,6 +71,6 @@
 
 
 ## 🤖 My AFF 我自用的机场
->  **「MESL」** [UDPN专线/低倍率节点，落地线路多元](https://in.mesl.cloud/#/register?code=ew06hQ6A)
+>  **「MESL」** [公有云专线，落地ISP多元](https://in.mesl.cloud/#/register?code=ew06hQ6A)
 
 >  **「CTC」** [稳定优质，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
