@@ -28,9 +28,9 @@
 
 ## 🧩 配置建议
 
->  🔒 **阿里DoH** h3://223.5.5.5/dns-query
+>  🔒 **阿里DoQ** quic://dns.alidns.com
 
->  🔒 **腾讯DoH** https://120.53.53.53/dns-query
+>  🔒 **腾讯DoH** https://doh.pub/dns-query
 
 >  ⛴️ **Rule-set仓库** https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
 
