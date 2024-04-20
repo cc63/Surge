@@ -50,7 +50,7 @@
 
 
 ## 🧑‍💻 Genius Bar 天才吧
-| 仓库         |  描述          |
+| 作者         |  描述          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则&去广告 |
 | [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | 一佬&Sub-Store |
