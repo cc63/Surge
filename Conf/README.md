@@ -30,6 +30,6 @@
 
 >  🔒 **腾讯DoH** https://doh.pub/dns-query
 
->  ⛴️ **Rule-Set规则** https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
+>  ⛴️ **RULE-SET规则** https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
 
->  🌍 **GEO-IP数据库** https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+>  🌍 **Geo-IP数据库** https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
