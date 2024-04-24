@@ -70,7 +70,7 @@
 
 
 
-## 🤖 My AFF 自用机场推荐
+## 🤖 MY AFF 自用机场推荐
 
 > **「MESL」** [公有云专线，落地ISP丰富](https://in.mesl.cloud/#/register?code=ew06hQ6A)
 
