@@ -55,8 +55,8 @@
 | 作者         |  描述          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则 |
-| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | 一佬&Sub-Store |
-| [@chengkongyiban](https://github.com/chengkongyiban)  | 张佩服&Script-Hub  |
+| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | Sub-Store |
+| [@chengkongyiban](https://github.com/chengkongyiban)  | Script-Hub  |
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Key佬  |
 | [@anyehttp](https://github.com/anyehttp/quantumult-x)  | 暗夜&iOS脚本  |
