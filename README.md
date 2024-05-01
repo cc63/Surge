@@ -55,10 +55,12 @@
 | 作者         |  描述          |
 |-------------|-------------------|
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master)  | 分流规则 |
-| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | Sub-Store |
+| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | 一佬&Sub-Store |
+| [@chengkongyiban](https://github.com/chengkongyiban)  | 张佩服&Script-Hub  |
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条  |
-| [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Key佬  |
+| [@anyehttp](https://github.com/anyehttp/quantumult-x)  | 暗夜&iOS脚本  |
+| [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 广告拦截 |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | 任务脚本  |
 
