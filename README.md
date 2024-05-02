@@ -58,8 +58,8 @@
 | [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | Sub-Store |
 | [@chengkongyiban](https://github.com/chengkongyiban)  | Script-Hub  |
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条  |
-| [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Key佬  |
-| [@anyehttp](https://github.com/anyehttp/quantumult-x)  | 暗夜&iOS脚本  |
+| [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Key  |
+| [@anyehttp](https://github.com/anyehttp/quantumult-x)  | 暗夜  |
 | [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 广告拦截 |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | 任务脚本  |
