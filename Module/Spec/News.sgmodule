@@ -1,6 +1,6 @@
-#!name=Apple News
-#!category=设备调试
-#!desc=为支持的设备提供News分流
+#!name=News+
+#!category=实用工具
+#!desc=适用于Apple News的分流模块
 #!arguments=策略组
 #!arguments-desc=🔔提示：必须填写一个已经存在的策略组
 
