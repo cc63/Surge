@@ -4,8 +4,6 @@
 
 ## 🪐 配置文件
 
-> **Mine 自用配置**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Surge.conf
-
 > **Smart 智能选择**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Smart.conf
 
 > **Select 手动选择**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Select.conf
