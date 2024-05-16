@@ -60,12 +60,7 @@
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 广告拦截 |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | 任务脚本  |
 
-⚠️ **注意** ：QX重写可通过 🛠️**工具模块** 中的 **Script-Hub** 转换为Surge模块
-
-
-
-
-
+⚠️ **Tip** ：QX重写可通过 🛠️**工具模块** 中的 **Script-Hub** 转换为Surge模块
 
 
 ## 🤖 MY AFF 自用机场推荐
