@@ -33,7 +33,7 @@ $httpClient.get({
         
         const body = {
             title: "汽油价格",
-            content: prices.slice(0, 3).map(p => `${p.name}：${p.value}`).join('\n') + `,
+            content: prices.slice(0, 3).map(p => `${p.name}：${p.value}`).join('\n')`,
             icon: "fuelpump.fill",
             'icon-color': '#CA3A05'
         };
