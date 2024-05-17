@@ -13,7 +13,9 @@
 
 **一、获取模块**
 
-> **模块链接** ➤  https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule
+```
+https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.sgmodule
+```
 
 
 **二、配置参数**
