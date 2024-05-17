@@ -1,6 +1,6 @@
 /**********
 * 作者：cc63&ChatGPT
-* 更新时间：2024年1月31日 
+* 更新时间：2024年3月27日 
 **********/
 let region = 'shanxi-3/xian';
 
@@ -24,8 +24,6 @@ $httpClient.get({
     try {
         const prices = parsePrices(data);
         const { date, trend, value } = parseAdjustment(data);
-
-        const friendlyTips = `${date} ${trend} ${value}`;
         
         // 确保仅包含汽油价格，排除柴油价格
         if (prices.length < 3) {
@@ -35,9 +33,9 @@ $httpClient.get({
         
         const body = {
             title: "汽油价格",
-            content: prices.slice(0, 3).map(p => `${p.name}：${p.value}`).join('\n') + `\n${friendlyTips}`,
+            content: prices.slice(0, 3).map(p => `${p.name}：${p.value}`).join('\n') + `,
             icon: "fuelpump.fill",
-            'icon-color': '#E15400'
+            'icon-color': '#CA3A05'
         };
 
         $done(body);
@@ -68,31 +66,4 @@ function parsePrices(data) {
 
     // 返回仅前三个匹配项，通常对应汽油价格
     return prices.slice(0, 3);
-}
-
-function parseAdjustment(data) {
-    const regAdjustTips = /<div class="tishi"> <span>(.*)<\/span><br\/>([\s\S]+?)<br\/>/;
-    const match = data.match(regAdjustTips);
-
-    let date = '', trend = '', value = '';
-
-    if (match && match.length === 3) {
-        date = match[1].split('价')[1].slice(0, -2).replace(/(?<=.*月)(24时|\(.*\))|.*\(|\)/g, '');
-        value = match[2];
-        trend = (value.includes('下调') || value.includes('下跌')) ? '下跌' : '上涨';
-
-        const adjustValueMatch = value.match(/([\d\.]+)元\/升-([\d\.]+)元\/升/);
-        if (adjustValueMatch && adjustValueMatch.length === 3) {
-            // 调整为“0.17-0.19元”的格式
-            value = `${adjustValueMatch[1]}-${adjustValueMatch[2]}元`;
-        } else {
-            // 如果没有匹配到范围，则尝试匹配单个值
-            const adjustValueSingleMatch = value.match(/([\d\.]+)元\/升/);
-            if (adjustValueSingleMatch) {
-                value = `${adjustValueSingleMatch[1]}元`;
-            }
-        }
-    }
-
-    return { date, trend, value };
 }
