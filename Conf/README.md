@@ -4,9 +4,14 @@
 
 ## 🪐 配置文件
 
-> **自用配置**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Mine.conf
-
-> **新手配置**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Smart.conf
+* **自用配置**
+```
+https://raw.githubusercontent.com/cc63/Surge/main/Conf/Mine.conf
+```
+* **新手配置**
+```
+https://raw.githubusercontent.com/cc63/Surge/main/Conf/Smart.conf
+```
 
 ## 📦 使用教程
 
@@ -23,11 +28,56 @@
 3. 在指定位置，填写订阅链接
 
 ## 🧩 配置建议
+* ####  ☁️ **阿里云DNS** 
 
->  🔒 **阿里DoQ** quic://dns.alidns.com
+```
+quic://223.5.5.5:853
+```
 
->  🔒 **腾讯DoH** https://doh.pub/dns-query
+```
+h3://223.5.5.5/dns-query
+```
 
->  🌍 **Geo-IP数据库** https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+```
+https://223.5.5.5/dns-query
+```
+---
+* ####  ☁️ **腾讯云DNS** 
 
->  ⛴️ **RULE-SET规则集** https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
+```
+https://1.12.12.12/dns-query
+```
+ 
+```
+https://120.53.53.53/dns-query
+```
+---
+* ####  🚀 **代理延迟测试** 
+
+```
+http://1.1.1.1
+```
+
+```
+http://www.gstatic.com/generate_204
+```
+
+```
+http://cp.cloudflare.com/generate_204
+```
+---
+* ####  🚀 **直连延迟测试** 
+
+```
+http://223.5.5.5
+```
+
+```
+http://wifi.vivo.com.cn/generate_204
+```
+---
+* ####  🌍 **Geo-IP数据库**
+
+```
+https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+```
