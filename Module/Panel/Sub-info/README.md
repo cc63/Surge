@@ -13,7 +13,9 @@
 
 **一、获取模块**
 
-> **本地模块** ➤ [获取模块内容](https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule)
+```
+https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule
+```
 
 **二、 开始安装**
 
