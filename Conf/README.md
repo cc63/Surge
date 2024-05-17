@@ -4,9 +4,9 @@
 
 ## 🪐 配置文件
 
-> **Mine 自用配置**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Mine.conf
+> **自用配置**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Mine.conf
 
-> **Simple 新手配置**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Smart.conf
+> **新手配置**:  https://raw.githubusercontent.com/cc63/Surge/main/Conf/Smart.conf
 
 ## 📦 使用教程
 
