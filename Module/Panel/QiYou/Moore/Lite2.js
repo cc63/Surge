@@ -1,6 +1,6 @@
 /**********
 * 作者：cc63&ChatGPT
-* 更新时间：2024年5月17日 
+* 更新时间：2024年3月27日 
 **********/
 let region = 'shanxi-3/xian';
 
@@ -23,7 +23,6 @@ $httpClient.get({
     
     try {
         const prices = parsePrices(data);
-        const { date, trend, value } = parseAdjustment(data);
         
         // 确保仅包含汽油价格，排除柴油价格
         if (prices.length < 3) {
@@ -33,7 +32,7 @@ $httpClient.get({
         
         const body = {
             title: "汽油价格",
-            content: prices.slice(0, 3).map(p => `${p.name}：${p.value}`).join('\n')`,
+            content: prices.slice(0, 3).map(p => `${p.name}：${p.value}`).join('\n'),
             icon: "fuelpump.fill",
             'icon-color': '#CA3A05'
         };
