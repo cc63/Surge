@@ -33,8 +33,6 @@ h3://223.5.5.5/dns-query
 https://223.5.5.5/dns-query
 ```
 
----
-
 ☁️ **腾讯云DNS** 
 
 ```
@@ -43,26 +41,6 @@ https://1.12.12.12/dns-query
  
 ```
 https://120.53.53.53/dns-query
-```
-
----
-
-🚀 **代理延迟测试** 
-
-```
-http://1.1.1.1
-```
-
-```
-http://www.google.com/generate_204
-```
-
-```
-http://www.gstatic.com/generate_204
-```
-
-```
-http://cp.cloudflare.com/generate_204
 ```
 
 ---
@@ -77,6 +55,21 @@ http://223.5.5.5
 http://wifi.vivo.com.cn/generate_204
 ```
 
+
+🚀 **代理延迟测试** 
+
+```
+http://1.1.1.1
+```
+
+```
+http://www.gstatic.com/generate_204
+```
+
+```
+http://cp.cloudflare.com/generate_204
+```
+
 ---
 
 🌍 **Geo-IP数据库**
@@ -84,4 +77,3 @@ http://wifi.vivo.com.cn/generate_204
 ```
 https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 ```
-
