@@ -4,6 +4,7 @@
 
 ## ⚙️ Conf 配置文件
 -  📦 **配置文件** ：[点击了解](https://github.com/cc63/Surge/tree/main/Conf)
+-  🚢 **分流规则** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 -  🎭 **机场图标** ：[前往仓库](https://github.com/cc63/ICON)
 
 
