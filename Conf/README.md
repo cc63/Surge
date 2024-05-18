@@ -77,10 +77,3 @@ http://wifi.vivo.com.cn/generate_204
 https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 ```
 
-```
-https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/Country.mmdb
-```
-
-```
-https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
-```
