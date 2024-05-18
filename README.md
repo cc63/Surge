@@ -54,6 +54,7 @@
 | 作者         |  描述          |
 |-------------|-------------------|
 | [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | Sub-Store |
+| [@xream](https://github.com/blackmatrix7)  | 分流规则 |
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Keywos  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 广告拦截 |
