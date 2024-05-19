@@ -4,16 +4,9 @@
 
 ## 📦 配置文件
 
- **一、选择配置**
 > **自用配置** https://raw.githubusercontent.com/cc63/Surge/main/Conf/Mine.conf
 
 > **新手配置** https://raw.githubusercontent.com/cc63/Surge/main/Conf/Smart.conf
- 
- **二、开始安装**
-
- 1. 前往首页，点击左上角
- 2. 选择`从URL下载配置`
- 3. 在指定位置，填写订阅链接
 
 
 ## 🧩 配置建议
