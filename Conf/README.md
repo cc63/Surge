@@ -4,8 +4,9 @@
 
 ## 📦 配置文件
 
-> **链接** https://raw.githubusercontent.com/cc63/Surge/main/Conf/Mine.conf
-
+```
+https://raw.githubusercontent.com/cc63/Surge/main/Conf/Mine.conf
+```
 
 ## 🧩 配置建议
 
