@@ -2,7 +2,7 @@
 * 作者：cc63&ChatGPT
 * 更新时间：2024年5月20日 
 **********/
-let region = 'shanxi-3/xian';
+let region = 'shandong';
 
 // 优化参数获取逻辑
 region = $argument || readRegionFromStore() || region;
