@@ -4,6 +4,11 @@ on:
   push:
     paths:
       - 'Surge/Module/Panel/IP-info/Moore/IP-1.js'
+    workflow_dispatch:  # 允许手动触发
+      inputs:
+        description:
+          description: 'Optional description'
+          required: false
 
 jobs:
   sync-function:
