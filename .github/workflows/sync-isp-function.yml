@@ -20,13 +20,7 @@ jobs:
         node-version: '20'  # 安装Node.js 20
 
     - name: Sync ISP function to other files
-      env:
-        NODE_VERSION: 20
       run: |
-        # Ensure the correct Node.js version is active
-        nvm install $NODE_VERSION
-        nvm use $NODE_VERSION
-
         # Define the file paths
         SOURCE_FILE="Module/Panel/IP-info/Moore/IP-1.js"
         TARGET_FILES=("Module/Panel/IP-info/Moore/IP-2.js" "Module/Panel/IP-info/Moore/IP-3.js" "Module/Panel/IP-info/Moore/IP-4.js")
