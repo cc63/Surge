@@ -24,14 +24,17 @@ jobs:
         # Define the file paths
         SOURCE_FILE="Module/Panel/IP-info/Moore/IP-1.js"
         TARGET_FILES=("Module/Panel/IP-info/Moore/IP-2.js" "Module/Panel/IP-info/Moore/IP-3.js" "Module/Panel/IP-info/Moore/IP-4.js")
-
+        
         # Extract the cleanIspInfo function from the source file
-        FUNCTION_CODE=$(sed -n '/function cleanIspInfo/,/^}/p' $SOURCE_FILE)
+        awk '/function cleanIspInfo/,/^}/' $SOURCE_FILE > /tmp/cleanIspInfo.js
 
         # Iterate over the target files and replace the cleanIspInfo function
         for TARGET_FILE in "${TARGET_FILES[@]}"; do
           # Use sed to replace the old function with the new one
-          sed -i '/function cleanIspInfo/,/^}/c\'"$FUNCTION_CODE"'' $TARGET_FILE
+          sed -i '/function cleanIspInfo/,/^}/{
+            r /tmp/cleanIspInfo.js
+            d
+          }' $TARGET_FILE
         done
 
         # Check if there are any changes
