@@ -1,13 +1,10 @@
 # NAME: Speedtest
 # AUTHOR: cc63
 # UPDATED: 2024-05-23
-# TIP：规则应该指向两个策略
+# TIP：规则应该流向两个策略
 # TIP：没有人可以收集到所有测速节点
-######策略一：GEPIP,CN,DIRECT测直连
-######策略二：Final,Proxy测代理
-
-
-# TIP：规则指向：GEOIP，CN与FINAL
+###### 测直连：GEPIP,CN,DIRECT
+###### 测代理：Final,Proxy
 
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,fast.com
