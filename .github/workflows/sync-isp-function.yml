@@ -17,27 +17,37 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '20'  # 安装Node.js 20
+        node-version: '20'  # 确保安装Node.js 20
 
     - name: Sync ISP function to other files
       run: |
+        echo "Starting sync function job"
+        
         # Define the file paths
         SOURCE_FILE="Module/Panel/IP-info/Moore/IP-1.js"
         TARGET_FILES=("Module/Panel/IP-info/Moore/IP-2.js" "Module/Panel/IP-info/Moore/IP-3.js" "Module/Panel/IP-info/Moore/IP-4.js")
         
+        echo "Source file: $SOURCE_FILE"
+        echo "Target files: ${TARGET_FILES[@]}"
+
         # Extract the cleanIspInfo function from the source file and save to a temporary file
         awk '/function cleanIspInfo/,/^}/' $SOURCE_FILE > /tmp/cleanIspInfo.js
+        echo "Extracted cleanIspInfo function"
 
         # Iterate over the target files and replace the cleanIspInfo function
         for TARGET_FILE in "${TARGET_FILES[@]}"; do
+          echo "Processing target file: $TARGET_FILE"
           # Remove the existing cleanIspInfo function in the target file
           sed -i '/function cleanIspInfo/,/^}/d' $TARGET_FILE
+          echo "Removed old cleanIspInfo function from $TARGET_FILE"
           # Append the new cleanIspInfo function to the target file
           cat /tmp/cleanIspInfo.js >> $TARGET_FILE
+          echo "Appended new cleanIspInfo function to $TARGET_FILE"
         done
 
         # Check if there are any changes
         if [ -n "$(git status --porcelain)" ]; then
+          echo "Changes detected, committing and pushing changes"
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
@@ -46,3 +56,5 @@ jobs:
         else
           echo "No changes detected"
         fi
+
+        echo "Sync function job completed"
