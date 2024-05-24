@@ -25,14 +25,17 @@ jobs:
         SOURCE_FILE="Module/Panel/IP-info/Moore/IP-1.js"
         TARGET_FILES=("Module/Panel/IP-info/Moore/IP-2.js" "Module/Panel/IP-info/Moore/IP-3.js" "Module/Panel/IP-info/Moore/IP-4.js")
         
-        # Extract the cleanIspInfo function from the source file and save to a variable
-        FUNCTION_CODE=$(sed -n '/function cleanIspInfo/,/^}/p' $SOURCE_FILE)
+        # Extract the cleanIspInfo function from the source file and save to a temporary file
+        awk '/function cleanIspInfo/,/^}/' $SOURCE_FILE > /tmp/cleanIspInfo.js
 
         # Iterate over the target files and replace the cleanIspInfo function
         for TARGET_FILE in "${TARGET_FILES[@]}"; do
-          # Use sed to replace the old function with the new one
-          sed -i.bak '/function cleanIspInfo/,/^}/d' $TARGET_FILE
-          echo "$FUNCTION_CODE" | cat - $TARGET_FILE > temp && mv temp $TARGET_FILE
+          # Remove the existing cleanIspInfo function in the target file
+          sed -i '/function cleanIspInfo/,/^}/d' $TARGET_FILE
+          # Append the new cleanIspInfo function to the target file
+          sed -i -e '/^function getFlagEmoji/i \
+          $(cat /tmp/cleanIspInfo.js)
+          ' $TARGET_FILE
         done
 
         # Check if there are any changes
