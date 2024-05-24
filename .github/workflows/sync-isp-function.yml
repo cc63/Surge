@@ -33,9 +33,7 @@ jobs:
           # Remove the existing cleanIspInfo function in the target file
           sed -i '/function cleanIspInfo/,/^}/d' $TARGET_FILE
           # Append the new cleanIspInfo function to the target file
-          sed -i -e '/^function getFlagEmoji/i \
-          $(cat /tmp/cleanIspInfo.js)
-          ' $TARGET_FILE
+          cat /tmp/cleanIspInfo.js >> $TARGET_FILE
         done
 
         # Check if there are any changes
