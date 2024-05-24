@@ -12,12 +12,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # 更新到v3版本
+      uses: actions/checkout@v3  # 使用v3版本的actions/checkout将代码检出
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3  # 更新到v3版本
+      uses: actions/setup-node@v3  # 使用v3版本的actions/setup-node设置Node.js环境
       with:
-        node-version: '20'  # 使用Node.js 20
+        node-version: '20'  # 安装Node.js 20
 
     - name: Sync ISP function to other files
       run: |
@@ -25,16 +25,17 @@ jobs:
         SOURCE_FILE="Module/Panel/IP-info/Moore/IP-1.js"
         TARGET_FILES=("Module/Panel/IP-info/Moore/IP-2.js" "Module/Panel/IP-info/Moore/IP-3.js" "Module/Panel/IP-info/Moore/IP-4.js")
         
-        # Extract the cleanIspInfo function from the source file
-        awk '/function cleanIspInfo/,/^}/' $SOURCE_FILE > /tmp/cleanIspInfo.js
+        # Extract the cleanIspInfo function from the source file and save to a variable
+        FUNCTION_CODE=$(awk '/function cleanIspInfo/,/^}/' $SOURCE_FILE)
 
         # Iterate over the target files and replace the cleanIspInfo function
         for TARGET_FILE in "${TARGET_FILES[@]}"; do
-          # Use sed to replace the old function with the new one
-          sed -i '/function cleanIspInfo/,/^}/{
-            r /tmp/cleanIspInfo.js
-            d
-          }' $TARGET_FILE
+          # Use awk to replace the old function with the new one
+          awk -v new_func="$FUNCTION_CODE" '
+          BEGIN {found=0}
+          /function cleanIspInfo/ {found=1; print new_func; next}
+          found && /^}/ {found=0; next}
+          !found' $TARGET_FILE > tmp && mv tmp $TARGET_FILE
         done
 
         # Check if there are any changes
