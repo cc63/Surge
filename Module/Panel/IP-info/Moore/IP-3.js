@@ -32,7 +32,6 @@ $httpClient.get(url, (error, response, data) => {
     }
 });
 
-  $(cat /tmp/cleanIspInfo.js)
 function getFlagEmoji(countryCode) {
     // 特殊处理台湾的情况
     if (countryCode.toUpperCase() === 'TW') {
