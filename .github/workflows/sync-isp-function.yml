@@ -3,12 +3,8 @@ name: Sync ISP Function
 on:
   push:
     paths:
-      - 'Surge/Module/Panel/IP-info/Moore/IP-1.js'
-    workflow_dispatch:  # 允许手动触发
-      inputs:
-        description:
-          description: 'Optional description'
-          required: false
+      - 'Module/Panel/IP-info/Moore/IP-1.js'
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   sync-function:
@@ -26,8 +22,8 @@ jobs:
     - name: Sync ISP function to other files
       run: |
         # Define the file paths
-        SOURCE_FILE="Surge/Module/Panel/IP-info/Moore/IP-1.js"
-        TARGET_FILES=("Surge/Module/Panel/IP-info/Moore/IP-2.js" "Surge/Module/Panel/IP-info/Moore/IP-3.js" "Surge/Module/Panel/IP-info/Moore/IP-4.js")
+        SOURCE_FILE="Module/Panel/IP-info/Moore/IP-1.js"
+        TARGET_FILES=("Module/Panel/IP-info/Moore/IP-2.js" "Module/Panel/IP-info/Moore/IP-3.js" "Module/Panel/IP-info/Moore/IP-4.js")
 
         # Extract the cleanIspInfo function from the source file
         FUNCTION_CODE=$(sed -n '/function cleanIspInfo/,/^}/p' $SOURCE_FILE)
