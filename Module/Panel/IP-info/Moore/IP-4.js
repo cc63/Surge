@@ -43,3 +43,7 @@ function getFlagEmoji(countryCode) {
     return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
 }
 
+function cleanIspInfo(isp) {
+    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|Company|information|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
+              .replace(/\s+/g, ' ');
+}
