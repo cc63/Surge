@@ -32,6 +32,7 @@ $httpClient.get(url, (error, response, data) => {
     }
 });
 
+  $(cat /tmp/cleanIspInfo.js)
 function getFlagEmoji(countryCode) {
     // 特殊处理台湾的情况
     if (countryCode.toUpperCase() === 'TW') {
@@ -40,7 +41,3 @@ function getFlagEmoji(countryCode) {
     return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
 }
 
-function cleanIspInfo(isp) {
-    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
-              .replace(/\s+/g, ' ');
-}
