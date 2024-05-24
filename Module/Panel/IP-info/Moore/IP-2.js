@@ -44,15 +44,3 @@ function cleanIspInfo(isp) {
     return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Company|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
               .replace(/\s+/g, ' ');
 }
-function cleanIspInfo(isp) {
-    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Company|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
-              .replace(/\s+/g, ' ');
-}
-function cleanIspInfo(isp) {
-    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Company|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
-              .replace(/\s+/g, ' ');
-}
-function cleanIspInfo(isp) {
-    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Company|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
-              .replace(/\s+/g, ' ');
-}
