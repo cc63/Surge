@@ -26,16 +26,13 @@ jobs:
         TARGET_FILES=("Module/Panel/IP-info/Moore/IP-2.js" "Module/Panel/IP-info/Moore/IP-3.js" "Module/Panel/IP-info/Moore/IP-4.js")
         
         # Extract the cleanIspInfo function from the source file and save to a variable
-        FUNCTION_CODE=$(awk '/function cleanIspInfo/,/^}/' $SOURCE_FILE)
+        FUNCTION_CODE=$(sed -n '/function cleanIspInfo/,/^}/p' $SOURCE_FILE)
 
         # Iterate over the target files and replace the cleanIspInfo function
         for TARGET_FILE in "${TARGET_FILES[@]}"; do
-          # Use awk to replace the old function with the new one
-          awk -v new_func="$FUNCTION_CODE" '
-          BEGIN {found=0}
-          /function cleanIspInfo/ {found=1; print new_func; next}
-          found && /^}/ {found=0; next}
-          !found' $TARGET_FILE > tmp && mv tmp $TARGET_FILE
+          # Use sed to replace the old function with the new one
+          sed -i.bak '/function cleanIspInfo/,/^}/d' $TARGET_FILE
+          echo "$FUNCTION_CODE" | cat - $TARGET_FILE > temp && mv temp $TARGET_FILE
         done
 
         # Check if there are any changes
