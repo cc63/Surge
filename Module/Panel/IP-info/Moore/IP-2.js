@@ -1,3 +1,7 @@
+function cleanIspInfo(isp) {
+    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
+              .replace(/\s+/g, ' ');
+}
 /**********
 * 作者：cc63&ChatGPT
 * 更新时间：2024年3月27日
@@ -40,7 +44,3 @@ function getFlagEmoji(countryCode) {
     return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
 }
 
-function cleanIspInfo(isp) {
-    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Company|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
-              .replace(/\s+/g, ' ');
-}

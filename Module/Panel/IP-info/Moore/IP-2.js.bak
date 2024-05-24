@@ -41,6 +41,6 @@ function getFlagEmoji(countryCode) {
 }
 
 function cleanIspInfo(isp) {
-    return isp.replace(/s?[,]|s-|.$|(.*)|((Hong Kong|Mass internet|Communications?|Company|information|international|Technolog(y|ies)|ESolutions?|Services Limited))s?|munications?/gi, '')
-              .replace(/s+/g, ' ');
+    return isp.replace(/\s?[,]|\s\-|\.$|\(.*\)|(\b(Hong Kong|Mass internet|Communications?|information|Company|international|Technolog(y|ies)|ESolutions?|Services Limited)\b)\s?|munications?/gi, '')
+              .replace(/\s+/g, ' ');
 }
