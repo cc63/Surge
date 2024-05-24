@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3  # 使用v3版本的actions/checkout将代码检出
+      with:
+        node-version: '20'  # 指定使用Node.js 20
 
     - name: Set up Node.js
       uses: actions/setup-node@v3  # 使用v3版本的actions/setup-node设置Node.js环境
