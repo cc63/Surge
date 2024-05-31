@@ -51,7 +51,7 @@
 - ⛔️ **AD-Block 去广告合集** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
 
 
-## 🧑‍💻 Genius Bar 天才吧
+## 🧑‍💻 Genius Bar
 | 作者         |  描述          |
 |-------------|-------------------|
 | [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | Sub-Store |
@@ -64,7 +64,7 @@
 **Tip** ：QX重写可通过 🛠️**工具模块** 中的 **Script-Hub** 转换为Surge模块
 
 
-## 🤖 MY AFF 自用机场推荐
+## 🤖 MY AFF 自用机场
 
 > **「MESL」** [UDPN专线，落地ISP丰富](https://in.mesl.cloud/#/register?code=ew06hQ6A)
 
