@@ -64,7 +64,7 @@
 **Tip** ：QX重写可通过 🛠️**工具模块** 中的 **Script-Hub** 转换为Surge模块
 
 
-## 🤖 MY AFF 自用机场
+## 🤖 MY AFF
 
 > **「MESL」** [UDPN专线，落地ISP丰富](https://in.mesl.cloud/#/register?code=ew06hQ6A)
 
