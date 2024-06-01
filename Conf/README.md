@@ -69,3 +69,7 @@ http://cp.cloudflare.com/generate_204
 ```
 https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
 ```
+
+```
+https://github.com/xream/geoip/releases/latest/download/ipinfo.country.mmdb
+```
