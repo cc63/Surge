@@ -1,7 +1,7 @@
 # NAME: Speedtest
 # AUTHOR: cc63
 # UPDATED: 2024-05-23
-# TIP：规则应该流向CN与FINAL
+# TIP：本规则应指向DIRECT与FINAL
 ###### 测直连：GEPIP,CN,DIRECT
 ###### 测代理：FINAL,PROXY
 
