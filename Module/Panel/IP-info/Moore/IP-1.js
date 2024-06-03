@@ -1,6 +1,6 @@
 /**********
 * 作者：cc63&ChatGPT
-* 更新时间：2024年5月23日
+* 更新时间：2024年6月4日
 **********/ 
 
 const url = "http://ip-api.com/json";
@@ -41,5 +41,5 @@ function getFlagEmoji(countryCode) {
 }
 
 function cleanIspInfo(isp) {
-    return isp.replace(/\s-|\.$|\s?(\b(AS\d+\s|\(.*\)|[,]|Hong Kong|Mass internet|Communications?|Company|information|international|Technolog(?:y|ies)|ESolutions?|Services Limited)\b)|munications?/gi, '');
+    return isp.replace(/\s-|\.$|\s?\b(?:AS\d+\s|Hong Kong|Mass internet|Communications?|Company|information|international|Technolog(?:y|ies)|ESolutions?|Services Limited)\b|\(.*\)|[,]|munications?/gi, '');
 }
