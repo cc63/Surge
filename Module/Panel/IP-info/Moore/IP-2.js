@@ -1,6 +1,6 @@
 /**********
 * 作者：cc63&ChatGPT
-* 更新时间：2024年3月27日
+* API：ipinfo.io
 **********/
 
 const url = "https://ipinfo.io/json?token=bcda261f72039f";
