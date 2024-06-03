@@ -1,6 +1,6 @@
 /**********
 * 作者：cc63&ChatGPT
-* 更新时间：2024年3月27日
+* API：ip.sb
 **********/ 
 
 const url = "https://api.ip.sb/geoip";
