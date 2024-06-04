@@ -58,7 +58,8 @@
 | [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | Sub-Store |
 | [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条  |
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)  | 分流规则 |
-| [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Keywos  |
+| [@mieqq](https://github.com/mieqq/mieqq)  | P佬  |
+| [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Key佬  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 广告拦截 |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | 任务脚本  |
 
