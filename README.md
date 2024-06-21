@@ -68,5 +68,5 @@
 
 ## 🤖 MY AFF
 
-> **「MESL」** [低倍率节点/家宽节点/公有云专线，落地线路丰富](https://in.mesl.cloud/#/register?code=ew06hQ6A)
+> **「MESL」** [低倍率节点/家宽节点/公有云专线，落地线路丰富，特殊节日有85折优惠](https://in.mesl.cloud/#/register?code=ew06hQ6A)
 
