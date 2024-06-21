@@ -68,6 +68,5 @@
 
 ## 🤖 MY AFF
 
-> **「MESL」** [UDPN专线，落地ISP丰富](https://in.mesl.cloud/#/register?code=ew06hQ6A)
+> **「MESL」** [低倍率节点/家宽节点/公有云专线，落地线路丰富](https://in.mesl.cloud/#/register?code=ew06hQ6A)
 
-> **「CTC」** [稳定优质，备用首选](https://www.jinglongyu.com/#/register?code=NhhJLvBB)
