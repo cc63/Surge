@@ -1,6 +1,6 @@
 <div align="center">
     
-<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP.png" width="280">
+<img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/IP-info/Moore/IP-info.PNG" width="280">
 
 </div>
 
