@@ -1,6 +1,7 @@
-#!name=网络测速
-#!desc=快速进行网速测试
-
+#!name=面板-网络测速
+#!desc=快速测试下行速率与延迟
+#!category=面板模块
+#!system=ios
 [Panel]
 Speed = script-name=Speed,update-interval=-1
 
