@@ -44,8 +44,8 @@
 
 - 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🌀 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🌝 **Baidu 百度净化** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/baidu_index/bd.sgmodule)
-- 🧰 **Surge 故障排除** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/st/surgetool.sgmodule)
+- 🌝 **Baidu 百度净化** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/baidu_index)
+- 🧰 **Surge 故障排除** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/st)
 - 🛟 **TestFlight 账户管理** ：[查看链接](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 - 🗞️ **AppleNews 分流模块** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
