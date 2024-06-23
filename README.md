@@ -18,13 +18,13 @@
 
 **二、第三方面板**
 - ⏱️ **启动时长** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
-- 🪩 **网络信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Net-X)
 - ✂️ **打断请求** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Cut)
 - ❄️ **DNS刷新** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
 - 🔍 **Ping面板** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/ping)
 - 🎯 **连通性测试** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Connectivity_Test)
 - 🎬️ **流媒体检测** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
-- 🌪 **规则匹配计时** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/MatchTime)
+- ⏳ **规则匹配计时** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/MatchTime)
+- 🪩 **节点入口落地** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Net-X)
 - 🛜 **网络接口信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/interface-info)
 
 
