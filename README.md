@@ -19,12 +19,12 @@
 **二、第三方面板**
 - ⏱️ **启动时长** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
 - 🪩 **网络信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Net-X)
-- ✂️ **打断请求** ：[点击了解](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
+- ✂️ **打断请求** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Cut)
 - ❄️ **DNS刷新** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
 - 🔍 **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/ping/ping.sgmodule)
 - 🎯 **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
 - 🎬️ **流媒体检测** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
-- 🌪 **规则匹配计时** ：[点击了解](https://raw.githubusercontent.com/mieqq/mieqq/master/ruleMatchingTime.sgmodule)
+- 🌪 **规则匹配计时** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/MatchTime)
 
 
 ## 🛠️ Tools 工具模块
