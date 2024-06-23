@@ -59,5 +59,7 @@
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)  | 分流规则 |
 | [@mieqq](https://github.com/mieqq/mieqq)  | P佬  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Key佬  |
+| [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵  |
+| [@GetSomeCat](https://github.com/getsomecat/GetSomeCats/tree/Surge/modules)  | 整点猫咪  |
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 广告拦截 |
 | [@ClydeTime](https://github.com/ClydeTime/Quantumult)  | 任务脚本  |
