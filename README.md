@@ -54,8 +54,8 @@
 ## 🧑‍💻 Genius Bar
 | 作者         |  描述          |
 |-------------|-------------------|
-| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | Sub-Store |
-| [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条  |
+| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | 一佬&Sub-Store |
+| [@VirgilClyne](https://github.com/VirgilClyne)  | 整点薯条&双语字幕  |
 | [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)  | 分流规则 |
 | [@mieqq](https://github.com/mieqq/mieqq)  | P佬  |
 | [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Key佬  |
