@@ -25,6 +25,8 @@
 - 🎯 **连通性测试** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Connectivity_Test)
 - 🎬️ **流媒体检测** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
 - 🌪 **规则匹配计时** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/MatchTime)
+- 🛜 **网络接口信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/interface-info)
+
 
 
 ## 🛠️ Tools 工具模块
@@ -43,8 +45,9 @@
 **二、实用模块**
 
 - 🌀 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🌝 **Baidu 百度净化** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/baidu_index)
 - 🧰 **Surge 故障排除** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/st)
+- 🌝 **Baidu 百度净化** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/baidu_index)
+- 🌝 **Baidu 输入法魔改** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/baidu_input_enhanced/baidu_input_enhanced.sgmodule)
 - 🛟 **TestFlight 账户管理** ：[查看链接](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 - 🗞️ **AppleNews 分流模块** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
