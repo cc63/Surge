@@ -15,3 +15,8 @@
 ```
 https://raw.githubusercontent.com/xream/scripts/main/surge/modules/interface-info/interface-info.sgmodule
 ```
+
+**二、配置参数**
+
+1. 长按模块，然后选择`编辑参数`
+2. 按提示修改对应参数即可
