@@ -1,11 +1,8 @@
 #!name=网络测速
 #!desc=快速进行网速测试
-#!arguments=文件大小:4
-#!arguments-desc=文件大小的单位为MB，推荐设置为：4-10
-
 
 [Panel]
 Speed = script-name=Speed,update-interval=-1
 
 [Script]
-Speed = type=generic,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Speed/Moore/Speed.js,argument=title=网速测试&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb={{{文件大小}}}
+Speed = type=generic,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Speed/Moore/Speed.js,argument=title=网速测试&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb=4
