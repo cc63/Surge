@@ -16,3 +16,7 @@
 ```
 https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule
 ```
+**二、配置参数**
+
+1. 长按模块，然后选择`编辑参数`
+2. 按提示编辑对应参数即可
