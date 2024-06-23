@@ -13,18 +13,18 @@
 **一、自有面板**
 - 🚁 **机场信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
 - 🌐 **节点信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
-- ⚡️ **网速测试** ：[查看链接](https://github.com/cc63/Surge/tree/main/Module/Panel/Speed)
+- ⚡️ **网速测试** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Speed)
 - ⛽ **汽油价格** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
 
 **二、第三方面板**
-- ⏱️ **启动时长** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
-- 🪩 **网络信息** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.sgmodule)
-- ✂️ **打断请求** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
-- ❄️ **DNS刷新** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
+- ⏱️ **启动时长** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
+- 🪩 **网络信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Net-X)
+- ✂️ **打断请求** ：[点击了解](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/kill-active-requests/index.sgmodule)
+- ❄️ **DNS刷新** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
 - 🔍 **Ping面板** ：[查看链接](https://raw.githubusercontent.com/Keywos/rule/main/script/ping/ping.sgmodule)
 - 🎯 **连通性测试** ：[查看链接](https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Connectivity_Test.sgmodule)
-- 🎬️ **流媒体检测** ：[查看链接](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
-- 🌪 **规则匹配计时** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/ruleMatchingTime.sgmodule)
+- 🎬️ **流媒体检测** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
+- 🌪 **规则匹配计时** ：[点击了解](https://raw.githubusercontent.com/mieqq/mieqq/master/ruleMatchingTime.sgmodule)
 
 
 ## 🛠️ Tools 工具模块
