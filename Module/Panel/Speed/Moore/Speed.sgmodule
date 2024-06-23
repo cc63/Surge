@@ -1,0 +1,8 @@
+#!name=网络测速
+#!desc=快速进行网速测试
+
+[Panel]
+Speed = script-name=Speed,update-interval=-1
+
+[Script]
+Speed = type=generic,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Net_Speed/Net_Speed.js,argument=title=网速测试&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb=4
