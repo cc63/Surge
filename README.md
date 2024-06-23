@@ -44,7 +44,7 @@
 
 **二、实用模块**
 
-- 🧰 **Surge Tools** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/st)
+- 🧰 **Surge Tool** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/st)
 - 🌀 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🌝 **Baidu 百度净化** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/baidu_index)
 - 🌝 **Baidu 输入法魔改** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/baidu_input_enhanced/baidu_input_enhanced.sgmodule)
