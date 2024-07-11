@@ -1,6 +1,5 @@
 #!name=面板-机场信息
 #!desc=流量信息/智能提醒/到期日期
-#!system=ios
 #!category=面板模块
 
 [Panel]
