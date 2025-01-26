@@ -1,6 +1,5 @@
 # NAME: Emby
 # AUTHOR: cc63
 # UPDATED: 2024-11-27
-DOMAIN-SUFFIX,misakaf.org
+DOMAIN-SUFFIX,zox.show
 DOMAIN-SUFFIX,embymv.link
-IP-CIDR,108.181.0.21/24,no-resolve
