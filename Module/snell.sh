@@ -7,6 +7,7 @@ export PATH
 #	Description: Snell Server 管理脚本
 #	Author: 翠花 （整点猫咪修改版）
 #	WebSite: https://surge.tel
+#	猫咪很久没更新脚本了，本人仅仅为了自用改了一下版本号
 #=================================================
 
 sh_ver="1.4.9"
