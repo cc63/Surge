@@ -73,6 +73,7 @@
 | [@RuCu6](https://github.com/RuCu6/QuanX)  | 广告拦截 |
 | [@ClydeTime](https://github.com/ClydeTime)  | 任务脚本  |
 
-## ✈️ AFF 自用机场
+## ✈️ 自用 AFF
 
-- **MESL** ：[点击了解](https://in.mesl.cloud/#/register?code=ew06hQ6A)
+- **机场-MESL** ：[点击了解](https://in.mesl.cloud/#/register?code=ew06hQ6A)
+- **VPS-DMIT** ：[点击了解](https://www.dmit.io/aff.php?aff=11797)
