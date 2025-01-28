@@ -243,7 +243,7 @@ Set_obfs(){
 ==================================
 ${Green_font_prefix} 1.${Font_color_suffix} HTTP ${Green_font_prefix} 2.${Font_color_suffix} 关闭
 =================================="
-	read -e -p "(默认：2.关闭)：" obfs
+	read -e -p "(默认：1.开启)：" obfs
 	[[ -z "${obfs}" ]] && obfs="1"
 	if [[ ${obfs} == "1" ]]; then
 		obfs=http
