@@ -70,7 +70,6 @@
 | [@Keywos](https://github.com/Keywos/rule/tree/main/script)  | Key佬  |
 | [@Rabbit-Spec](https://github.com/Rabbit-Spec/Surge)  | 深巷有喵  |
 | [@GetSomeCat](https://github.com/getsomecat/GetSomeCats/tree/Surge/modules)  | 整点猫咪  |
-| [@RuCu6](https://github.com/RuCu6/QuanX)  | 广告拦截 |
 | [@ClydeTime](https://github.com/ClydeTime)  | 任务脚本  |
 
 ## ✈️ 自用 AFF
