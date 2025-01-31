@@ -1,6 +1,6 @@
 #!name=面板-机场信息
 #!desc=流量信息/智能提醒/到期日期
-#!category=面板模块
+#!category=🌠 面板模块
 
 [Panel]
 Sub-info = script-name=1号机场,update-interval=7200
