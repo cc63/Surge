@@ -1,6 +1,6 @@
 #!name=面板-节点信息
 #!desc=展示节点的IP/运营商/所在地
-#!category=面板模块
+#!category=🌠 面板模块
 #!arguments=API序号:1
 #!arguments-desc=\n⚙️API序号\n\n1.ip-api.com\n2.ipinfo.io\n3.ipleak.net\n4.ip.sb
 
