@@ -1,7 +1,6 @@
 # NAME: Grok
 # AUTHOR: cc63
 # UPDATED: 2025-02-23
-
 DOMAIN-SUFFIX,x.ai // Added for: grok-v2.x.ai:443
 DOMAIN-SUFFIX,assetsconfigcdn.org // Added for: assetsconfigcdn.org:443
 DOMAIN-SUFFIX,imgs.search.brave.com // Added for: imgs.search.brave.com:443
