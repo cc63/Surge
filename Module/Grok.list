@@ -1,0 +1,10 @@
+# NAME: Grok
+# AUTHOR: cc63
+# UPDATED: 2025-02-23
+
+DOMAIN-SUFFIX,x.ai // Added for: grok-v2.x.ai:443
+DOMAIN-SUFFIX,assetsconfigcdn.org // Added for: assetsconfigcdn.org:443
+DOMAIN-SUFFIX,imgs.search.brave.com // Added for: imgs.search.brave.com:443
+DOMAIN-SUFFIX,beyondwickedmapping.org // Added for: beyondwickedmapping.org:443
+DOMAIN-SUFFIX,pbs.twimg.com // Added for: pbs.twimg.com:443
+DOMAIN-SUFFIX,egv4py1c-ios.mobile-messenger.intercom.com // Added for: egv4py1c-ios.mobile-messenger.intercom.com:443
