@@ -5,7 +5,9 @@
 ###### 测直连：GEPIP,CN,DIRECT
 ###### 测代理：FINAL,PROXY
 
-DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,speed.dler.io
+DOMAIN-KEYWORD,speedtest
 USER-AGENT,SpeedTest*
