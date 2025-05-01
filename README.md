@@ -75,5 +75,6 @@
 
 ## ✈️ 自用 AFF
 
-- **机场-MESL** ：[点击了解](https://in.mesl.cloud/#/register?code=ew06hQ6A)
-- **VPS-DMIT** ：[点击了解](https://www.dmit.io/aff.php?aff=11797)
+- **[机场]MESL** ：[节点140+全球覆盖，特色是BGP入口、家宽、低倍率，但偶尔会被打](https://in.mesl.cloud/#/register?code=ew06hQ6A)
+- **[机场]CTC** ：[小众机场，主打稳定，但节点数量和地区都不多](https://www.jinglongyu.com/#/register?code=ZlsRp5La)
+- **[VPS]DMIT** ：[无须多言，优质且靠谱](https://www.dmit.io/aff.php?aff=11797)
