@@ -50,6 +50,7 @@
 - 🌝 **Baidu 输入法魔改** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/baidu_input_enhanced/baidu_input_enhanced.sgmodule)
 - 🛟 **TestFlight 账户管理** ：[查看链接](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
+- 🔐 **解除GitHub 429限制** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🗞️ **AppleNews 分流模块** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
 - ⛔️ **AD-Block 去广告合集** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
 
