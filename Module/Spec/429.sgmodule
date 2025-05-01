@@ -1,0 +1,9 @@
+#!name=GitHub 429
+#!desc=解除 GitHub 429 限制
+# 模块取自Telegram群组 @zhetengsha
+
+[Header Rewrite]
+http-request (raw|gist|avatars)\.githubusercontent\.com header-replace Accept-Language en-us
+
+[MITM]
+hostname = %APPEND% *.githubusercontent.com
