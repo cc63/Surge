@@ -61,6 +61,7 @@
 - ⛔️ **去广告合集** ：[deezertidal轻量版](https://whatshub.top/module/adlite.sgmodule)
 - ⛔️ **去广告合集** ：[deezertidal加强版](https://whatshub.top/module/startingad.sgmodule)
 
+> ⚠️ 去广告合集可能存在误杀现象，请酌情使用。<br>
 
 
 ## 🧑‍💻 Genius Bar
