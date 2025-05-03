@@ -59,7 +59,7 @@
 
 > ⚠️ 去广告合集可能存在误杀现象，请酌情使用。<br>
 
-## 🛠️ Collection 优质合集
+## 📁 Collection 优质合集
 
 - 💼 **模块合集** ：[前往Ling KeQing](https://surge.qingr.moe)
 - 💼 **模块合集** ：[前往NobyDa](https://github.com/NobyDa/Script/tree/master/Surge/Module)
