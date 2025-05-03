@@ -4,8 +4,8 @@
 
 ## ⚙️ Conf 配置文件
 -  📦 **配置文件** ：[点击了解](https://github.com/cc63/Surge/tree/main/Conf)
--  💾 **分流规则-Sukka** ：[前往仓库](https://ruleset.skk.moe)
--  💾 **分流规则-blackmatrix7** ：[前往仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
+-  💾 **分流规则** ：[Sukka仓库](https://ruleset.skk.moe)
+-  💾 **分流规则** ：[blackmatrix7仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 -  🎭 **机场图标** ：[前往仓库](https://github.com/cc63/ICON)
 
 
@@ -40,12 +40,9 @@
 - 🪐 **BiliUniverse 哔哩万象** ：[前往项目](https://biliuniverse.io/)
 - 🍎 **iRingo 解锁完整Apple** ：[前往项目](https://nsringo.github.io/)
 
-
 **二、实用模块**
 
-- 🧰 **Surge Tool** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/st)
 - 🌀 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🌝 **Baidu 输入法魔改** ：[查看链接](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/baidu_input_enhanced/baidu_input_enhanced.sgmodule)
 - 🛟 **TestFlight 账户管理** ：[查看链接](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 - 🔐 **解除GitHub 429限制** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/429.sgmodule)
@@ -53,13 +50,17 @@
 
  **三、实用脚本**
 - 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 💼 **野比佬脚本合集** ：[查看链接](https://github.com/NobyDa/Script/tree/master/Surge/Module)
-- 🔓 **会员解锁脚本合集** ：[查看链接](https://github.com/deezertidal/Surge_Module)
+- 💼 **脚本合集** ：[前往NobyDa](https://github.com/NobyDa/Script/tree/master/Surge/Module)
+- 🔓 **脚本合集** ：[前往deezertidal](https://github.com/deezertidal/Surge_Module)
 
 **二、广告拦截**
 
 - 🌝 **百度净化** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/baidu_index)
-- ⛔️ **去广告脚本合集** ：[查看链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
+- ⛔️ **去广告合集** ：[blackmatrix7轻量版](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
+- ⛔️ **去广告合集** ：[blackmatrix7加强版](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
+- ⛔️ **去广告合集** ：[deezertidal轻量版](https://whatshub.top/module/adlite.sgmodule)
+- ⛔️ **去广告合集** ：[deezertidal加强版](https://whatshub.top/module/startingad.sgmodule)
+
 
 
 ## 🧑‍💻 Genius Bar
