@@ -2,10 +2,16 @@
  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200">
 </div>
 
-## 📦 blackmatrix7/icon
+## 📦 weigeshen/TuBiao
 
-- 🧑‍🎨 **作者：** [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/master/icon)
-- 🔗 **JSON地址：** https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/icon/icon.json
+- 🧑‍🎨 **作者：** [@weigeshen](https://github.com/weigeshen/-)
+- 🔗 **JSON地址：** https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json
+
+## 📦 fmz200/icons
+
+- 🧑‍🎨 **作者：** [@fmz200](https://github.com/fmz200/wool_scripts)
+- 🔗 **JSON地址：** https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json
+
 
 ## 📦 Koolson/Qure
 
