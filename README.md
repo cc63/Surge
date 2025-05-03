@@ -66,11 +66,12 @@
 - 💼 **模块合集** ：[前往deezertidal](https://github.com/deezertidal/Surge_Module)
 
 ## 🧑‍💻 Genius Bar
-| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | [@VirgilClyne](https://github.com/VirgilClyne) |[**@SukkaW**](https://github.com/SukkaW/Surge/)  | 
-|:---:|:---:|:---:|
-| [**@mieqq**](https://github.com/mieqq/mieqq) | [**@NobyDa**](https://github.com/NobyDa/Script)  | [**@Keywos**](https://github.com/Keywos/rule/tree/main/script)  |
-| [**@QingRex**](https://github.com/QingRex/LoonKissSurge/) | [**@blackmatrix7**](https://github.com/blackmatrix7/ios_rule_script)  | [**@ClydeTime**](https://github.com/ClydeTime)  |
-| [**@Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge)  | [**@GetSomeCat**](https://github.com/getsomecat/GetSomeCats/tree/Surge/modules)  |   | 
+| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | [@VirgilClyne](https://github.com/VirgilClyne) | 
+|:---:|:---:|
+| [**@mieqq**](https://github.com/mieqq/mieqq) | [**@NobyDa**](https://github.com/NobyDa/Script)  | 
+| [**@SukkaW**](https://github.com/SukkaW/Surge/)  | [**@Keywos**](https://github.com/Keywos/rule/tree/main/script)  |
+| [**@QingRex**](https://github.com/QingRex/LoonKissSurge/) | [**@ClydeTime**](https://github.com/ClydeTime)  | 
+| [**@Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge)  | [**@GetSomeCat**](https://github.com/getsomecat/GetSomeCats/tree/Surge/modules)  | 
 
 
 
