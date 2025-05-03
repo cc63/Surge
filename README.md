@@ -62,8 +62,8 @@
 ## 📁 Collection 优质合集
 
 - 💼 **模块合集** ：[前往Ling KeQing](https://surge.qingr.moe)
-- 💼 **模块合集** ：[前往NobyDa](https://github.com/NobyDa/Script/tree/master/Surge/Module)
 - 💼 **模块合集** ：[前往deezertidal](https://github.com/deezertidal/Surge_Module)
+
 
 ## 🧑‍💻 Genius Bar
 | [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | [@VirgilClyne](https://github.com/VirgilClyne) | 
