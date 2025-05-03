@@ -4,10 +4,9 @@
 
 ## ⚙️ Conf 配置文件
 -  📦 **配置文件** ：[点击了解](https://github.com/cc63/Surge/tree/main/Conf)
+-  🎭 **图标合集** ：[点击了解](https://github.com/cc63/Surge/tree/main/icon)
 -  💾 **分流规则** ：[Sukka仓库](https://ruleset.skk.moe)
 -  💾 **分流规则** ：[blackmatrix7仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
--  🎭 **机场图标** ：[前往仓库](https://github.com/cc63/ICON)
-
 
 ## 🌠 Panel 面板模块
 
