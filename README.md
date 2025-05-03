@@ -42,18 +42,14 @@
 
 **二、实用模块**
 
+- 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🌀 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🛟 **TestFlight 账户管理** ：[查看链接](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
 - 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 - 🔐 **解除GitHub 429限制** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/429.sgmodule)
 - 🗞️ **AppleNews 分流模块** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
 
- **三、实用脚本**
-- 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 💼 **脚本合集** ：[前往NobyDa](https://github.com/NobyDa/Script/tree/master/Surge/Module)
-- 🔓 **脚本合集** ：[前往deezertidal](https://github.com/deezertidal/Surge_Module)
-
-**二、广告拦截**
+**三、广告拦截**
 
 - 🌝 **百度净化** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/baidu_index)
 - ⛔️ **去广告合集** ：[blackmatrix7轻量版](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
@@ -63,12 +59,18 @@
 
 > ⚠️ 去广告合集可能存在误杀现象，请酌情使用。<br>
 
+## 🛠️ Collection 优质合集
+
+- 💼 **模块合集** ：[前往Ling KeQing](https://surge.qingr.moe)
+- 💼 **模块合集** ：[前往NobyDa](https://github.com/NobyDa/Script/tree/master/Surge/Module)
+- 💼 **模块合集** ：[前往deezertidal](https://github.com/deezertidal/Surge_Module)
 
 ## 🧑‍💻 Genius Bar
 | [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | [@VirgilClyne](https://github.com/VirgilClyne) |[**@SukkaW**](https://github.com/SukkaW/Surge/)  | 
 |:---:|:---:|:---:|
 | [**@mieqq**](https://github.com/mieqq/mieqq) | [**@NobyDa**](https://github.com/NobyDa/Script)  | [**@Keywos**](https://github.com/Keywos/rule/tree/main/script)  |
-| [**@Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge)  | [**@GetSomeCat**](https://github.com/getsomecat/GetSomeCats/tree/Surge/modules)  | [**@ClydeTime**](https://github.com/ClydeTime)  | 
+| [**@QingRex**](https://github.com/QingRex/LoonKissSurge/) | [**@blackmatrix7**](https://github.com/blackmatrix7/ios_rule_script)  | [**@ClydeTime**](https://github.com/ClydeTime)  |
+| [**@Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge)  | [**@GetSomeCat**](https://github.com/getsomecat/GetSomeCats/tree/Surge/modules)  |   | 
 
 
 
