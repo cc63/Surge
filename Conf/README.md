@@ -1,12 +1,11 @@
 <div align="center">
  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Conf/Conf.PNG" width="200">
- <img src="https://raw.githubusercontent.com/cc63/Surge/main/Conf/ConfX.PNG" width="200">
 </div>
 
 ## 📦 配置文件
 
 ```
-https://raw.githubusercontent.com/cc63/Surge/main/Conf/Mine.conf
+https://raw.githubusercontent.com/cc63/Surge/main/Conf/Uex.conf
 ```
 
 ## 🧩 配置建议
