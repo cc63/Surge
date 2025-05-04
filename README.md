@@ -10,8 +10,8 @@
 ## ⚙️ 基础配置
 -  📦 [**配置文件** ](https://github.com/cc63/Surge/tree/main/Conf)
 -  🎨 [**自定义图标集** ](https://github.com/cc63/Surge/tree/main/icon)
+-  💾 [**bm7规则集**](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 -  💾 [**Sukka规则集**](https://ruleset.skk.moe)
--  💾 [**blackmatrix7规则集**](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 
 ## 🌠 面板模块
 
