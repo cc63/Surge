@@ -70,7 +70,7 @@
 - 🧰 [**Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge/tree/Master/Module)
 
 
-## 🧑‍💻 贡献者
+## 🧑‍💻 特别鸣谢
 
 <div>
   <table>
