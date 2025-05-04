@@ -21,11 +21,9 @@ jobs:
 
     - name: Sync ISP function to other files
       run: |
-        # 将脚本提取到单独文件执行，提高可维护性
-        cat > sync-script.sh << 'EOF'
-        #!/bin/bash
-        set -e  # 遇到错误立即停止脚本执行
-
+        # 直接在工作流中执行脚本，不创建额外文件
+        echo "🔄 Starting sync function job"
+        
         SOURCE_FILE="Module/Panel/IP-info/Moore/IP-1.js"
         TARGET_FILES=(
           "Module/Panel/IP-info/Moore/IP-2.js"
@@ -75,8 +73,8 @@ jobs:
             continue
           fi
           
-          # 创建临时文件
-          TEMP_FILE="${TARGET_FILE}.tmp"
+          # 创建临时文件，在系统临时目录而非项目目录
+          TEMP_FILE="/tmp/$(basename ${TARGET_FILE}).tmp"
           
           # 使用 Node.js 替换函数，处理更复杂的情况
           node -e "
@@ -105,6 +103,7 @@ jobs:
           # 检查文件是否有实际变化
           if cmp -s "$TARGET_FILE" "$TEMP_FILE"; then
             echo "ℹ️ No changes needed for $TARGET_FILE"
+            rm -f "$TEMP_FILE"  # 删除不需要的临时文件
           else
             mv "$TEMP_FILE" "$TARGET_FILE"
             echo "✅ Updated $TARGET_FILE"
@@ -114,32 +113,23 @@ jobs:
         
         echo "📊 Summary: Updated $UPDATED_FILES files"
         
-        # 只在有变更时提交
-        if [ $UPDATED_FILES -gt 0 ]; then
-          echo "🚀 Changes detected, preparing to commit..."
-          exit 0  # 有变更，返回成功状态码
-        else
-          echo "ℹ️ No changes detected"
-          exit 0  # 无变更，返回成功状态码
-        fi
-        EOF
-        
-        # 添加执行权限并运行脚本
-        chmod +x sync-script.sh
-        ./sync-script.sh
+        # 清理临时文件
+        rm -f /tmp/cleanIspInfo.js
         
         # 如果有变更，提交并推送
-        if [ $? -eq 0 ] && [ -n "$(git status --porcelain)" ]; then
+        if [ -n "$(git status --porcelain)" ]; then
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "✨ Sync cleanIspInfo function from IP-1.js to other JS files"
           git push
           echo "🎉 Changes committed and pushed"
+        else
+          echo "ℹ️ No changes detected"
         fi
 
     - name: Clean up
       if: always()
       run: |
-        rm -f sync-script.sh /tmp/cleanIspInfo.js
+        rm -f /tmp/cleanIspInfo.js /tmp/*.tmp
         echo "🧹 Cleanup completed"
