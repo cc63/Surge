@@ -77,17 +77,17 @@
      <tr>
       <td align="center"><a href="https://github.com/xream/scripts/tree/main/surge/modules"><img src="https://github.com/xream.png" width="100px;" alt="xream"/><br /><sub><b>@xream</b></sub></a></td>
       <td align="center"><a href="https://github.com/VirgilClyne"><img src="https://github.com/VirgilClyne.png" width="100px;" alt="VirgilClyne"/><br /><sub><b>@VirgilClyne</b></sub></a></td>
-      <td align="center"><a href="https://github.com/SukkaW/Surge/"><img src="https://github.com/SukkaW.png" width="100px;" alt="SukkaW"/><br /><sub><b>@SukkaW</b></sub></a></td>
+      <td align="center"><a href="https://github.com/NobyDa/Script"><img src="https://github.com/NobyDa.png" width="100px;" alt="NobyDa"/><br /><sub><b>@NobyDa</b></sub></a></td>
    </tr>
      <tr>
-      <td align="center"><a href="https://github.com/Keywos/rule/tree/main/script"><img src="https://github.com/Keywos.png" width="100px;" alt="Keywos"/><br /><sub><b>@Keywos</b></sub></a></td>
-      <td align="center"><a href="https://github.com/QingRex/LoonKissSurge/"><img src="https://github.com/QingRex.png" width="100px;" alt="QingRex"/><br /><sub><b>@QingRex</b></sub></a></td>
-      <td align="center"><a href="https://github.com/Rabbit-Spec/Surge"><img src="https://github.com/Rabbit-Spec.png" width="100px;" alt="Rabbit-Spec"/><br /><sub><b>@Rabbit-Spec</b></sub></a></td>
+       <td align="center"><a href="https://github.com/SukkaW/Surge/"><img src="https://github.com/SukkaW.png" width="100px;" alt="SukkaW"/><br /><sub><b>@SukkaW</b></sub></a></td>
+       <td align="center"><a href="https://github.com/Keywos/rule/tree/main/script"><img src="https://github.com/Keywos.png" width="100px;" alt="Keywos"/><br /><sub><b>@Keywos</b></sub></a></td>
+       <td align="center"><a href="https://github.com/mieqq/mieqq"><img src="https://github.com/mieqq.png" width="100px;" alt="mieqq"/><br /><sub><b>@mieqq</b></sub></a></td>
     </tr>
      <tr>
+      <td align="center"><a href="https://github.com/QingRex/LoonKissSurge/"><img src="https://github.com/QingRex.png" width="100px;" alt="QingRex"/><br /><sub><b>@QingRex</b></sub></a></td>
+      <td align="center"><a href="https://github.com/Rabbit-Spec/Surge"><img src="https://github.com/Rabbit-Spec.png" width="100px;" alt="Rabbit-Spec"/><br /><sub><b>@Rabbit-Spec</b></sub></a></td>
       <td align="center"><a href="https://github.com/ClydeTime"><img src="https://github.com/ClydeTime.png" width="100px;" alt="ClydeTime"/><br /><sub><b>@ClydeTime</b></sub></a></td>
-      <td align="center"><a href="https://github.com/mieqq/mieqq"><img src="https://github.com/mieqq.png" width="100px;" alt="mieqq"/><br /><sub><b>@mieqq</b></sub></a></td>
-      <td align="center"><a href="https://github.com/getsomecat/GetSomeCats/tree/Surge/modules"><img src="https://github.com/getsomecat.png" width="100px;" alt="GetSomeCat"/><br /><sub><b>@GetSomeCat</b></sub></a></td>
      </tr> 
   </table>
 </div>
