@@ -1,83 +1,101 @@
 <div align="center">
- <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200">
+  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Module/Surge.png" width="200" alt="Surge Logo">
+  <p><em>Surge的配置与模块集合</em></p>
+  
+  ![GitHub Stars](https://img.shields.io/github/stars/cc63/Surge?style=flat-square&color=gold)
+  ![GitHub Forks](https://img.shields.io/github/forks/cc63/Surge?style=flat-square&color=blue)
+  ![GitHub Issues](https://img.shields.io/github/issues/cc63/Surge?style=flat-square&color=green)
 </div>
 
-## ⚙️ Conf 配置文件
--  📦 **配置文件** ：[点击了解](https://github.com/cc63/Surge/tree/main/Conf)
--  🎭 **图标合集** ：[点击了解](https://github.com/cc63/Surge/tree/main/icon)
--  💾 **分流规则** ：[Sukka仓库](https://ruleset.skk.moe)
--  💾 **分流规则** ：[blackmatrix7仓库](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
+## ⚙️ 基础配置
+-  📦 [**配置文件** ](https://github.com/cc63/Surge/tree/main/Conf)
+-  🎨 [**自定义图标集** ](https://github.com/cc63/Surge/tree/main/icon)
+-  💾 [**Sukka规则集**](https://ruleset.skk.moe)
+-  💾 [**blackmatrix7规则集**](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge)
 
-## 🌠 Panel 面板模块
+## 🌠 面板模块
 
 **一、自有面板**
-- 🚁 **机场信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
-- 🌐 **节点信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
-- ⚡️ **网速测试** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Speed)
-- ⛽ **汽油价格** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
+- 🚁 [**机场信息**](https://github.com/cc63/Surge/tree/main/Module/Panel/Sub-info)
+- 🌐 [**节点信息**](https://github.com/cc63/Surge/tree/main/Module/Panel/IP-info)
+- ⚡️ [**网速测试**](https://github.com/cc63/Surge/tree/main/Module/Panel/Speed)
+- ⛽ [**汽油价格**](https://github.com/cc63/Surge/tree/main/Module/Panel/QiYou)
 
 **二、第三方面板**
-- ⏱️ **启动时长** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
-- ✂️ **打断请求** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Cut)
-- ❄️ **DNS刷新** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
-- 🔍 **Ping面板** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/ping)
-- 🎯 **连通性测试** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Connectivity_Test)
-- 🎬️ **流媒体检测** ：[点击了解](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
-- ⏳ **规则匹配计时** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/MatchTime)
-- 🪩 **节点入口落地** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/Net-X)
-- 🛜 **网络接口信息** ：[点击了解](https://github.com/cc63/Surge/tree/main/Module/Panel/interface-info)
+- ⏱️ [**启动时长**](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Surge-Pro)
+- ✂️ [**打断请求**](https://github.com/cc63/Surge/tree/main/Module/Panel/Cut)
+- ❄️ [**DNS刷新**](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Flush-DNS)
+- 🔍 [**Ping面板**](https://github.com/Keywos/rule/tree/main/script/ping)
+- 🎯 [**连通性测试**](https://github.com/cc63/Surge/tree/main/Module/Panel/Connectivity_Test)
+- 🎬️ [**流媒体检测**](https://github.com/Rabbit-Spec/Surge/tree/Master/Module/Panel/Stream-All)
+- ⏳ [**规则匹配计时**](https://github.com/cc63/Surge/tree/main/Module/Panel/MatchTime)
+- 🛜 [**网络接口信息**](https://github.com/cc63/Surge/tree/main/Module/Panel/interface-info)
+- 🪩 [**节点入口落地查询**](https://github.com/cc63/Surge/tree/main/Module/Panel/Net-X)
 
 
 
-## 🛠️ Tools 工具模块
+## 🛠️ 工具模块
 
 **一、高级工具**
 
-- 🍿️ **DualSubs 双语字幕** ：[前往项目](https://dualsubs.github.io/)
-- 🛍️ **Sub-Store 订阅管理** ：[前往项目](https://github.com/sub-store-org/Sub-Store/tree/master/config)
-- 📝 **Script-Hub 重写转换** ：[前往项目](https://github.com/Script-Hub-Org/Script-Hub)
-- 🪐 **BiliUniverse 哔哩万象** ：[前往项目](https://biliuniverse.io/)
-- 🍎 **iRingo 解锁完整Apple** ：[前往项目](https://nsringo.github.io/)
+- 🍿️ [**DualSubs 双语字幕**](https://dualsubs.github.io/)
+- 🛍️ [**Sub-Store 订阅管理**](https://github.com/sub-store-org/Sub-Store/tree/master/config)
+- 📝 [**Script-Hub 重写转换**](https://github.com/Script-Hub-Org/Script-Hub)
+- 🪐 [**BiliUniverse 哔哩万象**](https://biliuniverse.io/)
+- 🍎 [**iRingo 解锁完整Apple**](https://nsringo.github.io/)
 
 **二、实用模块**
 
-- 📺 **B站每日任务** ：[查看链接](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 🌀 **Google 重定向** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🛟 **TestFlight 账户管理** ：[查看链接](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
-- 🏄‍♂️ **Skip-Proxy 跳过代理** ：[查看链接](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
-- 🔐 **解除GitHub 429限制** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/429.sgmodule)
-- 🗞️ **AppleNews 分流模块** ：[查看链接](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
+- 📺 [**B站每日任务**](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
+- 🌀 [**Google 重定向**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
+- 🛟 [**TestFlight 账户管理**](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
+- 🏄‍♂️ [**Skip-Proxy 跳过代理**](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
+- 🔐 [**解除GitHub 429限制**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/429.sgmodule)
+- 🗞️ [**AppleNews 分流模块**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
 
 **三、广告拦截**
 
-- 🌝 **百度净化** ：[点击了解](https://github.com/Keywos/rule/tree/main/script/baidu_index)
-- ⛔️ **去广告合集** ：[blackmatrix7轻量版](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
-- ⛔️ **去广告合集** ：[blackmatrix7加强版](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
-- ⛔️ **去广告合集** ：[deezertidal轻量版](https://whatshub.top/module/adlite.sgmodule)
-- ⛔️ **去广告合集** ：[deezertidal加强版](https://whatshub.top/module/startingad.sgmodule)
+- 🚫 [**百度净化**](https://github.com/Keywos/rule/tree/main/script/baidu_index)
+- 🚫 [**合集-bm7轻量版**](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
+- 🚫 [**合集-bm7加强版**](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
+- 🚫 [**合集-Yfamily轻量版**](https://whatshub.top/module/adlite.sgmodule)
+- 🚫 [**合集-Yfamily加强版**](https://whatshub.top/module/startingad.sgmodule)
 
 > ⚠️ 去广告合集可能存在误杀现象，请酌情使用。<br>
 
-## 📁 Collection 优质合集
+## 📁 优质合集
 
-- 💼 **模块合集** ：[前往Ling KeQing](https://surge.qingr.moe)
-- 💼 **模块合集** ：[前往deezertidal](https://github.com/deezertidal/Surge_Module)
-- 💼 **模块合集** ：[前往Rabbit-Spec](https://github.com/Rabbit-Spec/Surge/tree/Master/Module)
+- 🧰 [**LoonKissSurge**](https://surge.qingr.moe)
+- 🧰 [**Yfamily**](https://whatshub.top/surge)
+- 🧰 [**Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge/tree/Master/Module)
 
 
-## 🧑‍💻 Genius Bar
-| [@xream](https://github.com/xream/scripts/tree/main/surge/modules)  | [@VirgilClyne](https://github.com/VirgilClyne) | 
-|:---:|:---:|
-| [**@mieqq**](https://github.com/mieqq/mieqq) | [**@NobyDa**](https://github.com/NobyDa/Script)  | 
-| [**@SukkaW**](https://github.com/SukkaW/Surge/)  | [**@Keywos**](https://github.com/Keywos/rule/tree/main/script)  |
-| [**@QingRex**](https://github.com/QingRex/LoonKissSurge/) | [**@ClydeTime**](https://github.com/ClydeTime)  | 
-| [**@Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge)  | [**@GetSomeCat**](https://github.com/getsomecat/GetSomeCats/tree/Surge/modules)  | 
+## 🧑‍💻 贡献者
 
+<div>
+  <table>
+     <tr>
+      <td align="center"><a href="https://github.com/xream/scripts/tree/main/surge/modules"><img src="https://github.com/xream.png" width="100px;" alt="xream"/><br /><sub><b>@xream</b></sub></a></td>
+      <td align="center"><a href="https://github.com/VirgilClyne"><img src="https://github.com/VirgilClyne.png" width="100px;" alt="VirgilClyne"/><br /><sub><b>@VirgilClyne</b></sub></a></td>
+      <td align="center"><a href="https://github.com/SukkaW/Surge/"><img src="https://github.com/SukkaW.png" width="100px;" alt="SukkaW"/><br /><sub><b>@SukkaW</b></sub></a></td>
+   </tr>
+     <tr>
+      <td align="center"><a href="https://github.com/Keywos/rule/tree/main/script"><img src="https://github.com/Keywos.png" width="100px;" alt="Keywos"/><br /><sub><b>@Keywos</b></sub></a></td>
+      <td align="center"><a href="https://github.com/QingRex/LoonKissSurge/"><img src="https://github.com/QingRex.png" width="100px;" alt="QingRex"/><br /><sub><b>@QingRex</b></sub></a></td>
+      <td align="center"><a href="https://github.com/Rabbit-Spec/Surge"><img src="https://github.com/Rabbit-Spec.png" width="100px;" alt="Rabbit-Spec"/><br /><sub><b>@Rabbit-Spec</b></sub></a></td>
+    </tr>
+     <tr>
+      <td align="center"><a href="https://github.com/ClydeTime"><img src="https://github.com/ClydeTime.png" width="100px;" alt="ClydeTime"/><br /><sub><b>@ClydeTime</b></sub></a></td>
+      <td align="center"><a href="https://github.com/mieqq/mieqq"><img src="https://github.com/mieqq.png" width="100px;" alt="mieqq"/><br /><sub><b>@mieqq</b></sub></a></td>
+      <td align="center"><a href="https://github.com/getsomecat/GetSomeCats/tree/Surge/modules"><img src="https://github.com/getsomecat.png" width="100px;" alt="GetSomeCat"/><br /><sub><b>@GetSomeCat</b></sub></a></td>
+     </tr> 
+  </table>
+</div>
 
 
 
 ## ✈️ 自用 AFF
 
-- **[机场]MESL** ：[节点140+全球覆盖，特色是BGP入口、家宽、低倍率，但偶尔会被打](https://in.mesl.cloud/#/register?code=ew06hQ6A)
-- **[机场]CTC** ：[小众机场，主打稳定，但节点数量和地区都不多](https://www.jinglongyu.com/#/register?code=ZlsRp5La)
-- **[VPS]DMIT** ：[无须多言，优质且靠谱](https://www.dmit.io/aff.php?aff=11797)
+- **MESL** ：[节点140+全球覆盖，拥有BGP入口及家宽、低倍率节点](https://in.mesl.cloud/#/register?code=ew06hQ6A)
+- **CTC** ：[小而美的优质机场，主打稳定](https://www.jinglongyu.com/#/register?code=ZlsRp5La)
+- **DMIT** ：[优质的VPS商家，提供免费的快照](https://www.dmit.io/aff.php?aff=11797)
