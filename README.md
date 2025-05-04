@@ -62,6 +62,7 @@
 
 - 💼 **模块合集** ：[前往Ling KeQing](https://surge.qingr.moe)
 - 💼 **模块合集** ：[前往deezertidal](https://github.com/deezertidal/Surge_Module)
+- 💼 **模块合集** ：[前往Rabbit-Spec](https://github.com/Rabbit-Spec/Surge/tree/Master/Module)
 
 
 ## 🧑‍💻 Genius Bar
