@@ -47,15 +47,15 @@
 **二、实用模块**
 
 - 📺 [**B站每日任务**](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
-- 🌀 [**Google 重定向**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🛟 [**TestFlight 账户管理**](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
+- 🌪️ [**Google CN重定向**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🏄‍♂️ [**Skip-Proxy 跳过代理**](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
-- 🔐 [**解除GitHub 429限制**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/429.sgmodule)
+- 🔐 [**GitHub 解除429限制**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/429.sgmodule)
 - 🗞️ [**AppleNews 分流模块**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
+- 🛟 [**TestFlight 多账户管理**](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
 
 **三、广告拦截**
 
-- 🚫 [**百度净化**](https://github.com/Keywos/rule/tree/main/script/baidu_index)
+- 🚫 [**百度首页净化**](https://github.com/Keywos/rule/tree/main/script/baidu_index)
 - 🚫 [**合集-bm7轻量版**](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
 - 🚫 [**合集-bm7加强版**](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
 - 🚫 [**合集-Yfamily轻量版**](https://whatshub.top/module/adlite.sgmodule)
