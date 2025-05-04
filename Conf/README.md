@@ -88,7 +88,7 @@ GEOIP,CN,DIRECT
 FINAL,Proxy,dns-failed
 
 [Header Rewrite]
-http-request (raw|gist|avatars)\.githubusercontent\.com header-replace Accept-Language en-us
+http-request ^https://.*\.githubusercontent\.com\/ header-replace Accept-Language en-us
 
 [MITM]
 skip-server-cert-verify = true
