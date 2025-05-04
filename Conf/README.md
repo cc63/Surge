@@ -2,7 +2,7 @@
  <img src="https://raw.githubusercontent.com/cc63/Surge/main/Conf/Conf.PNG" width="200">
 </div>
 
-## 📦 配置文件
+## 📦 配置示例
 
 ```python
 [General]
