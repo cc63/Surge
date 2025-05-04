@@ -4,7 +4,6 @@
   
   ![GitHub Stars](https://img.shields.io/github/stars/cc63/Surge?style=flat-square&color=gold)
   ![GitHub Forks](https://img.shields.io/github/forks/cc63/Surge?style=flat-square&color=blue)
-  ![GitHub Issues](https://img.shields.io/github/issues/cc63/Surge?style=flat-square&color=green)
 </div>
 
 ## ⚙️ 基础配置
