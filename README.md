@@ -94,7 +94,7 @@
 
 
 
-## ✈️ 自用推荐
+## 🛒 自用推荐
 
 - **MESL** ：[节点140+全球覆盖，拥有BGP入口及家宽、低倍率节点](https://in.mesl.cloud/#/register?code=ew06hQ6A)
 - **DMIT** ：[优质的VPS商家，提供免费的快照](https://www.dmit.io/aff.php?aff=11797)
