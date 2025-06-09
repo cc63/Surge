@@ -97,4 +97,3 @@
 
 - **MESL** ：[节点140+全球覆盖，拥有BGP入口及家宽、低倍率节点](https://in.mesl.cloud/#/register?code=ew06hQ6A)
 - **DMIT** ：[优质的VPS商家，提供免费的快照](https://www.dmit.io/aff.php?aff=11797)
-- **CTC** ：[小而美的优质机场，主打稳定](https://www.jinglongyu.com/#/register?code=ZlsRp5La)
