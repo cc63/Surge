@@ -47,7 +47,6 @@
 
 - 📺 [**B站每日任务**](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🌪️ [**Google CN重定向**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🔐 [**GitHub 解除429限制**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/429.sgmodule)
 - 🏄‍♂️ [**跳过国内App代理检测**](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 - 🗞️ [**AppleNews 分流模块**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
 - 🛟 [**TestFlight 多账户管理**](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
