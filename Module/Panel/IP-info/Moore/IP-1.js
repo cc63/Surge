@@ -42,7 +42,7 @@ function cleanIspInfo(isp) {
         // 去除特殊内容
         .replace(/\(.*?\)|[-,.]/g, '')
         // 去除完整词汇
-        .replace(/\b(Hong Kong|Mass internet|Communications?|Company|information|international|Technolog(y|ies)|ESolutions?|Limited)\b/gi, '')
+        .replace(/\b(Hong Kong|Mass internet|Communications?|Company|information|international|Technolog(y|ies)|ESolutions?|Limited|Magix Services)\b/gi, '')
         // 简化过长词汇
         .replace(/(munications?)/gi, '')
         // 合并多余空格
