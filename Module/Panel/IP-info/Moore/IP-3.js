@@ -1,45 +1,40 @@
- /**********
-* 作者：cc63&ChatGPT
-* API：ipleak.net
+/**********
+API：ipleak.net
 **********/ 
-
 const url = "https://ipleak.net/json/";
-
 $httpClient.get(url, (error, response, data) => {
     if (error) {
         console.error('请求错误：', error);
         return $done();
     }
-
-    try {
-        const jsonData = JSON.parse(data);
-        const { country_name: country, country_code: countryCode, city_name: city, isp_name: isp, ip } = jsonData;
-        const emoji = getFlagEmoji(countryCode);
-        const location = (!city || country === city) ? `${emoji} │ ${country}` : `${emoji} ${countryCode} │ ${city}`;
-        const cleanedIsp = cleanIspInfo(isp);
-
-        const body = {
-            title: "节点信息",
-            content: `IP地址：${ip}\n运营商：${cleanedIsp}\n所在地：${location}`,
-            icon: "globe.asia.australia",
-            'icon-color': '#3D90ED'
-        };
-
-        $done(body);
-    } catch (e) {
-        console.error('解析错误：', e);
-        $done();
-    }
+    
+    const jsonData = JSON.parse(data);
+    const { country_name: country, country_code: countryCode, city_name: city, isp_name: isp, ip } = jsonData;
+    
+    const emoji = getFlagEmoji(countryCode);
+    const location = (country === city) ? `${emoji} │ ${country}` : `${emoji} ${countryCode} │ ${city}`;
+    const cleanedIsp = cleanIspInfo(isp);
+    
+    const body = {
+        title: "节点信息",
+        content: `IP地址：${ip}\n运营商：${cleanedIsp}\n所在地：${location}`,
+        icon: "globe.asia.australia",
+        'icon-color': '#3D90ED'
+    };
+    
+    $done(body);
 });
 
+// 根据国家代码生成国旗emoji
 function getFlagEmoji(countryCode) {
-    // 特殊处理台湾的情况
+    // 特殊处理台湾
     if (countryCode.toUpperCase() === 'TW') {
-        countryCode = 'CN'; // 或根据需要修改
+        countryCode = 'CN';
     }
     return String.fromCodePoint(...countryCode.toUpperCase().split('').map(char => 127397 + char.charCodeAt()));
 }
 
+// 清理ISP信息，去除多余的描述文字
 function cleanIspInfo(isp) {
     return isp
         // 去除括号内容
