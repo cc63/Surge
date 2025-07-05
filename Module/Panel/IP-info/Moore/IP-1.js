@@ -41,5 +41,20 @@ function getFlagEmoji(countryCode) {
 }
 
 function cleanIspInfo(isp) {
-    return isp.replace(/\s-|\s?,|\.$|(\b(AS\d+|Hong Kong|Mass internet|Communications?|Company|information|international|Technolog(y|ies)|ESolutions?|Services Limited)\b|\(.*\))\s?|munications?/gi, '');
+    // 第一步：去除指定的字母组合和特殊字符
+    let result = isp
+        // 去除括号及其内容
+        .replace(/\(.*\)/g, '')
+        // 去除特定词汇
+        .replace(/\b(AS\d+|Hong Kong|Mass internet|Communications?|munications?|Company|information|international|Technolog(y|ies)|ESolutions?|Services Limited)\b/gi, '')
+        // 去除特殊符号
+        .replace(/[-,.]/g, '');
+    
+    // 第二步：将多个连续空格替换为单个空格
+    result = result.replace(/\s+/g, ' ');
+    
+    // 第三步：去除开头和结尾的空格
+    result = result.trim();
+    
+    return result;
 }
