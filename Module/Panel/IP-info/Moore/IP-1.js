@@ -39,12 +39,12 @@ function getFlagEmoji(countryCode) {
 // 清理ISP信息，去除多余的描述文字
 function cleanIspInfo(isp) {
     return isp
-        // 去除括号内容
-        .replace(/\(.*?\)/g, '')
-        // 去除特定词汇
-        .replace(/\b(Hong Kong|Mass internet|Communications?|munications?|Company|information|international|Technolog(y|ies)|ESolutions?|Services Limited)\b/gi, '')
-        // 去除特殊符号
-        .replace(/[-,.]/g, '')
+        // 去除特殊内容
+        .replace(/\(.*?\)|[-,.]/g, '')
+        // 去除完整词汇
+        .replace(/\b(Hong Kong|Mass internet|Communications?|Company|information|international|Technolog(y|ies)|ESolutions?|Limited)\b/gi, '')
+        // 简化过长词汇
+        .replace(/(munications?)/gi, '')
         // 合并多余空格
         .replace(/\s+/g, ' ')
         .trim();
