@@ -2,7 +2,7 @@
 #!desc=展示节点的IP/运营商/所在地
 #!category=🌠 面板模块
 #!arguments=API序号:1
-#!arguments-desc=\n⚙️API序号\n\n1.ip-api.com\n2.ipinfo.io\n3.ipleak.net\n4.ip.sb
+#!arguments-desc=\n⚙️API序号\n\n1.ip-api.com\n2.ipleak.net\n3.ip.sb
 
 [Panel]
 IP-info = script-name=IP-info, title="节点信息", content="请刷新", style=info, update-interval=1
