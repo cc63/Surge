@@ -41,10 +41,15 @@ function getFlagEmoji(countryCode) {
 }
 
 function cleanIspInfo(isp) {
+    // 防止传入undefined或null
+    if (!isp || typeof isp !== 'string') {
+        return '未知运营商';
+    }
+    
     // 第一步：去除指定的字母组合和特殊字符
     let result = isp
         // 去除括号及其内容
-        .replace(/\(.*\)/g, '')
+        .replace(/\(.*?\)/g, '')
         // 去除特定词汇
         .replace(/\b(AS\d+|Hong Kong|Mass internet|Communications?|munications?|Company|information|international|Technolog(y|ies)|ESolutions?|Services Limited)\b/gi, '')
         // 去除特殊符号
@@ -56,5 +61,6 @@ function cleanIspInfo(isp) {
     // 第三步：去除开头和结尾的空格
     result = result.trim();
     
-    return result;
+    // 如果清理后为空，返回原始值
+    return result || isp;
 }
