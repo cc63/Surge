@@ -85,14 +85,11 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 GEOIP,CN,DIRECT
 FINAL,Proxy,dns-failed
 
-[Header Rewrite]
-http-request ^https://.*\.githubusercontent\.com\/ header-replace Accept-Language en-us
-
 [MITM]
 skip-server-cert-verify = true
 tcp-connection = true
 h2 = true
-hostname = -*.apple.com, -*.icloud.com, -*.itunes.com, *.githubusercontent.com
+hostname = -*.apple.com, -*.icloud.com, -*.itunes.com
 ```
 
 ## 🧩 配置建议
