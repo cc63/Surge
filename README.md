@@ -94,5 +94,5 @@
 
 ## 🛒 自用推荐
 
-- **MESL** ：[节点140+全球覆盖，拥有阿里云入口及家宽、低倍率节点(https://in.mesl.cloud/#/register?code=mN84D0Xt)
+- **MESL** ：[节点140+全球覆盖，拥有阿里云入口及家宽、低倍率节点](https://in.mesl.cloud/#/register?code=mN84D0Xt)
 - **DMIT** ：[优质的VPS商家，AMD处理器性能强劲，CN2GIA/CMIN2线路可供选择，提供免费的快照](https://www.dmit.io/aff.php?aff=9258)
