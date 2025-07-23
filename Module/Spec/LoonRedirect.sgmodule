@@ -1,8 +1,6 @@
 #!name=Loon Redirect
 #!desc=重定向nsloon.com到源文件链接
 
-
-
 [URL Rewrite]
 "^https:\/\/www\.nsloon\.com\/openloon\/import\?plugin=(https?.+)$" $1 302
 
