@@ -107,9 +107,9 @@ class GasPriceQuery {
             let adjustStatus = '';
 
             // 判断调价方向
-            if (/预计下调|下调|下跌/.test(fullText)) {
+            if (/下降|下调|下跌|降低|降价/.test(fullText)) {
                 trend = '下调';
-            } else if (/预计上调|上调|上涨/.test(fullText)) {
+            } else if (/上升|上调|上涨|升高|涨价/.test(fullText)) {
                 trend = '上调';
             }
 
@@ -162,7 +162,7 @@ class GasPriceQuery {
      * 格式化输出内容
      */
     formatContent(prices, adjustmentInfo) {
-        const priceLines = prices.map(price => `${price.name}  ${price.value}`);
+       const priceLines = prices.slice(0, 3).map(price => `${price.name}  ${price.value}`);
         return [...priceLines, adjustmentInfo].join('\n');
     }
 
