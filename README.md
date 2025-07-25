@@ -54,11 +54,9 @@
 
 **三、广告拦截**
 
-- 🚫 [**百度首页净化**](https://github.com/Keywos/rule/tree/main/script/baidu_index)
-- 🚫 [**合集-bm7轻量版**](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
-- 🚫 [**合集-bm7加强版**](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rewrite/Surge/Advertising/Advertising_Mock.sgmodule)
-- 🚫 [**合集-Yfamily轻量版**](https://whatshub.top/module/adlite.sgmodule)
-- 🚫 [**合集-Yfamily加强版**](https://whatshub.top/module/startingad.sgmodule)
+- 🥇 [**自选-LoonKissSurge**](https://surge.qingr.moe)
+- 🥈 [**合集-bm7轻量版**](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
+- 🥉 [**合集-Yfamily轻量版**](https://whatshub.top/module/adlite.sgmodule)
 
 > ⚠️ 合集可能存在误杀现象，请酌情使用。<br>
 
