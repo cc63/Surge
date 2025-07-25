@@ -62,7 +62,6 @@
 
 ## 📁 优质合集
 
-- 🧰 [**LoonKissSurge**](https://surge.qingr.moe)
 - 🧰 [**Yfamily**](https://whatshub.top/surge)
 - 🧰 [**Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge/tree/Master/Module)
 
