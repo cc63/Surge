@@ -223,7 +223,7 @@ class GasPriceQuery {
             const content = this.formatContent(prices, adjustmentInfo);
 
             const result = {
-                title: '实时油价信息',
+                title: '今日油价',
                 content: content,
                 icon: 'fuelpump.fill',
                 'icon-color': '#CA3A05'
