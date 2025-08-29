@@ -1,5 +1,5 @@
-DOMAIN-SUFFIX,xiaomi.com,DIRECT // Added for: api.account.xiaomi.com:443
-DOMAIN-SUFFIX,getui.com,DIRECT // Added for: talk.bz.getui.com
-DOMAIN-SUFFIX,mi.com,DIRECT // Added for: idm.api.io.mi.com:443
-DOMAIN-SUFFIX,miui.com,DIRECT // Added for: tracking.intl.miui.com:443
-DOMAIN-SUFFIX,mixpanel.com,DIRECT // Added for: api.mixpanel.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,mixpanel.com
