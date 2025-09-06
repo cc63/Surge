@@ -1,0 +1,8 @@
+#!name = Telegram IP优选
+#!desc = 可能解决Telegram疯狂转圈的问题
+
+[General]
+use-local-host-item-for-proxy = true
+
+[Host]
+91.108.56.* = 91.108.56.201,91.108.56.202
