@@ -88,8 +88,3 @@
   </table>
 </div>
 
-
-
-## 🛒 自用机场
-
-- [Nexitally](https://nxonearth.com/signupbyemail.aspx?MemberCode=e2fcaaeaf5424f31b3177b0a533f33b120220206074218)
