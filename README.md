@@ -92,5 +92,4 @@
 
 ## 🛒 自用机场
 
-- **MESL** ：[节点160+，线路优质，有家宽和低倍率节点，节假日85折](https://in.mesl.cloud/#/register?code=mN84D0Xt)
-- **SNTP** ：[节点40+，性价比高，附赠Emby影视服，日常有折扣](https://ncdn1.sntp.uk/auth/register?code=YhGvfBsP)
+- [Nexitally](https://nxonearth.com/signupbyemail.aspx?MemberCode=e2fcaaeaf5424f31b3177b0a533f33b120220206074218)
