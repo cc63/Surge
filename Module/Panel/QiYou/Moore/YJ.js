@@ -158,13 +158,17 @@ class GasPriceQuery {
         }
     }
 
-    /**
-     * 格式化输出内容
-     */
-    formatContent(prices, adjustmentInfo) {
-       const priceLines = prices.slice(0, 4).map(price => `${price.name}  ${price.value}`);
-        return [...priceLines, adjustmentInfo].join('\n');
-    }
+/**
+ * 格式化输出内容
+ */
+formatContent(prices, adjustmentInfo) {
+    const order = [3, 0, 1]; // 4、1、2（数组下标）
+    const priceLines = order
+        .filter(i => prices[i])
+        .map(i => `${prices[i].name}  ${prices[i].value}`);
+
+    return [...priceLines, adjustmentInfo].join('\n');
+}
 
     /**
      * 执行查询
