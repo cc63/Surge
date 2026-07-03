@@ -1,7 +1,7 @@
 /**
  * 实时油价查询脚本 - 优化版
  * 兼容 Surge、Loon
- * 原作者：@RS0485，修改：@keywos
+ * 原作者：@RS0485
  * 优化版本
  */
 
@@ -162,7 +162,7 @@ class GasPriceQuery {
      * 格式化输出内容
      */
     formatContent(prices, adjustmentInfo) {
-       const priceLines = prices.slice(0, 3).map(price => `${price.name}  ${price.value}`);
+       const priceLines = prices.slice(0, 4).map(price => `${price.name}  ${price.value}`);
         return [...priceLines, adjustmentInfo].join('\n');
     }
 
