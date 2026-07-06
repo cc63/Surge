@@ -40,9 +40,9 @@ function getFlagEmoji(countryCode) {
 function cleanIspInfo(isp) {
     return isp
         // 去除完整词汇
-        .replace(/\b(,|\.com|Mass internet|Communications?|Company|information|international|Technolog(y|ies)|ESolutions?|Services Limited|Magix Services)\b/gi, '')
+        .replace(/\b(Mass internet|Communications?|Company|information|international|Technolog(y|ies)|ESolutions?|Services Limited|Magix Services)\b/gi, '')
         // 简化过长词汇
-        .replace(/(munications?)/gi, '')
+        .replace(/(,|\.com|munications?)/gi, '')
         // 合并多余空格
         .replace(/\s+/g, ' ')
         .trim();
