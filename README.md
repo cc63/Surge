@@ -41,10 +41,8 @@
 - ⛔️ [**广告拦截**](https://surge.qingr.moe)
 - 📺 [**B站每日任务**](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🌪️ [**Google.cn重定向**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
-- 🎈 [**nsLoon.com重定向**](https://raw.githubusercontent.com/cc63/Surge/refs/heads/main/Module/Spec/LoonRedirect.sgmodule)
 - 🏄‍♂️ [**跳过国内App代理检测**](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
-- 🗞️ [**AppleNews 分流模块**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
-- 🛟 [**TestFlight 多账户管理**](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
+
 
 
 ## 🧑‍💻 特别鸣谢
