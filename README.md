@@ -35,17 +35,10 @@
 
 ## 🛠️ 工具模块
 
-**一、高级工具**
-
 - 🍿️ [**DualSubs 双语字幕**](https://dualsubs.github.io/)
 - 🛍️ [**Sub-Store 订阅管理**](https://github.com/sub-store-org/Sub-Store/tree/master/config)
 - 📝 [**Script-Hub 重写转换**](https://github.com/Script-Hub-Org/Script-Hub)
-- 🪐 [**BiliUniverse 哔哩万象**](https://biliuniverse.io/)
-- 🍎 [**iRingo 解锁完整Apple**](https://nsringo.github.io/)
-
-**二、实用模块**
-
-- ⛔️ [**广告拦截*](https://surge.qingr.moe)
+- ⛔️ [**广告拦截**](https://surge.qingr.moe)
 - 📺 [**B站每日任务**](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🌪️ [**Google.cn重定向**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🎈 [**nsLoon.com重定向**](https://raw.githubusercontent.com/cc63/Surge/refs/heads/main/Module/Spec/LoonRedirect.sgmodule)
