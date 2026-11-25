@@ -45,25 +45,13 @@
 
 **二、实用模块**
 
+- ⛔️ [**广告拦截*](https://surge.qingr.moe)
 - 📺 [**B站每日任务**](https://raw.githubusercontent.com/ClydeTime/BiliBili/main/modules/BiliBiliDailyBonus.sgmodule)
 - 🌪️ [**Google.cn重定向**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/Google_Rewrite.sgmodule)
 - 🎈 [**nsLoon.com重定向**](https://raw.githubusercontent.com/cc63/Surge/refs/heads/main/Module/Spec/LoonRedirect.sgmodule)
 - 🏄‍♂️ [**跳过国内App代理检测**](https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule)
 - 🗞️ [**AppleNews 分流模块**](https://raw.githubusercontent.com/cc63/Surge/main/Module/Spec/News.sgmodule)
 - 🛟 [**TestFlight 多账户管理**](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightAccount.sgmodule)
-
-**三、广告拦截**
-
-- 🥇 [**自选-LoonKissSurge**](https://surge.qingr.moe)
-- 🥈 [**合集-bm7轻量版**](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite_Mock.sgmodule)
-- 🥉 [**合集-Yfamily轻量版**](https://whatshub.top/module/adlite.sgmodule)
-
-> ⚠️ 合集可能存在误杀现象，请酌情使用。<br>
-
-## 📁 优质合集
-
-- 🧰 [**Yfamily**](https://whatshub.top/surge)
-- 🧰 [**Rabbit-Spec**](https://github.com/Rabbit-Spec/Surge/tree/Master/Module)
 
 
 ## 🧑‍💻 特别鸣谢
