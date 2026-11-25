@@ -90,5 +90,5 @@
 
 ## 🔗AFF
 
-- 🧰 [**MESL**]([https://whatshub.top/surge](https://getmesl.com/#/register?code=mN84D0Xt))
-- 🧰 [**DMIT**](https://www.dmit.io/aff.php?aff=10943)
+- ✈️ [**MESL**](https://whatshub.top/surge](https://getmesl.com/#/register?code=mN84D0Xt))
+- ✈️ [**DMIT**](https://www.dmit.io/aff.php?aff=10943)
